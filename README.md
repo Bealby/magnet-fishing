@@ -2,28 +2,17 @@
 
 ---
 
-The aim of this Website is to provide an insight into the life of my Papa,
-Jack Fairfield, during his time in the second world war. During the war
-Jack Fairfield wrote an extensive journal while serving
-under the Royal Army Ordnance Corp.
+The aim of this Website is to promote the sport of Magnet-Fishing. To encourage
+interaction between particpates and to share their finds on a interactive
+platform.
 
-This Website is a taster, aiming to entice curiosity into Jack Fairfield's
-journey through the second world war, increasing users desire to learn more
-from his journal.
-
-The Website will mainly be for family and friends who have been very keen
-to learn more about Jack Fairfield's life. As the Website expands however,
-this interest could be expanded to Military Musuems and the general public,
-including the musuem in his home town of Methilhil, Fife, Scotland.
+The Website is specifically aimed at the Magnet-Fishing community in
+Stockholm. It is a niche sport but growing extensively and fast and
+it is hoped that this Website will help particpates come together.
 
 ## Demo
 
 ---
-
-![Mockup Generator](/documentation/readme/mockup-website.png/)
-
-A live version of Website can be found
-[here](https://bealby.github.io/Milestone-Project-2/)
 
 ## UX
 
@@ -103,22 +92,3 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 [here](https://github.com/Bealby/Milestone-Project-3/blob/master/documentation/wireframes/magnet-fishing-wireframes.pdf)
 
 ### Surface
-
-The Website will have a military colour theme with the main colour cenetered
-around a light khaki colour, `rgb(209, 200, 171, 1)`, with white
-borders, `rgb(255, 255, 255, 1)`, used to divide sections, photos and the Map.
-The text will be of a black colour, `rgb(0,0,0,1)`, which contrasts well with the
-khaki theme for clarity of font.
-
-To distinguish between the sections a light green military colour will be
-used, `rgb(190, 210, 195, 1)`, which merges with the Map colours, along
-with a subtle white border that ensures the Map stands out.
-
-The `hover` colour used for the links will be of a light grey colour,
-`rgb(116,111,120,1)`, that helps inform users that the links are clickable.
-
-For carousel images, captions will have a white colour font to ensure
-clarity of reading.
-
-The main font used for this Website will be `'Special Elite`, from `Google Fonts`.
-A fitting type font with a military feel to it.
