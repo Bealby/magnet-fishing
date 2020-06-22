@@ -50,16 +50,16 @@ comfortabel enviironmet after a long day.
 ### Scope
 
 To meet the goals of the users the Website needs to be
-intuitive and easy to use, taking heed of the less
-technically savvy audience.
+intuitive and easy to use. It needs to stand out and excite
+particpation and provide intersting data for the Magnet-Fishing
+community.
 
-A collection of photos that embrace and capture Jack
-Fairfield's life will be essential to draw
-and retain users interest, to achieve the desire to learn more.
+Photos will be displayed of actual examples of locations and
+Magnet used. 
 
-The interactive Map will highlight the most frequented locations
-in Jack Fairfield's journey through the Second World War. A passage
-from his journal will be included along with a relevant photo.
+An interacti ve Map will be provide to diplay the areas of 
+Stockholm. A A catch Log page will display all particvpates 
+catches by location. 
 
 ### Structure
 
