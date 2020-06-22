@@ -63,24 +63,27 @@ catches by location.
 
 ### Structure
 
-The Website's front page will be the window into the Website
-with a hero-image centered on the page. His name and date of
-duration of life will be displayed under the image, with a
-clickable link, `Read More`, taking you into the main Website.
+The Website's will have a standard main logo and navigation bar
+layered on top of a photo image that's spreads the entire width
+and height of the page. The naviagtion bar will have a
+`Fixed Position` with the links `Home`, `Catch Log`, 
+`Add Catches`, `Areas`, and `Contact`. 
 
-The naviagtion bar will have a `sticky-position` with the
-links `Home`, `Bio`, and `Maps`.
+The Home page will have some text about Magnet fishing and information
+on how the Website can be used.
 
-The Home page will have a large photo that stretches the page,
-rotating every 6 seconds with a new photo.
+The Catch Log page will list participants catches, sorted by date.
+Each particpatnts log can be deleted and edited as they wish.
 
-The Bio page will summarise Jack Fairfield's life and history
-during the Second World War.
+The Add Catches will have a clear, easy to use form that can
+tabulate all data and display concisely in the Catch Log page. 
 
-The Map page will be interactive and show locations
-using Google Maps API. Each clickable location will bring up a pop
-up window with a passage from Jack Fairfield's journal
-along with a complementary photo.
+The Areas page will have a Map of Areas of Stockholm to help
+devide the Catch Log infomration in a more organised usefull
+form.
+
+The Contact page will be used for any users who wish to get in 
+contact and ask questions about the Website or interact.
 
 ### Skeleton
 
