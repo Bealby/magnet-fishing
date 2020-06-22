@@ -91,3 +91,22 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 [here](https://github.com/Bealby/Milestone-Project-3/blob/master/documentation/wireframes/magnet-fishing-wireframes.pdf)
 
 ### Surface
+
+The Website will have a military colour theme with the main colour cenetered
+around a light khaki colour, `rgb(209, 200, 171, 1)`, with white
+borders, `rgb(255, 255, 255, 1)`, used to divide sections, photos and the Map.
+The text will be of a black colour, `rgb(0,0,0,1)`, which contrasts well with the
+khaki theme for clarity of font.
+
+To distinguish between the sections a light green military colour will be
+used, `rgb(190, 210, 195, 1)`, which merges with the Map colours, along
+with a subtle white border that ensures the Map stands out.
+
+The `hover` colour used for the links will be of a light grey colour,
+`rgb(116,111,120,1)`, that helps inform users that the links are clickable.
+
+For carousel images, captions will have a white colour font to ensure
+clarity of reading.
+
+The main font used for this Website will be `'Special Elite`, from `Google Fonts`.
+A fitting type font with a military feel to it.
