@@ -24,32 +24,29 @@ around the UK during the Second World War.
 
 ### Strategy
 
-The main focus of this Website is to give family and friends
-an insight into Jack Fairfield's life. It aims to
-bring to life Jack Fairfield's journal with
-the use of an interactive map; along with private
-photos, passages and areas he visited
-and resided in.
+The main focus of this Website is for the adventurous who are
+looking for an exciting hobbie to particpate in and share
+their finds accordingly with their local community. A Website
+that enables them to interact, share and communicate, and
+expand the sport of Magnet fishing. 
 
-The Website needs to be suitable for mobile devices,
-suiting users who want to browse the Website while on
-the move. The desktop and tablet versions however
-will provide a more visual and expansive user experience.
+The Website needs to be mainly mobile based and be functional
+and easy to use and share finds while on the move through
+Stockholm. The data needs to be displayed concisely and clearly
+and also be very easy to add data with the click of a button.
+The desktop and tablet versions will provide a more visual
+and expansive user experience that can be perused in a more
+comfortabel enviironmet after a long day.
 
 #### User Stories
 
-- "We would love there to be lots of photos of Jack during the war.
-    The more the merrier!"
+- "I would like to know what others are doing in the local areas of Stockholm."
 
-- "The site must be easy to use and not too complicated. We would like
-    to share Jack's life with others, especially Jack's older relatives and
-    friends who are not very computer savvy."
+- "It would be interesting to know locations where others have been, so I can find new locations"
 
-- "It would be good to incorporate some of Jack's journal in the Website.
-    Any fun anecdotes or snippets, giving examples of what he wrote"
+- "It would helpful to know What other types of magnets people are using. Tips of the trade."
 
-- "It would be very interesting to learn more about Jack's personality and
-    how he progressed in his Army career.
+- "It would be great to connect with others. To meet up and Magnet-Fish together"
 
 ### Scope
 
