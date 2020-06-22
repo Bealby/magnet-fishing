@@ -18,10 +18,6 @@ it is hoped that this Website will help particpates come together.
 
 ---
 
-Family and friends will seek to learn more about Jack Fairfield,
-through imagery, passages from the journal and exploring his journeys
-around the UK during the Second World War.
-
 ### Strategy
 
 The main focus of this Website is for the adventurous who are
@@ -47,6 +43,9 @@ comfortabel enviironmet after a long day.
 - "It would helpful to know What other types of magnets people are using. Tips of the trade."
 
 - "It would be great to connect with others. To meet up and Magnet-Fish together"
+
+- "i would like to be able to add finds to the app during the Magnet Fishing, so it should be
+    easy to use on my mobile"
 
 ### Scope
 
