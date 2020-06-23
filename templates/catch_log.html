@@ -1,8 +1,9 @@
 {% extends 'base.html' %}
 {% block content %}
 
+<div class="container">
 <div class="accordion" id="accordionExample">
-{% for catch_log in catch_log %}
+    {% for catch_log in catch_log %}
 	<div class="card">
 		<div class="card-header" id="headingOne">
 			<h2 class="mb-0">
@@ -12,7 +13,7 @@
 			</h2>
 		</div>
 
-		<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+		<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
 			<div class="card-body">
 				{{catch_log.name}} -
 				{{catch_log.email}} -
@@ -20,8 +21,9 @@
 				{{catch_log.catches}}
 			</div>
 		</div>
-            {% endfor %}
 	</div>
+    {% endfor %}
+</div>
 </div>
 
 {% endblock %}
