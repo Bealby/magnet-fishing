@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnet Fishing</title>
+</head>
+<body>
+
+  {% for catch_log in catch_log %}
+            {{catch_log.name}}
+            {{catch_log.email}}
+            {{catch_log.magnet}}
+            {{catch_log.area_name}}
+            {{catch_log.catches}}
+            {{catch_log.catch_date}}
+        {% endfor %}
+
+</body>
+</html>
