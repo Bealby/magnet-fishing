@@ -28,6 +28,13 @@ def insert_catches():
     catch_log.insert_one(request.form.to_dict())
     return redirect(url_for('get_catches'))
 
+@app.route('/edit_catch_log/<catch_log_id>')
+def edit_catch_log(catch_log_id):
+    the_catch_log =  mongo.db.catch_log.find_one({"_id": ObjectId(catch_log_id)})
+    all_area =  mongo.db.categories.find()
+    return render_template('edit_catch_log.html', task=the_task,
+                           categories=all_categories)
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
         port=int(os.environ.get('PORT')),
