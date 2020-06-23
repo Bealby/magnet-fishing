@@ -6,26 +6,27 @@
   <div class="form-row">
     <div class="form-row col-12">
       <label for="name">Name</label>
-      <input type="text" class="form-control" id="name" placeholder="Name">
+      <input type="text" class="form-control" id="name" name="name" placeholder="Name">
     </div>
     <div class="form-row col-12">
       <label for="email">Email</label>
-      <input type="email" class="form-control" id="email" placeholder="Email">
+      <input type="email" class="form-control" id="email" name="email" placeholder="Email">
     </div>
     <div class="form-row col-12">
       <label for="magnet">Magnet</label>
-      <input type="text" class="form-control" id="magnet" placeholder="Magnet">
+      <input type="text" class="form-control" id="magnet" name="magnet" placeholder="Magnet">
     </div>
-    <div class="col-md-3 mb-3">
+    <div class="form-row col-12">
       <label for="area_name">Area</label>
-      <select class="custom-select" id="area_name">
+      <select class="custom-select" id="area_name" name="area_name">
+        <option selected disabled value="">Choose Area</option>
         <option>Södermalm</option>
         <option>Gamla Stan</option>
       </select>
     </div>
     <div class="form-row col-12">
       <label for="location_name">Location</label>
-      <input type="text" class="form-control" id="location_name" placeholder="Location">
+      <input type="text" class="form-control" id="location_name" name="location_name" placeholder="Location">
     </div>
      <div class="form-row col-12">
       <label for="catches">Catches</label>
@@ -33,7 +34,7 @@
     </div>
      <div class="form-row col-12">
       <label for="catch_date">Date</label>
-      <input type="date" class="form-control" id="catch_date" placeholder="Date">
+      <input type="date" class="form-control" id="catch_date" name="catch_date" placeholder="Date">
     </div>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
