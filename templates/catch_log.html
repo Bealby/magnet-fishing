@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<div class="container">
+
 <div class="accordion" id="accordionExample">
     {% for catch_log in catch_log %}
 	<div class="card">
@@ -10,6 +10,8 @@
 				<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 {{catch_log.area_name}} - {{catch_log.catch_date}}
                 </button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-success">Success</button>
 			</h2>
 		</div>
 
@@ -24,6 +26,6 @@
 	</div>
     {% endfor %}
 </div>
-</div>
+
 
 {% endblock %}
