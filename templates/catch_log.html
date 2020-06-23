@@ -10,8 +10,8 @@
 				<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 {{catch_log.area_name}} - {{catch_log.catch_date}}
                 </button>
-                <button type="button" class="btn btn-success">Success</button>
-                <button type="button" class="btn btn-success">Success</button>
+                <a href="{{url_for('edit_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success">Success</a>
+                <a type="button" class="btn btn-success">Success</a>
 			</h2>
 		</div>
 

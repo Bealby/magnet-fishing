@@ -31,9 +31,8 @@ def insert_catches():
 @app.route('/edit_catch_log/<catch_log_id>')
 def edit_catch_log(catch_log_id):
     the_catch_log =  mongo.db.catch_log.find_one({"_id": ObjectId(catch_log_id)})
-    all_area =  mongo.db.categories.find()
-    return render_template('edit_catch_log.html', task=the_task,
-                           categories=all_categories)
+    all_area =  mongo.db.area.find()
+    return render_template('edit_catch_log.html', catch_log=the_catch_log, area=all_area)
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
