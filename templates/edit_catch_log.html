@@ -21,7 +21,11 @@
       <select class="custom-select" id="area_name" name="area_name">
         <option selected disabled value="">Choose Area</option>
         {% for area in area %}
+            {% if area.area_name == catch_log.area_name%}
+            <option value="{{area.area_name}}" selected>{{area.area_name}}</option>
+            {% else %}
             <option value="{{area.area_name}}">{{area.area_name}}</option>
+           {% endif %} 
         {% endfor %}
       </select>
     </div>
