@@ -20,7 +20,7 @@ def get_catches():
 
 @app.route('/add_catches')
 def add_catches():
-    return render_template('add_catches.html')
+    return render_template('/add_catches.html', area=mongo.db.area.find())
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),

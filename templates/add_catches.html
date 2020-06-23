@@ -20,8 +20,9 @@
       <label for="area_name">Area</label>
       <select class="custom-select" id="area_name" name="area_name">
         <option selected disabled value="">Choose Area</option>
-        <option>Södermalm</option>
-        <option>Gamla Stan</option>
+        {% for area in area %}
+            <option value="{{area.area_name}}">{{area.area_name}}</option>
+        {% endfor %}
       </select>
     </div>
     <div class="form-row col-12">
