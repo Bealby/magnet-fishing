@@ -1,8 +1,14 @@
 import os
+if os.path.exists("env.py"):
+    import env
 from flask import Flask
+from flask_pymongo import PyMongo
+from bson.objectid import ObjectId
 
 
 app = Flask(__name__)
+app.config["MONGO_DBNAME"] = 'magnet_fishing'
+app.config["MONGO_URI"] = os.getenv('MONGO_URI', 'mongodb://localhost')
 
 @app.route('/')
 def hello():
