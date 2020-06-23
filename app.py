@@ -18,6 +18,10 @@ mongo = PyMongo(app)
 def get_catches():
     return render_template("catch_log.html", catch_log=mongo.db.catch_log.find())
 
+@app.route('/add_catches')
+def add_catches():
+    return render_template('add_catches.html')
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
         port=int(os.environ.get('PORT')),
