@@ -22,6 +22,12 @@ def get_catches():
 def add_catches():
     return render_template('/add_catches.html', area=mongo.db.area.find())
 
+@app.route('/insert_catches', methods=['POST'])
+def insert_catches():
+    catch_log = mongo.db.catch_log
+    catch_log.insert_one(request.form.to_dict())
+    return redirect(url_for('get_catches'))
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
         port=int(os.environ.get('PORT')),
