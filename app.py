@@ -34,6 +34,21 @@ def edit_catch_log(catch_log_id):
     all_area =  mongo.db.area.find()
     return render_template('edit_catch_log.html', catch_log=the_catch_log, area=all_area)
 
+@app.route('/update_catch_log/<catch_log_id>', methods=["POST"])
+def update_catch_log(catch_log_id):
+    catch_log = mongo.db.catch_log
+    catch_log.update( {'_id': ObjectId(catch_log_id)},
+    {
+        'name':request.form.get('name'),
+        'email':request.form.get('email'),
+        'magnet': request.form.get('magnet'),
+        'area_name': request.form.get('area_name'),
+        'location_name':request.form.get('location_name'),
+        'catches':request.form.get('catches'),
+        'catch_date':request.form.get('catch_date')
+    })
+    return redirect(url_for('get_catches'))
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
         port=int(os.environ.get('PORT')),
