@@ -1,12 +1,9 @@
 .background {
-	height: 100vh;
-	background: url("../images/background.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+
+	background: url("../images/background.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
