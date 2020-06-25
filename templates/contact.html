@@ -3,15 +3,13 @@
 
 <h1>Contact</h1>
 
-<form>
-	<input type="text" name="name" id="fullname" class="form-control mb-3 mt-2" placeholder="Name" required>
-	<input type="email" name="email" id="emailaddress" class="form-control mb-3" placeholder="Email" required>
-	<textarea rows="5" name="enquiries" id="enquiries" class="form-control" placeholder="Comment" required></textarea>
-	<div class="form-row text-center">
-		<div class="col mt-3">
-			<button type="submit" class="btn btn-secondary">Send</button>
-		</div>
-	</div>
-</form>
+<div class="center-form">
+	<form onsubmit="return sendMail(this);">
+		<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+		<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+		<textarea rows="5" name="comment" class="form-control" id="comment" placeholder="Comment" required></textarea>
+		<button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+	</form>
+</div>
 
-{% endblock %}
+	{% endblock %}
