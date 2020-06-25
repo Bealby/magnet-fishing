@@ -13,6 +13,18 @@ app.config["MONGO_URI"] = os.getenv('MONGO_URI', 'mongodb://localhost')
 
 mongo = PyMongo(app)
 
+@app.route('/home')
+def home():
+    return render_template("home.html")
+
+@app.route('/areas')
+def areas():
+    return render_template("areas.html")
+
+@app.route('/contact')
+def contact():
+    return render_template("contact.html")
+
 @app.route('/')
 @app.route('/get_catches')
 def get_catches():
