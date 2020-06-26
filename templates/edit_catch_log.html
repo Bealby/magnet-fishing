@@ -11,10 +11,24 @@
     <div class="form-row col-12 mt-3">
       <input type="email" class="form-control form-labels" id="email" name="email" placeholder="Email" value="{{catch_log.email}}">
     </div>
+
     <div class="form-row col-12 mt-3">
-      <input type="text" class="form-control form-labels" id="magnet" name="magnet" placeholder="Magnet" value="{{catch_log.magnet}}">
+        <select class="custom-select form-labels" id="magnet" name="magnet">
+        <option selected disabled value="">Choose Magnet</option>
+        {% for magnet in magnet %}
+            {% if magnet.magnet == catch_log.magnet%}
+            <option value="{{magnet.magnet}}" selected>{{magnet.magnet}}</option>
+            {% else %}
+            <option value="{{magnet.magnet}}">{{magnet.magnet}}</option>
+           {% endif %} 
+        {% endfor %}
+      </select>
+    
+    
     </div>
+
     <div class="form-row col-12 mt-3">
+
       <select class="custom-select form-labels" id="area_name" name="area_name">
         <option selected disabled value="">Choose Area</option>
         {% for area in area %}
@@ -25,6 +39,8 @@
            {% endif %} 
         {% endfor %}
       </select>
+
+
     </div>
     <div class="form-row col-12 mt-3">
       <input type="text" class="form-control form-labels" id="location_name" name="location_name" placeholder="Location" value="{{catch_log.location_name}}">

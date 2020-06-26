@@ -32,7 +32,7 @@ def get_catches():
 
 @app.route('/add_catches')
 def add_catches():
-    return render_template('/add_catches.html', area=mongo.db.area.find())
+    return render_template('/add_catches.html', area=mongo.db.area.find(), magnet=mongo.db.magnet.find())
 
 @app.route('/insert_catches', methods=['POST'])
 def insert_catches():
@@ -44,7 +44,8 @@ def insert_catches():
 def edit_catch_log(catch_log_id):
     the_catch_log =  mongo.db.catch_log.find_one({"_id": ObjectId(catch_log_id)})
     all_area =  mongo.db.area.find()
-    return render_template('edit_catch_log.html', catch_log=the_catch_log, area=all_area)
+    all_magnet = mongo.db.magnet.find()
+    return render_template('edit_catch_log.html', catch_log=the_catch_log, area=all_area, magnet=all_magnet)
 
 @app.route('/update_catch_log/<catch_log_id>', methods=["POST"])
 def update_catch_log(catch_log_id):

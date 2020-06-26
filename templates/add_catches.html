@@ -10,9 +10,16 @@
     <div class="form-row col-12 mt-3">
       <input type="email" class="form-control form-labels" id="email" name="email" placeholder="Email">
     </div>
+
     <div class="form-row col-12 mt-3">
-      <input type="text" class="form-control form-labels" id="magnet" name="magnet" placeholder="Magnet">
+      <select class="custom-select form-labels" id="magnet" name="magnet">
+        <option selected disabled value="">Choose Magnet</option>
+        {% for magnet in magnet %}
+            <option value="{{magnet.magnet}}">{{magnet.magnet}}</option>
+        {% endfor %}
+      </select>
     </div>
+
     <div class="form-row col-12 mt-3">
       <select class="custom-select form-labels" id="area_name" name="area_name">
         <option selected disabled value="">Choose Area</option>
@@ -21,6 +28,7 @@
         {% endfor %}
       </select>
     </div>
+
     <div class="form-row col-12 mt-3">
       <input type="text" class="form-control form-labels" id="location_name" name="location_name" placeholder="Location">
     </div>
