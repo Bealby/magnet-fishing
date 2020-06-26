@@ -15,28 +15,26 @@
 	<div class="container-fluid background">
 
 	    <div class="container">
-            <div class="row text-center">
-                <div class="col text-center">
-                    <img src="static/images/logo.jpg">
+            <div class="row">
+                <div class="col text-center pt-5">
+                    <img src="static/images/logo.jpg" class="logo" alt="Magnet Fishing Stockholm - Logo">
                 <div>
             </div>
         </div>
 
 		    <div class="container pt-5 pb-5">
 
-			<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-				<a class="navbar-brand" href="#">Navbar</a>
+			<nav class="navbar navbar-expand-sm navbar-color">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
-						<a class="nav-item nav-link active"
-							href="{{url_for('home')}}">Home<span class="sr-only">(current)</span></a>
-						<a class="nav-item nav-link active" href="{{url_for('get_catches')}}">Catch Log</a>
-						<a class="nav-item nav-link" href="{{url_for('add_catches')}}">Add Catches</a>
-						<a class="nav-item nav-link" href="{{url_for('areas')}}">Areas</a>
-						<a class="nav-item nav-link" href="{{url_for('contact')}}">Contact</a>
+						<a class="nav-item nav-link active link-font" href="{{url_for('home')}}">Home<span class="sr-only">(current)</span></a>
+						<a class="nav-item nav-link link-font" href="{{url_for('get_catches')}}">Catch Log</a>
+						<a class="nav-item nav-link link-font" href="{{url_for('add_catches')}}">Add Catches</a>
+						<a class="nav-item nav-link link-font" href="{{url_for('areas')}}">Areas</a>
+						<a class="nav-item nav-link link-font" href="{{url_for('contact')}}">Contact</a>
 
 					</div>
 				</div>

@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+
+body {
+	font-family: 'Stardos Stencil', cursive;
+    font-size: 1.6rem;
+	color: rgb(0, 0, 0, 1);
+}
+
 .background {
 
 	background: url("../images/background.jpg");
@@ -9,4 +18,18 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.logo {
+    box-shadow: 0rem 0rem 1.5rem 0rem rgb(0, 0, 0, 1);
+    width: 30%;
+}
+
+.navbar-color{
+	background-color: rgb(254, 17, 71, 1);
+}
+
+.link-font {
+	font-size: 1.20rem;
+	color: rgb(0, 0, 0, 1);
 }
