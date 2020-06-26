@@ -69,7 +69,12 @@ body {
     font-weight: 600;
 }
 
-.btn-success:hover{
+.form-button-edit{
+    background-color:rgb(26, 16, 112, 1);
+    border-color:rgb(26, 16, 112, 1);
+}
+
+.form-button-edit:hover{
     background-color: rgb(71, 117, 178, 1) !important;
     border-color: rgb(71, 117, 178, 1) !important;
 }
@@ -77,6 +82,11 @@ body {
 .form-button-delete{
         background-color:rgb(255, 00, 1, 1);
         border:rgb(255, 00, 1, 1);
+}
+
+.form-button-delete:hover{
+       background-color:rgb(255, 0, 149) !important;
+        border:rgb(255, 0, 149, 1) !important;
 }
 
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/

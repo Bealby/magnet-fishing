@@ -4,11 +4,11 @@
 <h1>Contact</h1>
 
 <div class="center-form">
-	<form onsubmit="return sendMail(this);">
+	<form onsubmit="return sendMail(this);" onsubmit="setTimeout(function(){window.location.reload();},10);" id="myForm">
 		<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
 		<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
 		<textarea rows="5" name="comment" class="form-control" id="comment" placeholder="Comment" required></textarea>
-		<button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+		<input type="submit" name="submit" value="Submit" id="submit">
 	</form>
 </div>
 
