@@ -11,7 +11,7 @@
             <div class="col-8">
 				<button class="btn btn-link btn-block text-left pl-0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <div class="form-header">
-                <p>Area: {{catch_log.area_name}} - {{catch_log.catch_date}}</p>
+                <p>AREA: {{catch_log.area_name}} - {{catch_log.catch_date}}</p>
                 </div>
                 </button>
             </div>
@@ -25,18 +25,32 @@
 		<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
 			<div class="card-body catch-log-font">
             <div class="row">
-                <div class="col-6">
-				<p>Name: {{catch_log.name}}</p>
-				<p>Email: {{catch_log.email}}</p>
-				<p>Magnet: {{catch_log.magnet}}</P>
+
+
+                <div class="col-3">
+				<p>NAME:</p>
+				<p>EMAIL:</p>
+				<p>MAGNET:</p>
                 </div>
-                <div class="col-6">
-                <p>Catches: {{catch_log.catch_1}}</p>
-                <p>Catches: {{catch_log.catch_2}}</p>
-                <p>Catches: {{catch_log.catch_3}}</p>
-                <p>Catches: {{catch_log.catch_4}}</p>
-                <p>Catches: {{catch_log.catch_5}}</p>
+                <div class="col-3 pl-0">
+				<p>{{catch_log.name}}</p>
+				<p>{{catch_log.email}}</p>
+				<p>{{catch_log.magnet}}</P>
 			    </div>
+                <div class="col-3">
+                <p>CATCHES</p>
+                </div>
+                <div class="col-3">
+                <ol>
+                <li>{{catch_log.catch_1}}</li>
+                <li>{{catch_log.catch_2}}</li>
+                <li>{{catch_log.catch_3}}</li>
+                <li>{{catch_log.catch_4}}</li>
+                <li>{{catch_log.catch_5}}</li>
+                </ol>
+			    </div>
+
+
             </div>
             </div>
 		</div>
