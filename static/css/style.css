@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display:100,200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display:100,200,300,400,500,600,700,800|Roboto+Slab:100,200,300,400,500,600,700,800');
 
 body {
 	font-family: 'Stardos Stencil', cursive;
@@ -45,19 +45,28 @@ body {
     border-color: rgb(255, 255, 255, 1);
 }
 
+.catch-log-font{
+    font-size: 1.2rem;
+    color:rgb(0, 0, 0, 1);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
 /*forms*/
 
 .form-header p{
     color:rgb(26, 16, 112, 1);
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     margin-bottom:0rem;
     text-decoration: none;
     font-weight: 600;
 }
 
-.form-button-edit{
-        background-color:rgb(26, 16, 112, 1);
-        border:rgb(26, 16, 112, 1);
+.form-labels{
+    font-size: 1.2rem;
+    color:rgb(128, 128, 128, 1);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
 }
 
 .btn-success:hover{

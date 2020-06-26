@@ -1,21 +1,21 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<div class="container">
+<div class="container mt-3">
 <h2>Edit Catches</h2>
 <form action="{{ url_for('update_catch_log', catch_log_id=catch_log._id) }}" method="POST">
   <div class="form-row">
-    <div class="form-row col-12">
-      <input type="text" class="form-control" id="name" name="name" placeholder="Name" value="{{catch_log.name}}">
+    <div class="form-row col-12 mt-3">
+      <input type="text" class="form-control form-labels" id="name" name="name" placeholder="Name" value="{{catch_log.name}}">
     </div>
-    <div class="form-row col-12">
-      <input type="email" class="form-control" id="email" name="email" placeholder="Email" value="{{catch_log.email}}">
+    <div class="form-row col-12 mt-3">
+      <input type="email" class="form-control form-labels" id="email" name="email" placeholder="Email" value="{{catch_log.email}}">
     </div>
-    <div class="form-row col-12">
-      <input type="text" class="form-control" id="magnet" name="magnet" placeholder="Magnet" value="{{catch_log.magnet}}">
+    <div class="form-row col-12 mt-3">
+      <input type="text" class="form-control form-labels" id="magnet" name="magnet" placeholder="Magnet" value="{{catch_log.magnet}}">
     </div>
-    <div class="form-row col-12">
-      <select class="custom-select" id="area_name" name="area_name">
+    <div class="form-row col-12 mt-3">
+      <select class="custom-select form-labels" id="area_name" name="area_name">
         <option selected disabled value="">Choose Area</option>
         {% for area in area %}
             {% if area.area_name == catch_log.area_name%}
@@ -26,18 +26,18 @@
         {% endfor %}
       </select>
     </div>
-    <div class="form-row col-12">
-      <input type="text" class="form-control" id="location_name" name="location_name" placeholder="Location" value="{{catch_log.location_name}}">
+    <div class="form-row col-12 mt-3">
+      <input type="text" class="form-control form-labels" id="location_name" name="location_name" placeholder="Location" value="{{catch_log.location_name}}">
     </div>
-     <div class="form-row col-12">
-      <textarea rows="5" name="catches" id="catches" class="form-control" placeholder="Catches" required>{{catch_log.catches}}</textarea>
+     <div class="form-row col-12 mt-3">
+      <textarea rows="5" name="catches" id="catches" class="form-control form-labels" placeholder="Catches" required>{{catch_log.catches}}</textarea>
     </div>
-     <div class="form-row col-12">
-      <input type="date" class="form-control" id="catch_date" name="catch_date" placeholder="Date" value="{{catch_log.catch_date}}">
+     <div class="form-row col-12 mt-3">
+      <input type="date" class="form-control form-labels" id="catch_date" name="catch_date" placeholder="Date" value="{{catch_log.catch_date}}">
     </div>
   </div>
 
-  <button type="submit" name="action" class="btn btn-primary">Submit</button>
+  <button type="submit" name="action" class="btn btn-primary mt-3">Submit</button>
 
 </form>
 </div>

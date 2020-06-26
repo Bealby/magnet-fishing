@@ -9,9 +9,9 @@
 			
         <div class="row">
             <div class="col-8">
-				<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				<button class="btn btn-link btn-block text-left pl-0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <div class="form-header">
-                <p>{{catch_log.area_name}} - {{catch_log.catch_date}}</p>
+                <p>Name: {{catch_log.area_name}} - {{catch_log.catch_date}}</p>
                 </div>
                 </button>
             </div>
@@ -20,17 +20,21 @@
                 <a href="{{url_for('delete_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success form-button-delete">Delete</a>
             </div>
         </div>
-
-
-		</div>
+        </div>
 
 		<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-			<div class="card-body">
-				{{catch_log.name}} -
-				{{catch_log.email}} -
-				{{catch_log.magnet}} -
-				{{catch_log.catches}}
-			</div>
+			<div class="card-body catch-log-font">
+            <div class="row">
+                <div class="col-6">
+				<p>Name: {{catch_log.name}}</p>
+				<p>Email: {{catch_log.email}}</p>
+				<p>Magnet: {{catch_log.magnet}}</P>
+                </div>
+                <div class="col-6">
+                <p>{{catch_log.catches}}</p>
+			    </div>
+            </div>
+            </div>
 		</div>
 	</div>
     {% endfor %}
