@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<div class="container mt-3">
+<div class="container mt-3 pl-5 pr-5">
 <h2>Edit Catches</h2>
 <form action="{{ url_for('update_catch_log', catch_log_id=catch_log._id) }}" method="POST">
   <div class="form-row">
@@ -23,8 +23,7 @@
            {% endif %} 
         {% endfor %}
       </select>
-    
-    
+
     </div>
 
     <div class="form-row col-12 mt-3">
