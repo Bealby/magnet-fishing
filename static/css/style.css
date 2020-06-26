@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display:100,200,300,400,500,600,700,800');
 
 body {
 	font-family: 'Stardos Stencil', cursive;
@@ -26,10 +26,11 @@ body {
 }
 
 .navbar-color{
-	background-color: rgb(254, 17, 71, 1);
+	background-color: rgb(254, 17, 71, .8);
 }
 
 .link-font {
-	font-size: 1.40rem;
-	color: rgb(0, 0, 0, 1);
+	font-size: 1.60rem;
+	color: rgb(26, 16, 112, 1);
+    font-weight: 800;
 }
