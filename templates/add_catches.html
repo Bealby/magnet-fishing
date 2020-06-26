@@ -4,14 +4,15 @@
 <div class="container mt-3 pl-5 pr-5">
 <form action="{{ url_for('insert_catches') }}" method="POST">
   <div class="form-row form-labels">
-    <div class="form-row col-12 mt-3">
+
+    <div class="form-row col-6 mt-3 pr-4">
       <input type="text" class="form-control form-labels" id="name" name="name" placeholder="Name">
     </div>
-    <div class="form-row col-12 mt-3">
+    <div class="form-row col-6 mt-3 pl-4">
       <input type="email" class="form-control form-labels" id="email" name="email" placeholder="Email">
     </div>
 
-    <div class="form-row col-12 mt-3">
+    <div class="form-row col-6 mt-3 pr-4">
       <select class="custom-select form-labels" id="magnet" name="magnet">
         <option selected disabled value="">Choose Magnet</option>
         {% for magnet in magnet %}
@@ -20,7 +21,7 @@
       </select>
     </div>
 
-    <div class="form-row col-12 mt-3">
+    <div class="form-row col-6 mt-3 pl-4">
       <select class="custom-select form-labels" id="area_name" name="area_name">
         <option selected disabled value="">Choose Area</option>
         {% for area in area %}
@@ -29,37 +30,39 @@
       </select>
     </div>
     
-    <div class="form-row col-12 mt-3">
+    <div class="form-row col-10 offset-1 mx-auto mt-4">
       <input type="text" class="form-control form-labels" id="location_name" name="location_name" placeholder="Location">
     </div>
 
-     <div class="form-row col-12 mt-3">
+     <div class="form-row col-10 offset-1 mx-auto mt-4">
       <input type="text" class="form-control form-labels" id="catch_1" name="catch_1" placeholder="Catches">
     </div>
 
-      <div class="form-row col-12 mt-3">
+      <div class="form-row col-10 offset-1 mx-auto mt-4">
       <input type="text" class="form-control form-labels" id="catch_2" name="catch_2"placeholder="Catches">
     </div>
 
-      <div class="form-row col-12 mt-3">
+      <div class="form-row col-10 offset-1 mx-auto mt-4">
       <input type="text" class="form-control form-labels" id="catch_3" name="catch_3"placeholder="Catches">
       </div>
 
-      <div class="form-row col-12 mt-3">
+      <div class="form-row col-10 offset-1 mx-auto mt-4">
       <input type="text" class="form-control form-labels" id="catch_4" name="catch_4"placeholder="Catches">
       </div>
 
-      <div class="form-row col-12 mt-3">
+      <div class="form-row col-10 offset-1 mx-auto mt-4">
       <input type="text" class="form-control form-labels" id="catch_5" name="catch_5" placeholder="Catches">
      </div>
 
-     <div class="form-row col-12 mt-3">
+     <div class="form-row col-6 offset-3 mx-auto mt-4">
       <input type="date" class="form-control form-labels" id="catch_date" name="catch_date" placeholder="Date">
     </div>
 
   </div>
 
-  <button type="submit" name="action" class="btn btn-primary mt-3">Submit</button>
+    <div class="form-row col-4 offset-4 mx-auto mt-3">
+        <button type="submit" name="action" class="btn btn-primary center mt-4 mx-auto">Submit</button>
+    </div>
 
 </form>
 
