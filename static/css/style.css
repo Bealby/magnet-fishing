@@ -39,8 +39,35 @@ body {
     font-weight: 600;
 }
 
+/* CATCH_LOG.HTML*/
+
 .accordian-color{
     border-color: rgb(255, 255, 255, 1);
+}
+
+/*forms*/
+
+.form-header p{
+    color:rgb(26, 16, 112, 1);
+    font-size: 1.1rem;
+    margin-bottom:0rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.form-button-edit{
+        background-color:rgb(26, 16, 112, 1);
+        border:rgb(26, 16, 112, 1);
+}
+
+.btn-success:hover{
+    background-color: rgb(71, 117, 178, 1) !important;
+    border-color: rgb(71, 117, 178, 1) !important;
+}
+
+.form-button-delete{
+        background-color:rgb(255, 00, 1, 1);
+        border:rgb(255, 00, 1, 1);
 }
 
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
