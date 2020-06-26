@@ -39,6 +39,10 @@ body {
     font-weight: 600;
 }
 
+.accordian-color{
+    border-color: rgb(255, 255, 255, 1);
+}
+
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
 @media(min-width:62rem) {
 	.logo {
@@ -46,10 +50,11 @@ body {
 	}
 }
 
+/*Reduced size of logo on medium devices for better viewing. Otherwise too big.*/
 @media(min-width:62rem) {
     .link-font {
 	font-size: 1.60rem;
 	color: rgb(26, 16, 112, 1);
     font-weight: 800;
-}
+    }
 }

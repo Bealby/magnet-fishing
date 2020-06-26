@@ -2,17 +2,24 @@
 {% block content %}
 
 
-<div class="accordion" id="accordionExample">
+<div class="accordion pt-3" id="accordionExample">
     {% for catch_log in catch_log %}
 	<div class="card">
 		<div class="card-header" id="headingOne">
-			<h2 class="mb-0">
+			
+        <div class="row">
+            <div class="col-10">
 				<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 {{catch_log.area_name}} - {{catch_log.catch_date}}
                 </button>
+            </div>
+            <div class="col-2">
                 <a href="{{url_for('edit_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success">Edit</a>
                 <a href="{{url_for('delete_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success">Delete</a>
-			</h2>
+            </div>
+        </div>
+
+
 		</div>
 
 		<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
