@@ -57,7 +57,11 @@ def update_catch_log(catch_log_id):
         'magnet': request.form.get('magnet'),
         'area_name': request.form.get('area_name'),
         'location_name':request.form.get('location_name'),
-        'catches':request.form.get('catches'),
+        'catch_1':request.form.get('catch_1'),
+        'catch_2':request.form.get('catch_2'),
+        'catch_3':request.form.get('catch_3'),
+        'catch_4':request.form.get('catch_4'),
+        'catch_5':request.form.get('catch_5'),
         'catch_date':request.form.get('catch_date')
     })
     return redirect(url_for('get_catches'))
