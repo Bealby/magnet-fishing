@@ -34,9 +34,9 @@ body {
 }
 
 .link-font {
-	font-size: 1.60rem;
+	font-size: 1.1rem;
 	color: rgb(26, 16, 112, 1);
-    font-weight: 800;
+    font-weight: 600;
 }
 
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
@@ -44,4 +44,12 @@ body {
 	.logo {
 		width: 25%;
 	}
+}
+
+@media(min-width:62rem) {
+    .link-font {
+	font-size: 1.60rem;
+	color: rgb(26, 16, 112, 1);
+    font-weight: 800;
+}
 }
