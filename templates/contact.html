@@ -1,14 +1,21 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<h1>Contact</h1>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Contact</h1>
+        </div>
+    </div>
+</div>
 
-<div class="center-form">
-	<form onsubmit="return sendMail(this);" onsubmit="setTimeout(function(){window.location.reload();},10);" id="myForm">
-		<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-		<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-		<textarea rows="5" name="comment" class="form-control" id="comment" placeholder="Comment" required></textarea>
-		<input type="submit" name="submit" value="Submit" id="submit">
+
+<div class="center-form pt-3">
+	<form onsubmit="return sendMail(this);" class="col-10 offset-1" id="myForm">
+		<input type="text" name="name" class="form-control mt-3" id="fullname" placeholder="Name" required/>
+		<input type="text" name="emailaddress" class="form-control mt-3" id="emailaddress" placeholder="Email" required/>
+		<textarea rows="5" name="comment" class="form-control mt-3" id="comment" placeholder="Comment" required></textarea>
+		<button type="submit" class="btn btn-secondary mt-3 mx-auto">Send</button>
 	</form>
 </div>
 

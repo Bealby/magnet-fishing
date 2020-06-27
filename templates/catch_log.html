@@ -6,7 +6,7 @@
         <div class="card-header" id="headingOne">
             <div class="row">
                 <div class="col-8">
-                    <button class="btn btn-block text-left pl-0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="btn btn-block text-left pl-0" type="button" data-toggle="collapse" data-target="#collapse{{ loop.index }}" aria-expanded="flase" aria-controls="collapseOne">
                         <div class="form-header">
                             <p>{{catch_log.area_name}} - {{catch_log.catch_date}}</p>
                         </div>
@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div id="collapse{{ loop.index }}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body catch-log-font">
                 <div class="row">
                     <div class="col-2">
