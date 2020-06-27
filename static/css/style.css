@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display:100,200,300,400,500,600,700,800|Roboto+Slab:100,200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display:100,200,300,400,500,600,700,800|Source+Serif+Pro:100,200,300,400,500,600,700,800');
 
 body {
 	font-family: 'Stardos Stencil', cursive;
@@ -48,18 +48,20 @@ body {
 .catch-log-font{
     font-size: 1.2rem;
     color:rgb(0, 0, 0, 1);
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Serif Pro', serif;
     font-weight: 600;
 }
 
 /*forms*/
 
 .form-header p{
-    color:rgb(26, 16, 112, 1);
+
+    color:rgb(255, 255, 255, 1);
     font-size: 1.4rem;
     margin-bottom:0rem;
     font-weight: 600;
-    font-family:'Roboto Slab', serif;
+    font-family: 'Source Serif Pro', serif;
+    background-color:rgb(26, 16, 112, .8);
 }
 
 .form-labels{
@@ -89,13 +91,15 @@ body {
        border:rgb(254, 17, 71, 0.7); !important;
 }
 
-button{
-       background-color:rgb(255, 255, 255, 1) !important;
+.contact-button{
+    background-color:rgb(26, 16, 112, 1) !important;
+    border-color:rgb(26, 16, 112, 1) !important;
+    color:rgb(255, 255, 255, 1) !important;
 }
 
-button:hover{
-       background-color:rgb(190, 190, 190, 1) !important;
-       color:rgb(190, 190, 190, 1) !important;
+.contact-button:hover{
+    background-color: rgb(190, 190, 190, 1)  !important;
+    border-color: rgb(190, 190, 190, 1)  !important;
 }
 
 .link-font:hover {
