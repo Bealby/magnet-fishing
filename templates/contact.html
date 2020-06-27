@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<div class="container">
+<div class="container pt-3">
     <div class="row">
-        <div class="col">
+        <div class="col-10 offset-1 text-center">
             <h1>Contact</h1>
         </div>
     </div>
@@ -11,11 +11,18 @@
 
 
 <div class="center-form pt-3">
-	<form onsubmit="return sendMail(this);" class="col-10 offset-1" id="myForm">
-		<input type="text" name="name" class="form-control mt-3" id="fullname" placeholder="Name" required/>
-		<input type="text" name="emailaddress" class="form-control mt-3" id="emailaddress" placeholder="Email" required/>
-		<textarea rows="5" name="comment" class="form-control mt-3" id="comment" placeholder="Comment" required></textarea>
-		<button type="submit" class="btn btn-secondary mt-3 mx-auto">Send</button>
+	<form onsubmit="return sendMail(this);" class="col-10 offset-1 form-labels" id="myForm">
+		<input type="text" name="name" class="form-control mt-3 form-labels" id="fullname" placeholder="Name" required/>
+		<input type="text" name="emailaddress" class="form-control mt-3 form-labels" id="emailaddress" placeholder="Email" required/>
+		<textarea rows="5" name="comment" class="form-control mt-3 form-labels" id="comment" placeholder="Comment" required></textarea>
+
+<div class="container pt-3">
+    <div class="row">
+        <div class="col-10 offset-1 text-center">
+		<button type="submit" class="btn btn-secondary text-center">Send</button>
+                </div>
+    </div>
+</div>
 	</form>
 </div>
 

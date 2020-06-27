@@ -103,6 +103,7 @@ button:hover{
 	text-decoration: none;
 }
 
+
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
 @media(min-width:62rem) {
 	.logo {
