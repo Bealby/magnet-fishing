@@ -35,7 +35,7 @@ body {
 
 .link-font {
 	font-size: 1.1rem;
-	color: rgb(26, 16, 112, 1);
+	color: rgb(255, 255, 255, 1);
     font-weight: 600;
 }
 
@@ -75,18 +75,32 @@ body {
 }
 
 .form-button-edit:hover{
-    background-color: rgb(71, 117, 178, 1) !important;
-    border-color: rgb(71, 117, 178, 1) !important;
+    background-color: rgb(190, 190, 190, 1)  !important;
+    border-color: rgb(190, 190, 190, 1)  !important;
 }
 
 .form-button-delete{
-        background-color:rgb(255, 00, 1, 1);
-        border:rgb(255, 00, 1, 1);
+        background-color:rgb(254, 17, 71, 1);
+        border:rgb(254, 17, 71, 1);
 }
 
 .form-button-delete:hover{
-       background-color:rgb(255, 0, 149) !important;
-        border:rgb(255, 0, 149, 1) !important;
+       background-color:rgb(254, 17, 71, 0.7) !important;
+       border:rgb(254, 17, 71, 0.7); !important;
+}
+
+button{
+       background-color:rgb(255, 255, 255, 1) !important;
+}
+
+button:hover{
+       background-color:rgb(190, 190, 190, 1) !important;
+       color:rgb(190, 190, 190, 1) !important;
+}
+
+.link-font:hover {
+	color: rgb(190, 190, 190, 1) !important;
+	text-decoration: none;
 }
 
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
@@ -100,7 +114,7 @@ body {
 @media(min-width:62rem) {
     .link-font {
 	font-size: 1.60rem;
-	color: rgb(26, 16, 112, 1);
+	color: rgb(255, 255, 255, 1);
     font-weight: 800;
     }
 }
