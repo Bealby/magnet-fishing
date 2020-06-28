@@ -155,21 +155,21 @@ body {
 }
 
 /*Reduce 'Name' field padding to provide more room on smaller devices for add_catches.html.*/
-@media(min-width:56.25rem) {
+@media(min-width:45rem) {
 .name-form-field{
     padding-right:1.5rem !important;
     }
 }
 
 /*Reduce 'Email' field padding to provide more room on smaller devices for add_catches.html.*/
-@media(min-width:56.25rem) {
+@media(min-width:45rem) {
 .email-form-field{
     padding-left:1.5rem !important;
     }
 }
 
 /*Reduce 'Magnet' field padding to provide more room on smaller devices for add_catches.html.*/
-@media(min-width:56.25rem) {
+@media(min-width:45rem) {
 .magnet-form-field{
     padding-right:1.5rem !important;
     }
