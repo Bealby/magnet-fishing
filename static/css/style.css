@@ -117,14 +117,25 @@ body {
     border-color: rgb(190, 190, 190, 1)  !important;
 }
 
+.edit-button{
+    background-color:rgb(255, 255, 255, 1);
+    border-color:rgb(255, 255, 255, 1);
+    color:rgb(26, 16, 112, .8);
+}
+
+.edit-button:hover{
+    background-color: rgb(190, 190, 190, 1)  !important;
+    border-color: rgb(190, 190, 190, 1)  !important;
+}
+
 .form-button-delete{
-        background-color:rgb(254, 17, 71, 0.8);
-        border:rgb(254, 17, 71, .8);
+        background-color:rgb(254, 17, 71, 1);
+        border:rgb(254, 17, 71, 1);
 }
 
 .form-button-delete:hover{
-       background-color:rgb(254, 17, 71, 1) !important;
-       border:rgb(254, 17, 71, 1) !important;
+       background-color:rgb(254, 17, 71, .7) !important;
+       border:rgb(254, 17, 71, .7) !important;
 }
 
 .link-font:hover{
