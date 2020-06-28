@@ -76,13 +76,22 @@ body {
 }
 
 .form-margins-add{
-    padding-left:1rem;
-    padding-right:1rem;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+}
+
+.name-form-field{
+    padding-right:0rem !important;
 }
 
 .email-form-field{
     padding-left:0rem !important;
 }
+
+.magnet-form-field{
+    padding-right:0rem !important;
+}
+
 
 .default-button{
     background-color:rgb(26, 16, 112, .8);
@@ -146,8 +155,22 @@ body {
 }
 
 /*Reduce 'Name' field padding to provide more room on smaller devices for add_catches.html.*/
-@media(min-width:31.875rem) {
+@media(min-width:56.25rem) {
+.name-form-field{
+    padding-right:1.5rem !important;
+    }
+}
+
+/*Reduce 'Email' field padding to provide more room on smaller devices for add_catches.html.*/
+@media(min-width:56.25rem) {
 .email-form-field{
     padding-left:1.5rem !important;
+    }
+}
+
+/*Reduce 'Magnet' field padding to provide more room on smaller devices for add_catches.html.*/
+@media(min-width:56.25rem) {
+.magnet-form-field{
+    padding-right:1.5rem !important;
     }
 }
