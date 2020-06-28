@@ -12,10 +12,7 @@
                         </div>
                     </button>
                 </div>
-                <div class="col-4 text-right">
-                    <a href="{{url_for('edit_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success default-button">Edit</a>
-                    <a href="{{url_for('delete_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success form-button-delete">Delete</a>
-                </div>
+            
             </div>
         </div>
 
@@ -48,7 +45,16 @@
             </div>
         </div>
     </div>
+
+           <div class="col-4 text-right">
+                    <a href="{{url_for('edit_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success default-button">Edit</a>
+                    <a href="{{url_for('delete_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success form-button-delete">Delete</a>
+                </div>
     {% endfor %}
 </div>
+
+<i class="fas fa-magnet"></i>
+
+
 
 {% endblock %}

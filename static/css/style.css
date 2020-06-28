@@ -65,7 +65,17 @@ body {
     margin-bottom:0rem;
     font-weight: 600;
     font-family: 'Source Serif Pro', serif;
-    background-color:rgb(26, 16, 112, .8);
+    background-color:rgb(26, 16, 112, 1);
+}
+
+.btn-block, .card-header{
+        background-color:rgb(26, 16, 112, 1);
+        border:rgb(26, 16, 112, 1);
+}
+
+.card{
+        background-color:rgb(255, 255, 255, 1);
+        border:rgb(26, 16, 112, 1);
 }
 
 .form-fields{
@@ -104,13 +114,13 @@ body {
 }
 
 .form-button-delete{
-        background-color:rgb(254, 17, 71, 1);
-        border:rgb(254, 17, 71, 1);
+        background-color:rgb(254, 17, 71, 0.8);
+        border:rgb(254, 17, 71, 0.8);
 }
 
 .form-button-delete:hover{
-       background-color:rgb(254, 17, 71, 0.7) !important;
-       border:rgb(254, 17, 71, 0.7); !important;
+       background-color:rgb(254, 17, 71, 1) !important;
+       border:rgb(254, 17, 71, 1 !important;
 }
 
 .link-font:hover {
