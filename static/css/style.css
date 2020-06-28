@@ -80,6 +80,10 @@ body {
     padding-right:1rem;
 }
 
+.email-form-field{
+    padding-left:0rem !important;
+}
+
 .default-button{
     background-color:rgb(26, 16, 112, .8);
     border-color:rgb(26, 16, 112, .8);
@@ -138,5 +142,12 @@ body {
 .form-margins-add{
     padding-left:3rem;
     padding-right:3rem;
+    }
+}
+
+/*Reduce 'Name' field padding to provide more room on smaller devices for add_catches.html.*/
+@media(min-width:31.875rem) {
+.email-form-field{
+    padding-left:1.5rem !important;
     }
 }
