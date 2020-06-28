@@ -17,10 +17,6 @@ mongo = PyMongo(app)
 def home():
     return render_template("home.html")
 
-@app.route('/areas')
-def areas():
-    return render_template("areas.html")
-
 @app.route('/contact')
 def contact():
     return render_template("contact.html")
