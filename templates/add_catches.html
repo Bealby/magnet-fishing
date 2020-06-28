@@ -5,14 +5,14 @@
 <form action="{{ url_for('insert_catches') }}" method="POST">
   <div class="form-row">
 
-    <div class="form-row col-6 mt-3 pr-4">
+    <div class="form-row col-md-6 col-sm-12 mt-3 pr-4">
       <input type="text" class="form-control form-fields" id="name" name="name" placeholder="Name">
     </div>
-    <div class="form-row col-6 mt-3 pl-4">
+    <div class="form-row col-md-6 col-sm-12 mt-3 pl-4">
       <input type="email" class="form-control form-fields" id="email" name="email" placeholder="Email">
     </div>
 
-    <div class="form-row col-5 mt-3 pr-4">
+    <div class="form-row col-md-5 col-sm-12 mt-3 pr-4">
       <select class="custom-select form-fields" id="magnet" name="magnet">
         <option selected disabled value=""> Choose Magnet</option>
         {% for magnet in magnet %}
@@ -21,7 +21,7 @@
       </select>
     </div>
 
-    <div class="form-row col-6 mt-3 pl-4">
+    <div class="form-row col-md-6 col-sm-11 mt-3 pl-4">
       <select class="custom-select form-fields" id="area_name" name="area_name">
         <option selected disabled value="">Choose Area</option>
         {% for area in area %}
@@ -30,7 +30,7 @@
       </select>
     </div>
 
-<div class="form-row col-1 mt-3 pl-4">
+<div class="form-row col-md-1 col-sm-1 mt-3 pl-4">
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary default-button" data-toggle="modal" data-target="#exampleModalCenter">
   Map

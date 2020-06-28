@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display:100,200,300,400,500,600,700,800|Source+Serif+Pro:100,200,300,400,500,600,700,800');
 
 body {
@@ -69,6 +68,10 @@ body {
     color:rgb(128, 128, 128, 1);
     font-family: 'Source Serif Pro', serif;
     font-weight: 600;
+}
+
+.form-margins-add{
+    
 }
 
 .default-button{
