@@ -50,7 +50,7 @@ body {
 }
 
 .catch-log-font{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color:rgb(0, 0, 0, 1);
     font-family: 'Source Serif Pro', serif;
     font-weight: 600;
@@ -74,8 +74,8 @@ body {
 }
 
 .card{
-        background-color:rgb(255, 255, 255, 1);
-        border:rgb(26, 16, 112, 1);
+        background-color:rgb(255, 255, 255, .8);
+        border:rgb(26, 16, 112, .8);
 }
 
 .fa-magnet{
@@ -150,12 +150,23 @@ body {
 	}
 }
 
-/*Reduced size of logo on medium devices for better viewing. Otherwise too big.*/
+/*Reduced size of link-font on medium devices for better viewing. Otherwise too big.*/
 @media(min-width:62rem) {
     .link-font {
 	font-size: 1.60rem;
 	color: rgb(255, 255, 255, 1);
     font-weight: 800;
+    }
+}
+
+/*Reduced size of catch_log font on medium devices for better viewing. Otherwise too big.*/
+@media(min-width:62rem) {
+
+.catch-log-font{
+    font-size: 1.2rem;
+    color:rgb(0, 0, 0, 1);
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
     }
 }
 

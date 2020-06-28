@@ -5,17 +5,14 @@
     <div class="card mb-2">
         <div class="card-header" id="headingOne">
             <div class="row">
-                <div class="col-8">
+                <div class="col-md-8 col-sm-12">
                     <button class="btn btn-block text-left pl-0" type="button" data-toggle="collapse" data-target="#collapse{{ loop.index }}" aria-expanded="flase" aria-controls="collapseOne">
                         <div class="form-header">
                             <p><i class="fas fa-magnet fa-rotate-90"></i>&nbsp;&nbsp;&nbsp;{{catch_log.area_name}} - {{catch_log.catch_date}}</p>
                         </div>
                     </button>
                 </div>
-            
-
-
-            <div class="col-4 text-right">
+            <div class="col-md-4 col-sm-12 text-right">
                     <a href="{{url_for('edit_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success edit-button">Edit</a>
                     <a href="{{url_for('delete_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success form-button-delete">Delete</a>
             </div>
@@ -30,7 +27,7 @@
                         <p>EMAIL:</p>
                         <p>MAGNET:</p>
                     </div>
-                    <div class="col-3 pl-0">
+                    <div class="col-4 pl-0">
                         <p>{{catch_log.name}}</p>
                         <p>{{catch_log.email}}</p>
                         <p>{{catch_log.magnet}}</p>
@@ -38,7 +35,7 @@
                     <div class="col-2 text-right">
                         <p>CATCHES</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-4">
                         <ol>
                             <li>{{catch_log.catch_1}}</li>
                             <li>{{catch_log.catch_2}}</li>
