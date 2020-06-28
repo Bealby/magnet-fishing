@@ -7,15 +7,20 @@
             <div class="row">
                 <div class="col-8">
                     <button class="btn btn-block text-left pl-0" type="button" data-toggle="collapse" data-target="#collapse{{ loop.index }}" aria-expanded="flase" aria-controls="collapseOne">
-
                         <div class="form-header">
                             <p><i class="fas fa-magnet fa-rotate-90"></i>&nbsp;&nbsp;&nbsp;{{catch_log.area_name}} - {{catch_log.catch_date}}</p>
                         </div>
                     </button>
                 </div>
             
+
+
+            <div class="col-4 text-right">
+                    <a href="{{url_for('edit_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success default-button">Edit</a>
+                    <a href="{{url_for('delete_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success form-button-delete">Delete</a>
             </div>
-        </div>
+            </div>
+    </div>
 
         <div id="collapse{{ loop.index }}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body catch-log-font">
@@ -47,10 +52,6 @@
         </div>
     </div>
 
-           <div class="col-4 text-right">
-                    <a href="{{url_for('edit_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success default-button">Edit</a>
-                    <a href="{{url_for('delete_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success form-button-delete">Delete</a>
-                </div>
     {% endfor %}
 </div>
 

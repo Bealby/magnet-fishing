@@ -119,7 +119,7 @@ body {
 
 .form-button-delete{
         background-color:rgb(254, 17, 71, 0.8);
-        border:rgb(254, 17, 71, 0.8);
+        border:rgb(254, 17, 71, .8);
 }
 
 .form-button-delete:hover{
