@@ -22,20 +22,20 @@
         <div id="collapse{{ loop.index }}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body catch-log-font">
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-md-3 col-sm-12">
                         <p>NAME:</p>
                         <p>EMAIL:</p>
                         <p>MAGNET:</p>
                     </div>
-                    <div class="col-4 pl-0">
+                    <div class="col-md-3 col-sm-12">
                         <p>{{catch_log.name}}</p>
                         <p>{{catch_log.email}}</p>
                         <p>{{catch_log.magnet}}</p>
                     </div>
-                    <div class="col-2 text-right">
-                        <p>CATCHES</p>
+                    <div class="col-md-3 col-sm-5 text-right">
+                        <p>CATCHES:</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-3 col-sm-7 text-left">
                         <ol>
                             <li>{{catch_log.catch_1}}</li>
                             <li>{{catch_log.catch_2}}</li>
@@ -43,7 +43,7 @@
                             <li>{{catch_log.catch_4}}</li>
                             <li>{{catch_log.catch_5}}</li>
                         </ol>
-                    </div>
+                        </div>
                 </div>
             </div>
         </div>
