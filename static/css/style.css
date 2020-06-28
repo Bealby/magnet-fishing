@@ -50,10 +50,15 @@ body {
 }
 
 .catch-log-font{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color:rgb(0, 0, 0, 1);
     font-family: 'Source Serif Pro', serif;
     font-weight: 600;
+}
+
+.catch-log-align{
+    text-align: center;
+    list-style: none;
 }
 
 /*forms*/
@@ -159,17 +164,6 @@ body {
     }
 }
 
-/*Reduced size of catch_log font on medium devices for better viewing. Otherwise too big.*/
-@media(min-width:62rem) {
-
-.catch-log-font{
-    font-size: 1.2rem;
-    color:rgb(0, 0, 0, 1);
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 600;
-    }
-}
-
 /*Reduced padding to provide more room for form fields in forms on smaller devices add_catches.html.*/
 @media(min-width:31.875rem) {
 .container {
@@ -204,5 +198,13 @@ body {
 @media(min-width:45rem) {
 .magnet-form-field{
     padding-right:1.5rem !important;
+    }
+}
+
+/*Reduce 'Magnet' field padding to provide more room on smaller devices for add_catches.html.*/
+@media(min-width:48rem) {
+.catch-log-align{
+    text-align: left;
+    list-style: none;
     }
 }
