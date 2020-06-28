@@ -155,7 +155,10 @@ body {
 	text-decoration: none !important;
 }
 
-
+.edit-delete-magins{
+    text-align: left;
+    padding-top:1rem;
+}
 
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
 @media(min-width:62rem) {
@@ -216,4 +219,10 @@ body {
     text-align: left;
     list-style: none;
     }
+}
+
+/*Adjust edit and delte icons left for smaller devices*/
+@media(min-width:48rem) {
+.edit-delete-magins{
+    text-align: right;
 }
