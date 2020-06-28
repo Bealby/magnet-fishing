@@ -78,6 +78,10 @@ body {
         border:rgb(26, 16, 112, 1);
 }
 
+.fa-magnet{
+    color:rgb(254, 17, 71, 1);
+}
+
 .form-fields{
     font-size: 1.2rem;
     color:rgb(128, 128, 128, 1);
@@ -120,22 +124,18 @@ body {
 
 .form-button-delete:hover{
        background-color:rgb(254, 17, 71, 1) !important;
-       border:rgb(254, 17, 71, 1 !important;
+       border:rgb(254, 17, 71, 1) !important;
 }
 
-.link-font:hover {
+.link-font:hover{
 	color: rgb(190, 190, 190, 1) !important;
 	text-decoration: none !important;
-}
-
-.area-image{
-    width:60%;
 }
 
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
 @media(min-width:62rem) {
 	.logo {
-		width: 25%;
+    width: 25%;
 	}
 }
 
