@@ -64,11 +64,13 @@ body {
     background-color:rgb(26, 16, 112, .8);
 }
 
-.form-labels{
+.contact-form{
     font-size: 1.2rem;
     color:rgb(128, 128, 128, 1);
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Serif Pro', serif;
     font-weight: 600;
+    padding-right: 0rem;
+    padding-left: 0rem;
 }
 
 .form-button-edit{
@@ -124,5 +126,16 @@ body {
 	font-size: 1.60rem;
 	color: rgb(255, 255, 255, 1);
     font-weight: 800;
+    }
+}
+
+@media(min-width:20rem) {
+.contact-form{
+    font-size: 1.2rem;
+    color:rgb(128, 128, 128, 1);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    padding-right: 0,9375rem;
+    padding-left: 0,9375rem;
     }
 }
