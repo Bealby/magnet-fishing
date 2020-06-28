@@ -33,6 +33,8 @@ body {
     width: 60%;
 }
 
+/* NAVBAR*/
+
 .navbar-color{
 	background-color: rgb(254, 17, 71, .8);
 }
@@ -42,6 +44,10 @@ body {
 	color: rgb(255, 255, 255, 1);
     font-weight: 600;
 }
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255,1);
+} 
 
 /* CATCH_LOG.HTML*/
 
@@ -147,6 +153,8 @@ body {
 	color: rgb(190, 190, 190, 1) !important;
 	text-decoration: none !important;
 }
+
+
 
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
 @media(min-width:62rem) {
