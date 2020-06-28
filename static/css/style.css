@@ -76,7 +76,8 @@ body {
 }
 
 .form-margins-add{
-
+    padding-left:1rem;
+    padding-right:1rem;
 }
 
 .default-button{
@@ -124,9 +125,18 @@ body {
     }
 }
 
+/*Reduced padding to provide more room for form fields in forms on smaller devices add_catches.html.*/
 @media(min-width:31.875rem) {
 .container {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem;
+    }
+}
+
+/*Reduced padding to provide more room for form on smaller devices for add_catches.html.*/
+@media(min-width:31.875rem) {
+.form-margins-add{
+    padding-left:3rem;
+    padding-right:3rem;
     }
 }
