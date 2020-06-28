@@ -107,6 +107,9 @@ body {
 	text-decoration: none;
 }
 
+.area-image{
+    width:60%;
+}
 
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
 @media(min-width:62rem) {
