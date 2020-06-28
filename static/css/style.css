@@ -225,4 +225,5 @@ body {
 @media(min-width:48rem) {
 .edit-delete-magins{
     text-align: right;
+        padding-top:0rem;
 }
