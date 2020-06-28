@@ -6,10 +6,10 @@
   <div class="form-row">
 
     <div class="form-row col-6 mt-3 pr-4">
-      <input type="text" class="form-control form-fields" id="name" name="name" placeholder=" Name">
+      <input type="text" class="form-control form-fields" id="name" name="name" placeholder="Name">
     </div>
     <div class="form-row col-6 mt-3 pl-4">
-      <input type="email" class="form-control form-fields" id="email" name="email" placeholder=" Email">
+      <input type="email" class="form-control form-fields" id="email" name="email" placeholder="Email">
     </div>
 
     <div class="form-row col-5 mt-3 pr-4">
@@ -22,7 +22,7 @@
     </div>
 
     <div class="form-row col-6 mt-3 pl-4">
-      <select class="custom-select form-fields" id="area_name" name=" area_name">
+      <select class="custom-select form-fields" id="area_name" name="area_name">
         <option selected disabled value="">Choose Area</option>
         {% for area in area %}
             <option value="{{area.area_name}}">{{area.area_name}}</option>
@@ -32,7 +32,7 @@
 
 <div class="form-row col-1 mt-3 pl-4">
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+<button type="button" class="btn btn-primary default-button" data-toggle="modal" data-target="#exampleModalCenter">
   Map
 </button>
 
@@ -60,37 +60,37 @@
 
     
     <div class="form-row col-10 offset-1 mx-auto mt-4">
-      <input type="text" class="form-control form-fields" id="location_name" name="location_name" placeholder=" Location">
+      <input type="text" class="form-control form-fields" id="location_name" name="location_name" placeholder="Location">
     </div>
 
      <div class="form-row col-10 offset-1 mx-auto mt-4">
-      <input type="text" class="form-control form-fields" id="catch_1" name="catch_1" placeholder=" Catches">
+      <input type="text" class="form-control form-fields" id="catch_1" name="catch_1" placeholder="Catches">
     </div>
 
       <div class="form-row col-10 offset-1 mx-auto mt-4">
-      <input type="text" class="form-control form-fields" id="catch_2" name="catch_2"placeholder=" Catches">
+      <input type="text" class="form-control form-fields" id="catch_2" name="catch_2"placeholder="Catches">
     </div>
 
       <div class="form-row col-10 offset-1 mx-auto mt-4">
-      <input type="text" class="form-control form-fields" id="catch_3" name="catch_3"placeholder=" Catches">
+      <input type="text" class="form-control form-fields" id="catch_3" name="catch_3"placeholder="Catches">
       </div>
 
       <div class="form-row col-10 offset-1 mx-auto mt-4">
-      <input type="text" class="form-control form-fields" id="catch_4" name="catch_4"placeholder=" Catches">
+      <input type="text" class="form-control form-fields" id="catch_4" name="catch_4"placeholder="Catches">
       </div>
 
       <div class="form-row col-10 offset-1 mx-auto mt-4">
-      <input type="text" class="form-control form-fields" id="catch_5" name="catch_5" placeholder=" Catches">
+      <input type="text" class="form-control form-fields" id="catch_5" name=" catch_5" placeholder="Catches">
      </div>
 
      <div class="form-row col-6 offset-3 mx-auto mt-4">
-      <input type="date" class="form-control form-fields" id="catch_date" name="catch_date" placeholder=" Date">
+      <input type="date" class="form-control form-fields" id="catch_date" name=" catch_date" placeholder=" Date">
     </div>
 
   </div>
 
     <div class="form-row col-4 offset-4 mx-auto mt-3">
-        <button type="submit" name="action" class="btn btn-primary center mt-4 mx-auto">Submit</button>
+        <button type="submit" name="action" class="btn btn-primary center mt-4 mx-auto default-button">Submit</button>
     </div>
 
 </form>

@@ -69,16 +69,14 @@ body {
     color:rgb(128, 128, 128, 1);
     font-family: 'Source Serif Pro', serif;
     font-weight: 600;
-    padding-right: 0rem;
-    padding-left: 0rem;
 }
 
-.form-button-edit{
-    background-color:rgb(26, 16, 112, 1);
-    border-color:rgb(26, 16, 112, 1);
+.default-button{
+    background-color:rgb(26, 16, 112, .8);
+    border-color:rgb(26, 16, 112, .8);
 }
 
-.form-button-edit:hover{
+.default-button:hover{
     background-color: rgb(190, 190, 190, 1)  !important;
     border-color: rgb(190, 190, 190, 1)  !important;
 }
@@ -93,20 +91,9 @@ body {
        border:rgb(254, 17, 71, 0.7); !important;
 }
 
-.contact-button{
-    background-color:rgb(26, 16, 112, .5) !important;
-    border-color:rgb(26, 16, 112, .5) !important;
-    color:rgb(255, 255, 255, 1) !important;
-}
-
-.contact-button:hover{
-    background-color: rgb(190, 190, 190, 1)  !important;
-    border-color: rgb(190, 190, 190, 1)  !important;
-}
-
 .link-font:hover {
 	color: rgb(190, 190, 190, 1) !important;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .area-image{
@@ -126,16 +113,5 @@ body {
 	font-size: 1.60rem;
 	color: rgb(255, 255, 255, 1);
     font-weight: 800;
-    }
-}
-
-@media(min-width:20rem) {
-.contact-form{
-    font-size: 1.2rem;
-    color:rgb(128, 128, 128, 1);
-    font-family: 'Roboto Slab', serif;
-    font-weight: 600;
-    padding-right: 0,9375rem;
-    padding-left: 0,9375rem;
     }
 }
