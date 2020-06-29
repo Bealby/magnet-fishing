@@ -13,8 +13,9 @@
         </div>
 
         <!--Second Row-->
-        <div class="form-row">
-            <div class="form-row col-md-5 col-sm-12 mt-3 magnet-form-field">
+        <!--Visable only > MD devices-->
+        <div class="form-row mt-3">
+            <div class="form-row col-md-5 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block mt-3 pl-4 magnet-form-field">
                 <select class="custom-select form-fields" id="magnet" name="magnet">
                     <option selected disabled value=""> Choose Magnet</option>
                     {% for magnet in magnet %}
@@ -22,7 +23,7 @@
                     {% endfor %}
                 </select>
             </div>
-            <div class="form-row col-md-6 mt-3 pl-4">
+            <div class="form-row col-md-6 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block mt-3 pl-4">
                 <select class="custom-select form-fields" id="area_name" name="area_name">
                     <option selected disabled value="">Choose Area</option>
                     {% for area in area %}
@@ -31,7 +32,7 @@
                 </select>
             </div>
 
-            <div class="form-row col-md-1 col-sm-1 mt-3 pl-4">
+            <div class="form-row col-md-1 mt-3 pl-4 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary default-button" data-toggle="modal" data-target="#exampleModalCenter">
                     Map
@@ -59,6 +60,60 @@
             </div>
         </div>
 
+        <!--Second Row B-->
+        <!--Visable only < SM devices-->
+        <div class="form-row mt-3">
+            <div class="form-row col-sm-12 d-block d-sm-none d-none d-sm-block d-md-none">
+                <select class="custom-select form-fields" id="magnet" name="magnet">
+                    <option selected disabled value=""> Choose Magnet</option>
+                    {% for magnet in magnet %}
+                    <option value="{{magnet.magnet}}">{{magnet.magnet}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+
+        <!--Second Row B-->
+        <!--Visable only < SM devices-->
+        <div class="form-row mt-3">
+            <div class="form-row col-sm-8 d-block d-sm-none d-none d-sm-block d-md-none">
+                <select class="custom-select form-fields" id="area_name" name="area_name">
+                    <option selected disabled value="">Choose Area</option>
+                    {% for area in area %}
+                    <option value="{{area.area_name}}">{{area.area_name}}</option>
+                    {% endfor %}
+                </select>
+            <div class="form-row col-sm-4 d-block d-sm-none d-none d-sm-block d-md-none">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary default-button" data-toggle="modal" data-target="#exampleModalCenter">
+                    Map
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Map</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
         <div class="form-row col-10 offset-1 mx-auto mt-4">
             <input type="text" class="form-control form-fields" id="location_name" name="location_name" placeholder="Location" />
         </div>
@@ -83,11 +138,11 @@
             <input type="text" class="form-control form-fields" id="catch_5" name="catch_5" placeholder="Catches" />
         </div>
 
-        <div class="form-row col-6 offset-3 mx-auto mt-4">
+        <div class="form-row col-md-6 offset-md-3 col-10 offset-1 mx-auto mt-4">
             <input type="date" class="form-control form-fields" id="catch_date" name="catch_date" placeholder="Date" />
         </div>
 
-        <div class="form-row col-4 offset-4 mx-auto mt-3">
+        <div class="form-row col-md-4 offset-md-4 mx-auto mt-3">
             <button type="submit" name="action" class="btn btn-primary center mt-4 mx-auto default-button">Submit</button>
         </div>
     </form>
