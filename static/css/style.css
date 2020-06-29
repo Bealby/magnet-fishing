@@ -57,7 +57,11 @@ body {
     padding: 0rem 0rem 0rem 0rem;
 }
 
-.home-image-align{
+.home-image-left{
+    text-align:center;
+}
+
+.home-image-right{
     text-align:center;
 }
 
@@ -68,7 +72,7 @@ body {
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     background-color:rgb(26, 16, 112, 1);
     color:rgb(255,255,255,1);
-    text-align: justify;
+    text-align: left;
 }
 
 /* CATCH_LOG.HTML*/
@@ -259,9 +263,31 @@ body {
     padding: 0rem 0rem 0rem 0rem;
 }
 
-/*Adjust edit and delte icons left for smaller devices*/
+/*Shift image center on medium and smaller devices for better layout*/
 @media(min-width:61.9375rem) {
-.home-image-align{
+.home-image-left{
     text-align:left;
+    padding: 0rem 0rem 0rem 0rem;
 }
+}
+
+/*Shift image center on medium and smaller devices for better layout*/
+@media(min-width:61.9375rem) {
+.home-image-right{
+    text-align:right;
+    padding: 0rem 0rem 0rem 0rem;
+}
+}
+
+/*Justify text for smaller devices for easier reading*/
+@media(min-width:31.875rem) {
+.home-text{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    background-color:rgb(26, 16, 112, 1);
+    color:rgb(255,255,255,1);
+    text-align: justify;
+    }
 }
