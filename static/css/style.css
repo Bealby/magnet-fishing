@@ -52,8 +52,13 @@ body {
 /* HOME.HTML*/
 
 .home-images{
-    width: 90%;
+    width: 70%;
     border: 0.3rem solid rgb(255, 255, 255, 1);
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.home-image-align{
+    text-align:center;
 }
 
 .home-text{
@@ -243,4 +248,20 @@ body {
 .edit-delete-magins{
     text-align: right;
         padding-top:0rem;
+}
+}
+
+/*Adjust edit and delte icons left for smaller devices*/
+@media(min-width:61.9375rem) {
+.home-images{
+    width: 90%;
+    border: 0.3rem solid rgb(255, 255, 255, 1);
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+/*Adjust edit and delte icons left for smaller devices*/
+@media(min-width:61.9375rem) {
+.home-image-align{
+    text-align:left;
+}
 }
