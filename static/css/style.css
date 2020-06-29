@@ -56,6 +56,13 @@ body {
     border: 0.3rem solid rgb(255, 255, 255, 1);
 }
 
+.home-text{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    background-color:rgb(26, 16, 112, 0.8);
+    color:rgb(255,255,255,1);
+}
+
 /* CATCH_LOG.HTML*/
 
 .accordian-color{
