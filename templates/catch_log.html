@@ -8,11 +8,12 @@
                 <div class="col-md-8 col-sm-12">
                     <button class="btn btn-block text-left pl-0" type="button" data-toggle="collapse" data-target="#collapse{{ loop.index }}" aria-expanded="flase" aria-controls="collapseOne">
                         <div class="form-header">
-                            <p><i class="fas fa-magnet fa-rotate-90"></i>&nbsp;&nbsp;&nbsp;{{catch_log.area_name}} - {{catch_log.catch_date}}</p>
+                            <p><i class="fas fa-chevron-down"></i>&nbsp;&nbsp;&nbsp;{{catch_log.area_name}} - {{catch_log.catch_date}}</p>
                         </div>
                     </button>
                 </div>
                 <div class="col-md-4 col-sm-12 edit-delete-magins">
+                    <i class="fas fa-magnet fa-rotate-90"></i>&nbsp;
                     <a href="{{url_for('edit_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success edit-button">Edit</a>
                     <a href="{{url_for('delete_catch_log', catch_log_id=catch_log._id)}}" type="button" class="btn btn-success form-button-delete">Delete</a>
                 </div>
