@@ -49,6 +49,13 @@ body {
   border-color: rgb(255,255,255,1);
 } 
 
+/* HOME.HTML*/
+
+.home-images{
+    width: 60%;
+}
+
+
 /* CATCH_LOG.HTML*/
 
 .accordian-color{
