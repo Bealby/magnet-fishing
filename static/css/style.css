@@ -58,8 +58,9 @@ body {
 
 .home-text{
     font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
     font-weight: 600;
-    background-color:rgb(26, 16, 112, 0.8);
+    background-color:rgb(26, 16, 112, 1);
     color:rgb(255,255,255,1);
 }
 
