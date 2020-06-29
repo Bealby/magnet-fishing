@@ -116,6 +116,17 @@ body {
     background-color:rgb(26, 16, 112, 1);
 }
 
+.divide-block-text{
+    color:rgb(255, 255, 255, 1);
+    font-size: 1.8rem;
+    margin-bottom:0rem;
+    font-weight: 600;
+    font-family: 'Source Serif Pro', serif;
+    text-align:center;
+    padding-top:0.1rem;
+
+}
+
 .btn-block, .card-header{
         background-color:rgb(26, 16, 112, 1);
         border:rgb(26, 16, 112, 1);
