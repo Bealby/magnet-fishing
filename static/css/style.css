@@ -178,6 +178,14 @@ body {
     padding-top:1rem;
 }
 
+.block-divider {
+	width: 95%;
+	height: 3rem;
+	border: 0;
+	background-color: rgb(254, 17, 71, 0.8);
+}
+
+
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
 @media(min-width:62rem) {
 	.logo {
