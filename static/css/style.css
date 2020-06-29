@@ -137,24 +137,6 @@ body {
     font-weight: 600;
 }
 
-.form-margins-add{
-    padding-left:1.5rem;
-    padding-right:1.5rem;
-}
-
-.name-form-field{
-    padding-right:0rem !important;
-}
-
-.email-form-field{
-    padding-left:0rem !important;
-}
-
-.magnet-form-field{
-    padding-right:0rem !important;
-}
-
-
 .default-button{
     background-color:rgb(26, 16, 112, .8);
     border-color:rgb(26, 16, 112, .8);
@@ -220,35 +202,6 @@ body {
     }
 }
 
-/*Reduced padding to provide more room for form on smaller devices for add_catches.html.*/
-@media(min-width:31.875rem) {
-.form-margins-add{
-    padding-left:3rem;
-    padding-right:3rem;
-    }
-}
-
-/*Reduce 'Name' field padding to provide more room on smaller devices for add_catches.html.*/
-@media(min-width:45rem) {
-.name-form-field{
-    padding-right:1.5rem !important;
-    }
-}
-
-/*Reduce 'Email' field padding to provide more room on smaller devices for add_catches.html.*/
-@media(min-width:45rem) {
-.email-form-field{
-    padding-left:1.5rem !important;
-    }
-}
-
-/*Reduce 'Magnet' field padding to provide more room on smaller devices for add_catches.html.*/
-@media(min-width:45rem) {
-.magnet-form-field{
-    padding-right:1.5rem !important;
-    }
-}
-
 /*Reduce 'Magnet' field padding to provide more room on smaller devices for add_catches.html.*/
 @media(min-width:48rem) {
 .catch-log-align{
@@ -301,4 +254,3 @@ body {
     text-align: justify;
     }
 }
-

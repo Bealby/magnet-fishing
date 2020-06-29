@@ -1,29 +1,29 @@
 {% extends 'base.html' %} {% block content %}
 
-<div class="container mt-3 form-margins-add">
+<div class="container">
     <form action="{{ url_for('insert_catches') }}" method="POST">
         <!--First Row-->
-        <div class="form-row">
-            <div class="form-row col-md-6 col-sm-12 name-form-field mt-3">
+        <div class="row pl-2">
+            <div class="form-row col-md-6 col-sm-12 mt-3">
                 <input type="text" class="form-control form-fields" id="name" name="name" placeholder="Name" />
             </div>
-            <div class="form-row col-md-6 col-sm-12 email-form-field mt-3">
+            <div class="form-row col-md-6 col-sm-12 mt-3">
                 <input type="email" class="form-control form-fields" id="email" name="email" placeholder="Email" />
             </div>
         </div>
 
         <!--Second Row-->
-        <!--Visable only > MD devices-->
-        <div class="form-row mt-3">
-            <div class="form-row col-md-5 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block mt-3 pl-4 magnet-form-field">
+        <div class="row pl-2">
+            <div class="form-row col-md-5 col-sm-12 mt-3">
                 <select class="custom-select form-fields" id="magnet" name="magnet">
-                    <option selected disabled value=""> Choose Magnet</option>
+                    <option selected disabled value="">Choose Magnet</option>
                     {% for magnet in magnet %}
                     <option value="{{magnet.magnet}}">{{magnet.magnet}}</option>
                     {% endfor %}
                 </select>
             </div>
-            <div class="form-row col-md-6 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block mt-3 pl-4">
+
+            <div class="form-row col-md-6 col-sm-12 mt-3">
                 <select class="custom-select form-fields" id="area_name" name="area_name">
                     <option selected disabled value="">Choose Area</option>
                     {% for area in area %}
@@ -31,10 +31,9 @@
                     {% endfor %}
                 </select>
             </div>
-
-            <div class="form-row col-md-1 mt-3 pl-4 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none d-none d-xl-block">
+            <div class="form-row col-md-1 mt-3">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary default-button" data-toggle="modal" data-target="#exampleModalCenter">
+                <button type="button" class="btn btn-primary default-button mx-auto" data-toggle="modal" data-target="#exampleModalCenter">
                     Map
                 </button>
 
@@ -60,81 +59,28 @@
             </div>
         </div>
 
-        <!--Second Row B-->
-        <!--Visable only < SM devices-->
-        <div class="form-row mt-3">
-            <div class="form-row col-sm-12 d-block d-sm-none d-none d-sm-block d-md-none">
-                <select class="custom-select form-fields" id="magnet" name="magnet">
-                    <option selected disabled value=""> Choose Magnet</option>
-                    {% for magnet in magnet %}
-                    <option value="{{magnet.magnet}}">{{magnet.magnet}}</option>
-                    {% endfor %}
-                </select>
-            </div>
-        </div>
-
-        <!--Second Row B-->
-        <!--Visable only < SM devices-->
-        <div class="form-row mt-3">
-            <div class="form-row col-sm-8 d-block d-sm-none d-none d-sm-block d-md-none">
-                <select class="custom-select form-fields" id="area_name" name="area_name">
-                    <option selected disabled value="">Choose Area</option>
-                    {% for area in area %}
-                    <option value="{{area.area_name}}">{{area.area_name}}</option>
-                    {% endfor %}
-                </select>
-            <div class="form-row col-sm-4 d-block d-sm-none d-none d-sm-block d-md-none">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary default-button" data-toggle="modal" data-target="#exampleModalCenter">
-                    Map
-                </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">Map</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-        <div class="form-row col-10 offset-1 mx-auto mt-4">
+        <!--Last Rows-->
+        <div class="form-row col-11 offset-0.5 mx-auto mt-4">
             <input type="text" class="form-control form-fields" id="location_name" name="location_name" placeholder="Location" />
         </div>
 
-        <div class="form-row col-10 offset-1 mx-auto mt-4">
+        <div class="form-row col-11 offset-0.5 mx-auto mt-4">
             <input type="text" class="form-control form-fields" id="catch_1" name="catch_1" placeholder="Catches" />
         </div>
 
-        <div class="form-row col-10 offset-1 mx-auto mt-4">
+        <div class="form-row col-11 offset-0.5 mx-auto mt-4">
             <input type="text" class="form-control form-fields" id="catch_2" name="catch_2" placeholder="Catches" />
         </div>
 
-        <div class="form-row col-10 offset-1 mx-auto mt-4">
+        <div class="form-row col-11 offset-0.5 mx-auto mt-4">
             <input type="text" class="form-control form-fields" id="catch_3" name="catch_3" placeholder="Catches" />
         </div>
 
-        <div class="form-row col-10 offset-1 mx-auto mt-4">
+        <div class="form-row col-11 offset-0.5 mx-auto mt-4">
             <input type="text" class="form-control form-fields" id="catch_4" name="catch_4" placeholder="Catches" />
         </div>
 
-        <div class="form-row col-10 offset-1 mx-auto mt-4">
+        <div class="form-row col-11 offset-0.5 mx-auto mt-4">
             <input type="text" class="form-control form-fields" id="catch_5" name="catch_5" placeholder="Catches" />
         </div>
 
