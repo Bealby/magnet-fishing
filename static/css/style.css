@@ -59,10 +59,12 @@ body {
 
 .home-image-left{
     text-align:center;
+    padding: 1.5rem 0rem 1.5rem 0rem;
 }
 
 .home-image-right{
     text-align:center;
+    padding: 1.5rem 0rem 0rem 0rem;
 }
 
 .home-text{
@@ -73,6 +75,12 @@ body {
     background-color:rgb(26, 16, 112, 1);
     color:rgb(255,255,255,1);
     text-align: left;
+}
+
+/*overide main container margins*/
+.home-container{
+    padding-right:2rem !important;
+    padding-left:2rem !important;
 }
 
 /* CATCH_LOG.HTML*/
@@ -263,7 +271,7 @@ body {
     padding: 0rem 0rem 0rem 0rem;
 }
 
-/*Shift image center on medium and smaller devices for better layout*/
+/*Shift image center on medium and smaller devices for better layout also bottom padding*/
 @media(min-width:61.9375rem) {
 .home-image-left{
     text-align:left;
@@ -271,7 +279,7 @@ body {
 }
 }
 
-/*Shift image center on medium and smaller devices for better layout*/
+/*Shift image center on medium and smaller devices for better layout. Also top padding */
 @media(min-width:61.9375rem) {
 .home-image-right{
     text-align:right;
@@ -291,3 +299,4 @@ body {
     text-align: justify;
     }
 }
+
