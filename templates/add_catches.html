@@ -1,9 +1,16 @@
 {% extends 'base.html' %} {% block content %}
 
-<div class="container">
+<div class="container pt-5">
+
+<div class="row">
+        <div class="col-8 offset-2 text-center form-header">
+            <p>Enter Catch Details!</p>
+        </div>
+    </div>
+
     <form action="{{ url_for('insert_catches') }}" method="POST">
         <!--First Row-->
-        <div class="row pl-2">
+        <div class="row pl-2 pt-4">
             <div class="form-row col-md-6 col-sm-12 mt-3">
                 <input type="text" class="form-control form-fields" id="name" name="name" placeholder="Name" />
             </div>
