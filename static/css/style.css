@@ -8,6 +8,8 @@ body {
 
 .background {
 
+
+/*alt tag for image???*/
 	background: url("../images/background.jpg");
     min-height: 100vh;
     -webkit-background-size: cover;
