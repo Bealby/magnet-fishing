@@ -53,8 +53,8 @@ body {
 
 .home-images{
     width: 70%;
+    border: 0.4rem solid rgb(255, 255, 255, 1);
 }
-
 
 /* CATCH_LOG.HTML*/
 
