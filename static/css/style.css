@@ -61,12 +61,12 @@ body {
 
 .home-image-left{
     text-align:center;
-    padding: 1.5rem 0rem 1.5rem 0rem;
+    padding: 3rem 0rem 1.5rem 0rem;
 }
 
 .home-image-right{
     text-align:center;
-    padding: 1.5rem 0rem 0rem 0rem;
+    padding: 3rem 0rem 0rem 0rem;
 }
 
 .home-text{
@@ -251,7 +251,7 @@ body {
 }
 
 /*Shift image center on medium and smaller devices for better layout also bottom padding*/
-@media(min-width:61.9375rem) {
+@media(min-width:62rem) {
 .home-image-left{
     text-align:left;
     padding: 0rem 0rem 0rem 0rem;
@@ -259,10 +259,10 @@ body {
 }
 
 /*Shift image center on medium and smaller devices for better layout. Also top padding */
-@media(min-width:61.9375rem) {
+@media(min-width:62rem) {
 .home-image-right{
     text-align:right;
-    padding: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem !important;
 }
 }
 
@@ -278,3 +278,4 @@ body {
     text-align: justify;
     }
 }
+
