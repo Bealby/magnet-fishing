@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display:100,200,300,400,500,600,700,800|Source+Serif+Pro:100,200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display:100,200,300,400,500,600,700,800|Source+Serif+Pro:100,200,300,400,500,600,700,800|Italianno:100,200,300,400,500,600,700,800');
 
 body {
 	font-family: 'Stardos Stencil', cursive;
@@ -77,6 +77,12 @@ body {
     background-color:rgb(26, 16, 112, 1);
     color:rgb(255,255,255,1);
     text-align: left;
+}
+
+.home-quote{
+    font-family: 'Italianno', cursive;
+    font-size: 1.2rem;
+    font-weight: 200;
 }
 
 /*overide main container margins*/
