@@ -1,5 +1,13 @@
 {% extends 'base.html' %} {% block content %}
 
+<div class="container pt-5">
+    <div class="row">
+        <div class="col-8 offset-2 text-center form-header">
+            <p>Catch Log</p>
+        </div>
+    </div>
+</div>
+
 <div class="accordion pt-4" id="accordionExample">
     {% for catch_log in catch_log %}
     <div class="card mb-2">
