@@ -207,7 +207,6 @@ body {
 	background-color: rgb(254, 17, 71, 0.8);
 }
 
-
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
 @media(min-width:62rem) {
 	.logo {
@@ -284,4 +283,3 @@ body {
     text-align: justify;
     }
 }
-
