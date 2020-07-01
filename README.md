@@ -97,3 +97,7 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 
 Support Collapsible 
 https://www.w3schools.com/howto/howto_js_collapsible.asp
+
+
+placeholder date not working
+https://stackoverflow.com/questions/20321202/not-showing-placeholder-for-input-type-date-field
