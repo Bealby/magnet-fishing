@@ -7,19 +7,23 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
+        document.getElementById("myForm").reset();
             console.log("SUCCESS", response);
         },
         function(error) {
             console.log("FAILED", error);
         }
     );
+
     return false;  // To block from loading a new page
 }
 
+/*
+//NEW SEND CODE
 // code fragment
 // the form id is myForm
 $('#myForm').on('submit', function(event) {
-    event.preventDefault(); // pprevent reload
+    event.preventDefault(); // prevent reload
     
     var formData = new FormData(this);
     formData.append('service_id', 'gmail');
@@ -38,3 +42,4 @@ $('#myForm').on('submit', function(event) {
     });
 });
 // code fragment
+*/
