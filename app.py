@@ -67,6 +67,11 @@ def delete_catch_log(catch_log_id):
     mongo.db.catch_log.remove({'_id': ObjectId(catch_log_id)})
     return redirect(url_for('get_catches'))
 
+@app.route('/sort_catch_log/<catch_log_id>')
+def sort_catch_log(catch_log_id):
+    mongo.db.catch_log.find({'_id': ObjectId(catch_log_id)}).sorted(catch_date, key=lambda d: map(int, d.split('-')))
+    return redirect(url_for('get_catches'))
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
         port=int(os.environ.get('PORT')),
