@@ -82,7 +82,7 @@ body {
 
 .home-quote{
     font-family: 'Italianno', cursive;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 200;
     text-align:center;
 }
@@ -110,6 +110,12 @@ body {
     text-align: center;
     list-style: none;
     padding-left:0rem;
+}
+
+/*Modal*/
+
+.modal-image{
+        width: 90%;
 }
 
 /*forms*/
