@@ -13,7 +13,7 @@ app.config["MONGO_URI"] = os.getenv('MONGO_URI', 'mongodb://localhost')
 
 mongo = PyMongo(app)
 
-@app.route('/home')
+@app.route('/')
 def home():
     return render_template("index.html")
 
@@ -21,7 +21,7 @@ def home():
 def contact():
     return render_template("contact.html")
 
-@app.route('/')
+@app.route('/catch_log')
 @app.route('/get_catches')
 def get_catches():
     return render_template("catch_log.html", catch_log=mongo.db.catch_log.find())
