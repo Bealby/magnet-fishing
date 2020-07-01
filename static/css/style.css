@@ -153,7 +153,7 @@ body {
 }
 
 .form-fields{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color:rgb(128, 128, 128, 1);
     font-family: 'Source Serif Pro', serif;
     font-weight: 600;
@@ -283,3 +283,17 @@ body {
     text-align: justify;
     }
 }
+
+/*
+@media screen and (min-resolution: 1.5dppx) {
+  .welcome-header > h1{
+      background-image: url('../images/html5_384x384.png');
+  }
+}
+
+@media screen and (min-resolution: 2dppx) {
+  .welcome-header > h1{
+      background-image: url('../images/html5_512x512.png');
+  }
+}
+*/
