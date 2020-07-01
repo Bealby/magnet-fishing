@@ -80,10 +80,11 @@ body {
     text-align: left;
 }
 
-.home-quote{
+#home-quote{
     font-family: 'Italianno', cursive;
     font-size: 1.2rem;
     font-weight: 200;
+    text-align:center;
 }
 
 /*overide main container margins*/
