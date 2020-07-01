@@ -19,8 +19,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    image-rendering: crisp-edges;
-    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .container {
@@ -202,12 +201,26 @@ body {
     padding-top:1rem;
 }
 
+.delete-a{
+    color:rgb(255, 255, 255, 1);
+}
+
+.edit-a{
+    color: rgb(26, 16, 112, .8);
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
 .block-divider {
 	width: 95%;
 	height: 3rem;
 	border: 0;
 	background-color: rgb(254, 17, 71, 0.8);
 }
+
+
 
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
 @media(min-width:62rem) {
