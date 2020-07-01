@@ -284,7 +284,6 @@ body {
     }
 }
 
-/*
 @media screen and (min-resolution: 1.5dppx) {
   .welcome-header > h1{
       background-image: url('../images/html5_384x384.png');
@@ -296,4 +295,3 @@ body {
       background-image: url('../images/html5_512x512.png');
   }
 }
-*/
