@@ -101,3 +101,6 @@ https://www.w3schools.com/howto/howto_js_collapsible.asp
 
 placeholder date not working
 https://stackoverflow.com/questions/20321202/not-showing-placeholder-for-input-type-date-field
+
+
+https://sweetalert.js.org/guides/#getting-started
