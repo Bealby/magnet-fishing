@@ -15,12 +15,6 @@ html, body{
 
 /*alt tag for image???*/
 	background: url("../images/background.jpg") no-repeat center center fixed;
-    min-height: 100vh;
-    -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
 }
 
 #wrapper{
@@ -236,7 +230,7 @@ a:hover, a:visited, a:link, a:active{
 
 .footer {
 	text-align: center;
-	font-size: 0.8rem;
+	font-size: 0.8rem !important;
 	font-family: 'Source Serif Pro', serif;
     color:rgb(255, 255, 255, 1);
 }
