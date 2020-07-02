@@ -216,7 +216,33 @@ alert of message has failed on succeded.
 Below are a list of features I feel would be beneficial to add to the Website
 at a later date when more data/ information can be provided:
 
-**More Locations with Info Windows:**
+**Login and Security Feature:**
+It would be wise to implement a Login feature to the Website as well as have individual securty for 
+each particpants Catches so that other's can not delete or edit them. Also having particpants emails
+displayed is not ideal. an option to click on another particpants name to then send them a direct email 
+or better still a chat facilicity.
+
+**Upload of Images:**
+A useful feature to implement would be the option to upload images to particpants Catch Log. This would 
+great enhance the impact and viewing pleasure for uses.
+
+**New Sections:**
+There are a number of very beneficial sections to add, which could include a News Blog to update particpants
+of changes new rules; a section on specific infomraiton on Magnet Fishing (Ropes to use, Magnets steength advice)
+General asvice and support. FAQs.
+
+**Expansion of Website:**
+the Website could very easily be expanded to other outer Areas of Stockholm, and expanded throughout Stockholm
+itself.
+
+
+
+
+
+
+
+
+
 
 
 
