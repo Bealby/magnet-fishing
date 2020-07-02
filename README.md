@@ -98,7 +98,7 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 The Website will have a fishing style colour theme to it, with the main
 colors centered around red, `rgb(254, 17, 71)`, and blue, `rgb(26, 16, 112)`.
 
-The text will be white, `rgb(255,255,0)`, and placed against a background
+The text will be white, `rgb(255,255,255)`, and placed against a background
 color of blue, `rgb(26, 16, 112)` for clarity of read.
 
 The `hover` colour used for the links will be of a light grey colour,
@@ -114,14 +114,13 @@ to front. All fonts were obtained from `Google Fonts`.
 
 ---
 
-The Website's initial page (`index.html`) has a portrait photo centered in the
-middle of the page in front of a background horizontally divided by a white and
-light khaki colour of, `rgb(209, 200, 171, 1)`. This page will be kept to a minimum,
-with lots of 'real estate', to focus the user on the image and text; drawing them
-into clicking the link to open the main page.
+The Main Web page consists of four separate sections; `Home`; `Catch Log` (`Edit Catch Log`);
+`Add Catches` and `Contact`.
 
-The Main Web page consists of three separate sections; Home, Bio, and Map. The
-Website is based on one scrolling page with three sections in the body.
+A Logo will be prominant top, center of each Webpage and will be clickable and direct back to `Home`.
+
+The Navbar and content will be displayed in an inner container, over a
+a scrolling `background` image.
 
 Much of the layout of the Website used the `Bootstrap Grid System` of `containers`,
 `rows` and `columns`; styled by css. This allowed the Website to be clearly
@@ -133,26 +132,22 @@ structured and for the content to be responsive.
 
 **Navigation Bar:**
 
-- **Desktop:** The colour theme of light khaki,
-    `rgb(209, 200, 171, 1)`, is used for the background of the `navbar` with
-    a thumbnail potrait of Jack Fairfield, indented from the left. Next to
-    which is the name `Jack Fairfield` with a small heading underneath, titled
-    `War Diaries`. This helps describe the topic of the Website and can be
-    clicked to take you back to the initial page of `index.html`.
+- **Desktop:** The navigation bar will be centered and placed under the 
+'Magnet Fishing Stockholm' logo. It will hav a left and right padding so that it
+does not span full width of page. The Navbar links will be centred and spaced for clarity
+witn the stencil font `'Stardos Stencil', cursive` being used to give the sailing feel to the 
+Website. 
 
-    There are then three main links, `Home`, `Bio`, and `Maps` indented
-    from the right (the three main sections of the Website). When hovered over by
-    the mouse, they become responsive with the colour changing to a light
-    grey colour, `rgb(116,111,120,1)`. This ensures an intuitive reaction to click.
+The font color used for the links will be white, `rgb(255,255,255)`, which best offsets the red background. 
+The Links, when hovered over will turn the shade of grey, `rgb(190, 190, 190, 1)`. A fitting offset color that
+that is subtle and does not distract.
 
 - **Smaller Devices:**
-    For tablets and mobiles the text is reduced in size using `Media Queries`.
-    The thumbnail potrait is also removed for better spacious viewing in the
-    navigation bar on tablets.
+    For tablets and mobiles the text is reduced in size using `Media Queries`, along with the 
+    the 'Magnet Fishing Stockholm' logo, for easier viewing on smaller devices.
 
-    For mobile devices the `Bootstrap` function was used to collaspe the navbar,
-    with an Army Badge, embroidered gold, being the icon to click for the drop-down
-    menu of links.
+    For mobile devices the `Bootstrap` function was used to collaspe the navbar, displaying
+    a `Hamburger` icon of the color white, `rgb(255,255,255)`.
 
 **Sections:**
 
@@ -162,7 +157,7 @@ structured and for the content to be responsive.
     are large and expand the full page. A highly attractive and enthraling
     user experience. Captions in white text give a description for each photo.
 
-- **Bio:** Using `Bootstrap's Display Property` features, a complex structure,
+- **Catch Log:** Using `Bootstrap's Display Property` features, a complex structure,
     using `hidden` and `visable` element properties, were used to optimise layout
     and user experience on different devices. A `thumb` icon pointed downwards is
     also included at the end of the Bio section to draw peoples attention down
@@ -181,7 +176,7 @@ structured and for the content to be responsive.
     experience with photos. Text was also changed from `justify` to `left` on
     mobile device, using `Media Queries`, to allow for text to be better aligned.
 
-- **Map:** The Map section is introduced with a short instruction to users
+- **Add_Catches:** The Map section is introduced with a short instruction to users
     with a key illustrating the symbols on the Map. Custom markers have been set
     up (Red Flags), that are clustered together where appropriate. Each Red Flag,
     once clicked, will open up an information window that will pop up a section
@@ -190,7 +185,7 @@ structured and for the content to be responsive.
     The Map itself has a Retro Theme provided by `Google` that gives a milatary feel
     to the Map, complementing the Website theme.
 
-- **Footer:** A copyright feature is stated at the footer of the page to confirm
+- **Contact:** A copyright feature is stated at the footer of the page to confirm
     ownership of all content and photos on Website.
 
 ### Features Left to Implement
