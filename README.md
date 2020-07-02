@@ -149,32 +149,42 @@ that is subtle and does not distract.
     For mobile devices the `Bootstrap` function was used to collaspe the navbar, displaying
     a `Hamburger` icon of the color white, `rgb(255,255,255)`.
 
+
 **Sections:**
 
-- **Home:** The Home section of the Web page should immediatey grab the
-    attention of the users with a `Bootstrap Carousel` feature that loops
-    through a montage of photos that change every 6 seconds. The images
-    are large and expand the full page. A highly attractive and enthraling
-    user experience. Captions in white text give a description for each photo.
+- **Home:** The Home page will consist of rows of two columns, with an image and text
+    side by side. The first row displaying an image of a Magnet used with text introducing the 
+    sport of Magnet Fishing.
 
-- **Catch Log:** Using `Bootstrap's Display Property` features, a complex structure,
-    using `hidden` and `visable` element properties, were used to optimise layout
-    and user experience on different devices. A `thumb` icon pointed downwards is
-    also included at the end of the Bio section to draw peoples attention down
-    towards the map. This icon was taken from `Font Awesome`.
+    The second row displaying an image of a recent 'catch' with text describing what the
+    Website is about and how to use it.
 
-    For the desktop, the layout consisits of text nestled between two photos either
-    side, drawing the reader into reading the Bio. `blockquotes`were used to ensure
-    quotes from Jack Fairfield's journal stand out.
+    A small section at the end titled `Videos`, will have an embedded image from `You Tube`
+    of a recent 'catch' in Stockholm.
 
-    For tablet displays, the section was condensed to two columns, with photos
-    running vertically from the left and text vertically from the right. This
-    ensures a better reading and visual experience for users on tablets.
+    The text used in the `Home`page will be `'Source Serif Pro', serif` of the color white,
+    `rgb(255,255,255)`, over a blue background, `rgb(26, 16, 112)`, for clarity of reading.
 
-    For Mobile displays one photo is removed using `bootstrap's Display Properties`.
-    This allows less scrolling on a mobile and not over saturating the mobile
-    experience with photos. Text was also changed from `justify` to `left` on
-    mobile device, using `Media Queries`, to allow for text to be better aligned.
+- **Smaller Devices:**
+    For smaller devices the rows will be one column only for the images and text, with a neat
+    flip function from `Bootstrap`, `flex-column-reverse flex-lg-row`, used to ensure
+    that the text starts first before image. 
+
+- **Catch Log:** The `Catch Log`page will display all particpantds catches in an Accordion style
+  collapse feature privided by Bootstrap. Each row of the Accordion will display the location and 
+  date of catch. With a top and bottom spacing to distinguish btween them. 
+
+  `Font Awesome`icons are used to provid intuitive decision making, into either collapsing Accordion rows for
+  more information or for editing and deleting conversly. 
+
+  Once again The text used in the `Home`page will be `'Source Serif Pro', serif` of the color white,
+    `rgb(255,255,255)`, over a blue background, `rgb(26, 16, 112)`, for clarity of reading.
+
+    The Edit and Delete icons will have a hover affect of grey, `rgb(190, 190, 190, 1)`, and darker red, `rgb(254, 17, 71, .7)`
+     for intuitive knowledge that they can be clicked accrodingly. 
+
+     For smaller devices the Acordion columns with contract and the Edit and Delete buttons
+     will shift to the right for clarity of viewing.
 
 - **Add_Catches:** The Map section is introduced with a short instruction to users
     with a key illustrating the symbols on the Map. Custom markers have been set
