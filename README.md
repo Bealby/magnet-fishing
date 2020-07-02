@@ -162,108 +162,125 @@ The Links, when hovered over will turn a shade of grey,
 not distract or overwelm.
 
 - **Smaller Devices:**
-    For tablets and mobiles the text is reduced in size
-    using `Media Queries`, along with the the 'Magnet
-    Fishing Stockholm' logo. This alolows for easier
-    viewing and better fitting on smaller devices.
+For tablets and mobiles the text is reduced in size
+using `Media Queries`, along with the the 'Magnet
+Fishing Stockholm' logo. This alolows for easier
+viewing and better fitting on smaller devices.
 
-    For mobile devices the `Bootstrap` function was used
-    to collaspe the navbar, displaying a `Hamburger` icon
-    of the color white, `rgb(255,255,255)`, using css
-    styling.
+For mobile devices the `Bootstrap` function was used
+to collaspe the navbar, displaying a `Hamburger` icon
+of the color white, `rgb(255,255,255)`, using css
+styling.
 
 
 **Sections:**
 
 - **Home:** The Home page will consist of rows of two columns,
-    with an image and text side by side. The first row displaying
-    an image of a Magnet used with text introducing the 
-    sport of Magnet Fishing.
+with an image and text side by side. The first row displaying
+an image of a Magnet used with text introducing the 
+sport of Magnet Fishing.
 
-    The second row displaying an image of a recent 'catch' with
-    text describing what the Website is about and how to use it.
+The second row displaying an image of a recent 'catch' with
+text describing what the Website is about and how to use it.
 
-    A small section at the end titled `Videos`, will have an
-    embedded image from `You Tube` of a recent 'catch' in Stockholm.
+A small section at the end titled `Video`, will have an
+embedded image from `You Tube` of a an example find in Stockholm.
 
-    The text used in the `Home` page will be,
-    `'Source Serif Pro', serif`. The color will be white,
-    `rgb(255,255,255)`, over a blue background, `rgb(26, 16, 112)`,
-    for clarity of reading.
+The text used in the `Home` page will be,
+`'Source Serif Pro', serif`. The color will be white,
+`rgb(255,255,255)`, over a blue background, `rgb(26, 16, 112)`,
+for clarity of reading.
 
 - **Smaller Devices:**
-    For smaller devices the rows will be one column only for the
-    images and text, with a neat flip function from `Bootstrap`,
-    `flex-column-reverse flex-lg-row`, used to ensure
-    that the text starts first before image. 
+For smaller devices the rows will be one column only for the
+images and text, with a neat flip function from `Bootstrap`,
+`flex-column-reverse flex-lg-row`, used to ensure
+that the text starts first before image. 
 
-- **Catch Log:** The `Catch Log`page will display all particpantds catches in an Accordion style
-  collapse feature privided by Bootstrap. Each row of the Accordion will display the location and 
-  date of catch. With a top and bottom spacing to distinguish btween them. 
+- **Catch Log:** The `Catch Log` page will display all particpantds
+catches in an `Accordion` collapse feature provided by
+Bootstrap. Each row of the `Accordion` will display the location
+and date of particpants catches. With a top and bottom spacing between
+each row to distinguish between them. 
 
-  `Font Awesome`icons are used to provid intuitive decision making, into either collapsing Accordion rows for
-  more information or for editing and deleting conversly. 
+`Font Awesome`icons are used to provide intuitive decision
+making, into either collapsing the `Accordion`for more information;
+or for editing and deleting catch log respectively.
 
-  Once again The text used in the `Home`page will be `'Source Serif Pro', serif` of the color white,
-    `rgb(255,255,255)`, over a blue background, `rgb(26, 16, 112)`, for clarity of reading.
+The text used in the `Home` page will be
+`'Source Serif Pro', serif`, of the color white,
+`rgb(255,255,255)`, over a blue background, `rgb(26, 16, 112)`,
+for clarity of reading.
 
-    The Edit and Delete icons will have a hover affect of grey, `rgb(190, 190, 190, 1)`, and darker red, `rgb(254, 17, 71, .7)`
-     for intuitive knowledge that they can be clicked accrodingly. 
+The Edit and Delete icons will have a hover affect of grey,
+`rgb(190, 190, 190, 1)`, and darker red, `rgb(254, 17, 71, .7)`
+respectively for userds to intuitively click. 
 
-     For smaller devices the Acordion columns with contract and the Edit and Delete buttons
-     will shift to the right for clarity of viewing.
+For smaller devices the `Accordion` columns will contract and the
+`Edit` and `Delete` buttons will shift to the right for clarity of
+viewing.
 
-- **Add_Catches:** This page will give the user the opportunity to inout their catch to the 
-    Catch Log. Each field of the form will be highlighted with a red border, `rgb(254, 17, 71, 1)`, using css styling
-    to infomr users the field they are in. 
+- **Add_Catches:** This page will give the user the opportunity to
+input their catches to the Catch Log. Each field of the form will be
+highlighted with a red border, `rgb(254, 17, 71, 1)`, using
+css styling to inform users which field they are on. 
     
-    there are drop down features for fields to help users choose the right Magnet and Area. 
+There are drop down select features for fields to help users choose the
+right Magnet and Area respectively. 
     
-    For the choose Area field a Modal feature form Bootstrap can be clicked and an image pop up of the areas in 
-    Stockholm to help the user identify the place where they have gone Magnet Fishing. 
+To help users define which area of Stockholm that Magnet Fished
+`Modal` feature provided by `Bootstrap` can be clicked and an image 
+displayed of the the areas in Stockholm. 
 
-    A submit button centred at the end of the form, when hovered over and clicked, automatically updates `Catch Log`. 
+A submit button centred at the end of the form, when hovered over and
+clicked, automatically updates the `Catch Log`. 
 
-- **Edit_Catches:** the is also a Edit Catches page which mirriros the Add Catche page. When this Edit feature button is cloicked 
-    in Catch_log the fields originally chosen will be displayed in the form fields for reference. 
+- **Edit_Catches:** There is also an `Edit Catches` page 
+which mirrors the `Add Catch` page. When this Edit feature 
+button is clicked on the `Catch Log` page 
+fields will display original choices for reference. 
 
-
-for mobile smaller device, the form fields are reduced to one column only using the Botstrap propery feature. This helps
-users inout data in aneasier mnanner on smaller devices. 
+For smaller device, the form fields are reduced to one column
+using the `Bootstrap` propery feature. This helps
+users input data in an user friendly manner. 
 
 
 - **Contact:** 
-
-A simple contact form that requires all fields to be added including correct email format. A send button when clicked, will cleqr form and prodce and 
-alert of message has failed on succeded.
+A simple contact form that requires all fields to be added
+and that a correct email format is used. A send button, when
+clicked, will clear the form and alert user message has been
+sent or failed.
 
 
 ### Features Left to Implement
 
-Below are a list of features I feel would be beneficial to add to the Website
-at a later date when more data/ information can be provided:
+Below are a list of features I feel would be beneficial to
+add to the Website at a later date when more data/
+information can be provided:
 
 **Login and Security Feature:**
-It would be wise to implement a Login feature to the Website as well as have individual securty for 
-each particpants Catches so that other's can not delete or edit them. Also having particpants emails
-displayed is not ideal. an option to click on another particpants name to then send them a direct email 
-or better still a chat facilicity.
+It would be wise to implement a Login feature to the Website,
+as well individual securty for each user, so that other's can
+not delete or edit their logs. Having users emails
+displayed is not ideal also. An better option would be to include
+a chat forum.
 
 **Upload of Images:**
-A useful feature to implement would be the option to upload images to particpants Catch Log. This would 
-great enhance the impact and viewing pleasure for uses.
+A useful feature to implement would be for users to upload images
+This would greatly enhance the impact and viewing pleasure.
 
 **New Sections:**
-There are a number of very beneficial sections to add, which could include a News Blog to update particpants
-of changes new rules; a section on specific infomraiton on Magnet Fishing (Ropes to use, Magnets steength advice)
-General asvice and support. FAQs.
+There are a number of very beneficial sections to add, which could
+include a 'News Blog' to update particpants
+of changes in rules etc; a guide and useful tips section and a section
+for FAQs.
 
 **Expansion of Website:**
-the Website could very easily be expanded to other outer Areas of Stockholm, and expanded throughout Stockholm
-itself.
+The Website could very easily be expanded to other outer Areas of
+Stockholm, as well as expanded throughout Sweden.
 
 **Catch Log:**
-Sorting and appending using python.
+Sorting and appending using python??????
 
 
 
