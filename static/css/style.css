@@ -304,14 +304,11 @@ a:hover, a:visited, a:link, a:active{
     }
 }
 
-@media screen and (min-resolution: 1.5dppx) {
-  .welcome-header > h1{
-      background-image: url('../images/html5_384x384.png');
-  }
-}
 
-@media screen and (min-resolution: 2dppx) {
-  .welcome-header > h1{
-      background-image: url('../images/html5_512x512.png');
-  }
+
+/*Justify text for smaller devices for easier reading*/
+@media(min-width:31.875rem) {
+.modal-image{
+        width: 90%;
+}
 }
