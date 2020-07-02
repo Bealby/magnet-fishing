@@ -223,6 +223,13 @@ a:hover, a:visited, a:link, a:active{
 	background-color: rgb(254, 17, 71, 0.8);
 }
 
+.footer {
+	text-align: center;
+	font-size: 0.8rem;
+	font-family: 'Source Serif Pro', serif;
+    color:rgb(255, 255, 255, 1);
+}
+
 
 
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/

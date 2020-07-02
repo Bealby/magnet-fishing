@@ -186,17 +186,30 @@ that is subtle and does not distract.
      For smaller devices the Acordion columns with contract and the Edit and Delete buttons
      will shift to the right for clarity of viewing.
 
-- **Add_Catches:** The Map section is introduced with a short instruction to users
-    with a key illustrating the symbols on the Map. Custom markers have been set
-    up (Red Flags), that are clustered together where appropriate. Each Red Flag,
-    once clicked, will open up an information window that will pop up a section
-    of passage from Jack's Journal along with a photo.
+- **Add_Catches:** This page will give the user the opportunity to inout their catch to the 
+    Catch Log. Each field of the form will be highlighted with a red border, `rgb(254, 17, 71, 1)`, using css styling
+    to infomr users the field they are in. 
+    
+    there are drop down features for fields to help users choose the right Magnet and Area. 
+    
+    For the choose Area field a Modal feature form Bootstrap can be clicked and an image pop up of the areas in 
+    Stockholm to help the user identify the place where they have gone Magnet Fishing. 
 
-    The Map itself has a Retro Theme provided by `Google` that gives a milatary feel
-    to the Map, complementing the Website theme.
+    A submit button centred at the end of the form, when hovered over and clicked, automatically updates `Catch Log`. 
 
-- **Contact:** A copyright feature is stated at the footer of the page to confirm
-    ownership of all content and photos on Website.
+- **Edit_Catches:** the is also a Edit Catches page which mirriros the Add Catche page. When this Edit feature button is cloicked 
+    in Catch_log the fields originally chosen will be displayed in the form fields for reference. 
+
+
+for mobile smaller device, the form fields are reduced to one column only using the Botstrap propery feature. This helps
+users inout data in aneasier mnanner on smaller devices. 
+
+
+- **Contact:** 
+
+A simple contact form that requires all fields to be added including correct email format. A send button when clicked, will cleqr form and prodce and 
+alert of message has failed on succeded.
+
 
 ### Features Left to Implement
 
