@@ -8,12 +8,12 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             document.getElementById("myForm").reset();
-            aler("Message Sent!");
+            alert('Message Sent!');
             console.log("SUCCESS", response);
         
         },
         function(error) {
-             aler("Message Failed!");
+            alert('Message Failed!');
             console.log("FAILED", error);
         }
     );

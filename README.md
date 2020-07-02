@@ -95,6 +95,127 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 
 ### Surface
 
+## Features
+
+---
+
+The Website's initial page (`index.html`) has a portrait photo centered in the
+middle of the page in front of a background horizontally divided by a white and
+light khaki colour of, `rgb(209, 200, 171, 1)`. This page will be kept to a minimum,
+with lots of 'real estate', to focus the user on the image and text; drawing them
+into clicking the link to open the main page.
+
+The Main Web page consists of three separate sections; Home, Bio, and Map. The
+Website is based on one scrolling page with three sections in the body.
+
+Much of the layout of the Website used the `Bootstrap Grid System` of `containers`,
+`rows` and `columns`; styled by css. This allowed the Website to be clearly
+structured and for the content to be responsive.
+
+### Features of the Website
+
+#### Main Page
+
+**Navigation Bar:**
+
+- **Desktop:** The colour theme of light khaki,
+    `rgb(209, 200, 171, 1)`, is used for the background of the `navbar` with
+    a thumbnail potrait of Jack Fairfield, indented from the left. Next to
+    which is the name `Jack Fairfield` with a small heading underneath, titled
+    `War Diaries`. This helps describe the topic of the Website and can be
+    clicked to take you back to the initial page of `index.html`.
+
+    There are then three main links, `Home`, `Bio`, and `Maps` indented
+    from the right (the three main sections of the Website). When hovered over by
+    the mouse, they become responsive with the colour changing to a light
+    grey colour, `rgb(116,111,120,1)`. This ensures an intuitive reaction to click.
+
+- **Smaller Devices:**
+    For tablets and mobiles the text is reduced in size using `Media Queries`.
+    The thumbnail potrait is also removed for better spacious viewing in the
+    navigation bar on tablets.
+
+    For mobile devices the `Bootstrap` function was used to collaspe the navbar,
+    with an Army Badge, embroidered gold, being the icon to click for the drop-down
+    menu of links.
+
+**Sections:**
+
+- **Home:** The Home section of the Web page should immediatey grab the
+    attention of the users with a `Bootstrap Carousel` feature that loops
+    through a montage of photos that change every 6 seconds. The images
+    are large and expand the full page. A highly attractive and enthraling
+    user experience. Captions in white text give a description for each photo.
+
+- **Bio:** Using `Bootstrap's Display Property` features, a complex structure,
+    using `hidden` and `visable` element properties, were used to optimise layout
+    and user experience on different devices. A `thumb` icon pointed downwards is
+    also included at the end of the Bio section to draw peoples attention down
+    towards the map. This icon was taken from `Font Awesome`.
+
+    For the desktop, the layout consisits of text nestled between two photos either
+    side, drawing the reader into reading the Bio. `blockquotes`were used to ensure
+    quotes from Jack Fairfield's journal stand out.
+
+    For tablet displays, the section was condensed to two columns, with photos
+    running vertically from the left and text vertically from the right. This
+    ensures a better reading and visual experience for users on tablets.
+
+    For Mobile displays one photo is removed using `bootstrap's Display Properties`.
+    This allows less scrolling on a mobile and not over saturating the mobile
+    experience with photos. Text was also changed from `justify` to `left` on
+    mobile device, using `Media Queries`, to allow for text to be better aligned.
+
+- **Map:** The Map section is introduced with a short instruction to users
+    with a key illustrating the symbols on the Map. Custom markers have been set
+    up (Red Flags), that are clustered together where appropriate. Each Red Flag,
+    once clicked, will open up an information window that will pop up a section
+    of passage from Jack's Journal along with a photo.
+
+    The Map itself has a Retro Theme provided by `Google` that gives a milatary feel
+    to the Map, complementing the Website theme.
+
+- **Footer:** A copyright feature is stated at the footer of the page to confirm
+    ownership of all content and photos on Website.
+
+### Features Left to Implement
+
+Below are a list of features I feel would be beneficial to add to the Website
+at a later date when more data/ information can be provided:
+
+**More Locations with Info Windows:**
+Jack Fairfield has many further stories from his journal which could increase
+the intereactive Map experience.
+
+**Include the Full Journal:**
+Jack Fairfield's journal could be added to the Website in it's entirety,
+with separate sub links for chapters.
+
+**Add More locations with Informations Windows**:
+Further photos could be added to include family tree information and other
+relatives and friends who served in the war. Especially Jack's brothers
+who also had active war services.
+
+**Contact Form:** A page for people to get in contact if they have any related
+stories or information to share.
+
+**Music:** Play some music in the background (1940's genre), that plays on
+entering site. This could be initiated using jquery, where it loops continuosly
+or plays only a certain amount of times. There shoud be a function to turn sound
+off. Along with this a playlist of World War Two songs mentioned in
+Jack Fairfield's journal could be listed with the option to play
+accordingly.
+
+**Photographs**
+Photos provided on the Map could include a feature that allows the photos to be
+enlarged once clicked and be viewed in better detail. Or have a separate
+section in Website for a gallery of photos that are referenced back to the Map.
+
+
+
+
+
+
 Support Collapsible 
 https://www.w3schools.com/howto/howto_js_collapsible.asp
 
