@@ -9,15 +9,13 @@ body {
 .background {
 
 /*alt tag for image???*/
-	background: url("../images/background.jpg");
+	background: url("../images/background.jpg") no-repeat center center fixed;
     min-height: 100vh;
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .container {
@@ -274,6 +272,7 @@ a:hover, a:visited, a:link, a:active{
     border: 0.3rem solid rgb(255, 255, 255, 1);
     padding: 0rem 0rem 0rem 0rem;
 }
+}
 
 /*Shift image center on medium and smaller devices for better layout also bottom padding*/
 @media(min-width:62rem) {
@@ -304,11 +303,9 @@ a:hover, a:visited, a:link, a:active{
     }
 }
 
-
-
 /*Justify text for smaller devices for easier reading*/
 @media(min-width:31.875rem) {
 .modal-image{
-        width: 90%;
+    width: 90%;
 }
 }
