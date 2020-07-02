@@ -127,7 +127,7 @@ html, body{
 .form-header p{
 
     color:rgb(255, 255, 255, 1);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom:0rem;
     font-weight: 600;
     font-family: 'Source Serif Pro', serif;
@@ -322,5 +322,18 @@ a:hover, a:visited, a:link, a:active{
 @media(min-width:31.875rem) {
 .modal-image{
     width: 90%;
+}
+}
+
+/*iphone 5 and samsung 7*/
+@media(min-width:31.875rem) {
+.form-header p{
+
+    color:rgb(255, 255, 255, 1);
+    font-size: 1.4rem;
+    margin-bottom:0rem;
+    font-weight: 600;
+    font-family: 'Source Serif Pro', serif;
+    background-color:rgb(26, 16, 112, 1);
 }
 }
