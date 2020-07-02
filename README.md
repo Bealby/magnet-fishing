@@ -2,13 +2,14 @@
 
 ---
 
-The aim of this Website is to promote the sport of Magnet-Fishing.
-To encourage interaction between particpates and to share their
-finds on a communial platform.
+The aim of this Website is provide a platform forum, of Magnet Fishing Catches,
+for this energising sport so that enthuisasits can create a community and
+develop their interest.
 
 The Website is specifically aimed at the Magnet-Fishing community in
 Stockholm. It is a niche sport but growing extensively and
-it is hoped that this Website will help particpates come together.
+it is hoped that this Website will help particpates come together, and
+fill a well needed gap.
 
 ## Demo
 
@@ -21,7 +22,7 @@ it is hoped that this Website will help particpates come together.
 ### Strategy
 
 The main focus of this Website is for the adventurous who are
-looking for an exciting hobbie to particpate in. To share
+looking for a new exciting hobbie to particpate in and share
 their finds with their local community. This Website
 will enable prticipants to interact, share and communicate - 
 expanding the sport of Magnet fishing.
@@ -40,7 +41,7 @@ more comfort able enviironmet after a long day.
 
 - "I would like to know what others are doing in the local areas of Stockholm."
 
-- "It would be interesting to know locations where others have been, so I can find new locations"
+- "It would be interesting to know locations where others have been, so I can try my luck!"
 
 - "It would be helpful to know what types of magnets people are using. Tips of the trade."
 
@@ -56,11 +57,10 @@ intuitive and easy to use. It needs to stand out and excite
 particpation and provide intersting data for the Magnet-Fishing
 community.
 
-Photos will be displayed of actual examples of locations and
-magnets used. 
+Photos will be displayed of Magnets and Magnet finds. 
 
-An interactiv Map will be provided to display the areas of 
-Stockholm, with the catch Log page displaying all participants 
+A Map will be provided to display the areas of 
+Stockholm, with the a Webpage displaying all participants 
 catches by location. 
 
 ### Structure
@@ -69,21 +69,19 @@ The Website's will have a standard main logo and navigation bar
 layered on top of a photo image that's spread across the entire width
 and height of the page. 
 
-The naviagtion bar will have a
-`Fixed Position` with the links `Home`, `Catch Log`, 
-`Add Catches`, `Areas`, and `Contact`. 
+The naviagtion bar will have a the links `Home`, `Catch Log`, 
+`Add Catches`, and `Contact`, with a separate `Edit` page.
 
 The `Home` page will give an introduction about Magnet fishing
-and the functionalities available to us on the Website.
+and the functionalities available to use on the Website.
 
 The `Catch Log` page will list participants catches, sorted by date.
 Each particpatnts log can be deleted and edited as they wish.
 
-The `Add Catches` will have a clear, easy to use form displayed 
-that can tabulate all data and display for other's to view.
-
-The `Areas` page will have a Map of Areas of Stockholm to help
-devide the Catch Log infomration in a more organisedstructure.
+The `Add Catches` and `Edit Catches` pages will have a clear, easy
+to use form displayed that can tabulate all data and display for
+other's to view. An Map will be provided to help define the area of Stockholm
+particpants have been Magnet Fishing in. 
 
 The `Contact` page will be used for any users who wish to get in 
 contact and ask questions about the Website or interact respectively.
@@ -94,6 +92,23 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 [here](https://github.com/Bealby/Milestone-Project-3/blob/master/documentation/wireframes/magnet-fishing-wireframes.pdf)
 
 ### Surface
+
+### Surface
+
+The Website will have a fishing style colour theme to it, with the main
+colors centered around red, `rgb(254, 17, 71)`, and blue, `rgb(26, 16, 112)`.
+
+The text will be white, `rgb(255,255,0)`, and placed against a background
+color of blue, `rgb(26, 16, 112)` for clarity of read.
+
+The `hover` colour used for the links will be of a light grey colour,
+`rgb(190, 190, 190)` and red *rgb(254, 17, 71, .7), to help inform users
+that the links are clickable.
+
+The main fonts used for this Website will be `'Source Serif Pro', serif`
+and `'Stardos Stencil', cursive` - the later font bringing the sailing theme
+to front. All fonts were obtained from `Google Fonts`.
+
 
 ## Features
 
