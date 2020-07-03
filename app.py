@@ -67,6 +67,17 @@ def delete_catch_log(catch_log_id):
     mongo.db.catch_log.remove({'_id': ObjectId(catch_log_id)})
     return redirect(url_for('get_catches'))
 
+
+# Handling of 404 & 500 erros
+
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template('404.html'), 404
+    
+@app.errorhandler(500)
+def something_wrong(error):
+    return render_template('500.html'), 500
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
         port=int(os.environ.get('PORT')),
