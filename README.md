@@ -2,12 +2,13 @@
 
 ---
 
-The aim of this Website is provide a platform for Fishing Magnet
-catches, so that enthusiasts can create a community and
-develop their interest in this energising sport.
+The aim of this Website is to provide a platform for fellow Magnet Fisherman
+to socialise, share fishing experiences and catches, so that enthusiasts
+can create a community and further develop their interest in this emerging
+sport.
 
 The Website is specifically aimed at the Magnet Fishing community in
-Stockholm. It is a niche sport but growing extensively and
+Stockholm. It is a embryonic sport but growing extensively, and
 it is hoped that this Website will help participates come together,
 and fill a well needed gap.
 
@@ -23,18 +24,18 @@ and fill a well needed gap.
 
 The main focus of this Website is for the adventurous who are
 looking for a new exciting hobbie to participate in and share
-their finds with their local community. This Website
+their finds with their local community. The Website
 will enable participants to create, read, update and delete (CRUD),
 their Magnet Fishing catches.
 
 The Website needs to be efficient on mobile devices, as well
-as functional and easy to use, allowing participants to share
+as functional and easy to use. This will allow participants to share
 finds while Magnet Fishing in Stockholm. The data needs to
 be displayed concisely and clearly, with the ability to engage
-in CRUD operations out on the field.
+in CRUD operations out in the field.
 
 The desktop and tablet versions will provide a more visual
-and expansive user experience that can be perused in a
+and expansive user experience that can be used in a
 more comfortable environment after a long day Magnet Fishing.
 
 #### User Stories
@@ -122,7 +123,7 @@ the later font bringing the sailing theme to the forefront.
 The Main Web page consists of four separate sections; `Home`;
 `Catch Log` (`Edit Catch Log`); `Add Catches` and `Contact`.
 
-A Logo will be displayed predominately at the top and centre of each
+A Logo will be displayed prominently at the top and centre of each
 Webpage and be clickable to direct you to back
 to `Home`. This logo helps define the Website and will be the
 first observation for users entering site, promoting this new sport.
