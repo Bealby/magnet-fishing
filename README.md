@@ -227,8 +227,6 @@ For smaller devices the `Accordion` columns will contract and the
 `Edit` and `Delete` buttons will shift to the right for clarity of
 viewing.
 
-Chevron - for back
-
 - **Add_Catches:**
 
 This page will give the user the opportunity to
@@ -246,6 +244,9 @@ and image of areas in Stockholm that are possible to select.
 A submit button centred at the end of the form, when hovered over and
 clicked, automatically updates the `Catch Log`.
 
+
+Chevron - for back
+
 - **Edit_Catches:**
 
 There is also an `Edit Catches` page
@@ -257,12 +258,17 @@ For smaller device, the form fields are reduced to one column
 using the `Bootstrap` property feature. This helps
 users input data in a user friendly manner.
 
+
+Chevron - for back
+
 - **Contact:**
 
 A simple contact form that requires all fields to be added
 and that a correct email format is used. A send button, when
 clicked, will clear the form and alert users if the message has been
 sent or failed.
+
+SWAL Sweet Alert
 
 ### Features Left to Implement
 
@@ -304,3 +310,48 @@ https://www.w3schools.com/howto/howto_js_collapsible.asp
 **placeholder date not working**
 https://stackoverflow.com/questions/20321202/not-showing-placeholder-for-input-type-date-field
 
+## Technolgies Used
+
+---
+
+The following technolgies were used in this project:
+
+**Sections:**
+
+- **[Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)** - Allowed
+   preliminary designs to be drawn up of Website
+- **[GitHub](https://github.com/)** - Used to store repository and deploy Website
+- **[GitPod](https://gitpod.io/workspaces/)** - A platform used for hard coding
+   of Website
+
+
+
+
+- [HTML](https://en.wikipedia.org/wiki/HTML) - Markup language of Website
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used to style
+   HTML elements
+- [BOOTSTRAP](https://getbootstrap.com/) - A famework for building responsive
+   Websites where the powerful Grid system was used along with styling
+- [Google Fonts](https://fonts.google.com/) - Programme used to import main
+   fonts in Website: **Playfair Display** and **Calligraffitti**
+- [Font Awesome](https://fontawesome.com/) - Programme used to import icons
+   for Footer in Website: **far-envelope** and **fas fa-phone**
+- [JavaScript](https://www.javascript.com/) - Used in collabration with
+   Bootstrap to collaspe Navigation Bar for small devices and Google Maps
+- [W3C](https://validator.w3.org/) - Used to validate HTML code
+- [WSC](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code
+- [jQuery](https://jquery.com/) - Used to implement Navigation Collaspe feature
+   JavaScript Plugin
+- [Popper](https://popper.js.org/) - Used to implement Navigation Collaspe
+   feature JavaScript Plugin
+- [Markdown Lint](https://github.com/Bealby/markdownlint) - Used for validation
+    checks on README.md content
+- [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
+    Helped to improve the quality of Website
+- [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) - A useful
+   developing tool in Chrome to edit pages and diagnose problems
+- [Responsive Design](http://ami.responsivedesign.is/) - Free software
+    to generate Mockup of Website on different devices
+- [Validate Javascript](https://validatejavascript.com//) - Used to validate javascript
+- [Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial)
+   For API key and Javascript Map options
