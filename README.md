@@ -355,3 +355,16 @@ The following technolgies were used in this project:
 - [Validate Javascript](https://validatejavascript.com//) - Used to validate javascript
 - [Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial)
    For API key and Javascript Map options
+
+   Flask
+   python
+   Jinja
+   EmailJS
+   GitHubGitpod
+   Heroku
+   Balsamiq
+   PEP 8 Online Validator
+   MongoDB
+   Adobe Photoshop
+   Google Chrome DevTools
+
