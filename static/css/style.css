@@ -59,7 +59,7 @@ html, body{
 /* HOME.HTML*/
 
 .home-images{
-    width: 80%;
+    width: 90%;
     border: 0.3rem solid rgb(255, 255, 255, 1);
     padding: 0rem 0rem 0rem 0rem;
 }
@@ -119,7 +119,7 @@ html, body{
 /*Modal*/
 
 .modal-image{
-        width: 70%;
+        width: 90%;
 }
 
 /*forms*/
@@ -280,15 +280,6 @@ a:hover, a:visited, a:link, a:active{
 }
 }
 
-/*Adjust edit and delte icons left for smaller devices*/
-@media(min-width:61.9375rem) {
-.home-images{
-    width: 90%;
-    border: 0.3rem solid rgb(255, 255, 255, 1);
-    padding: 0rem 0rem 0rem 0rem;
-}
-}
-
 /*Shift image center on medium and smaller devices for better layout also bottom padding*/
 @media(min-width:62rem) {
 .home-image-left{
@@ -316,13 +307,6 @@ a:hover, a:visited, a:link, a:active{
     color:rgb(255,255,255,1);
     text-align: justify;
     }
-}
-
-/*Justify text for smaller devices for easier reading*/
-@media(min-width:31.875rem) {
-.modal-image{
-    width: 90%;
-}
 }
 
 /*iphone 5 and samsung 7*/
