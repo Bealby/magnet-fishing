@@ -8,7 +8,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             document.getElementById("myForm").reset();
-            alert('Message Sent!');
+            swal("Good job!", "You clicked the button!", "success");
             console.log("SUCCESS", response);
         
         },
