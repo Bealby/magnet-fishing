@@ -23,7 +23,7 @@
         <div class="row pl-2">
             <div class="form-row col-md-5 col-sm-12 mt-3">
                 <select class="custom-select form-control form-fields" id="magnet" name="magnet">
-                    <option selected disabled value="">Choose Magnet</option>
+                    <option selected disabled value="">Select Magnet</option>
                     {% for magnet in magnet %}
                     <option value="{{magnet.magnet}}">{{magnet.magnet}}</option>
                     {% endfor %}
@@ -32,7 +32,7 @@
 
             <div class="form-row col-md-6 col-sm-12 mt-3">
                 <select class="custom-select form-control form-fields" id="area_name" name="area_name">
-                    <option selected disabled value="">Choose Area</option>
+                    <option selected disabled value="">Select Area</option>
                     {% for area in area %}
                     <option value="{{area.area_name}}">{{area.area_name}}</option>
                     {% endfor %}
