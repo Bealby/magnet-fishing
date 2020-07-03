@@ -226,6 +226,8 @@ For smaller devices the `Accordion` columns will contract and the
 `Edit` and `Delete` buttons will shift to the right for clarity of
 viewing.
 
+Chevron - for back
+
 - **Add_Catches:**
 
 This page will give the user the opportunity to

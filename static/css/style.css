@@ -47,14 +47,14 @@ html, body{
 }
 
 .link-font {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	color: rgb(255, 255, 255, 1);
     font-weight: 600;
 }
 
 .page-header p{
     color:rgb(255, 255, 255, 1);
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin-bottom:0rem;
     font-weight: 600;
     font-family: 'Stardos Stencil', cursive;
@@ -220,7 +220,7 @@ html, body{
 	text-decoration: none !important;
 }
 
-.edit-delete-magins{
+.edit-delete-margins{
     text-align: left;
     padding-top:1rem;
 }
@@ -260,11 +260,24 @@ a:hover, a:visited, a:link, a:active{
 /*Reduced size of link-font on medium devices for better viewing. Otherwise too big.*/
 @media(min-width:62rem) {
     .link-font {
-	font-size: 1.60rem;
+	font-size: 1.6rem;
 	color: rgb(255, 255, 255, 1);
     font-weight: 800;
     }
 }
+
+/*Reduced size of page-header on medium devices for better viewing. Otherwise too big.*/
+@media(min-width:62rem) {
+.page-header p{
+    color:rgb(255, 255, 255, 1);
+    font-size: 1.6rem;
+    margin-bottom:0rem;
+    font-weight: 600;
+    font-family: 'Stardos Stencil', cursive;
+    background-color:rgb(26, 16, 112, 1);
+    }
+}
+
 
 /*Reduced padding to provide more room for form fields in forms on smaller devices add_catches.html.*/
 @media(min-width:31.875rem) {
