@@ -52,6 +52,15 @@ html, body{
     font-weight: 600;
 }
 
+.page-header p{
+    color:rgb(255, 255, 255, 1);
+    font-size: 1.6rem;
+    margin-bottom:0rem;
+    font-weight: 600;
+    font-family: 'Stardos Stencil', cursive;
+    background-color:rgb(26, 16, 112, 1);
+}
+
 .custom-toggler.navbar-toggler {
   border-color: rgb(255,255,255,1);
 } 
@@ -235,6 +244,10 @@ a:hover, a:visited, a:link, a:active{
     color:rgb(255, 255, 255, 1);
 }
 
+
+.video{
+    border: 0.3rem solid rgb(255, 255, 255, 1);
+}
 
 
 /*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
