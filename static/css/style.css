@@ -54,7 +54,7 @@ html, body{
 
 .page-header p{
     color:rgb(255, 255, 255, 1);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom:0rem;
     font-weight: 600;
     font-family: 'Stardos Stencil', cursive;
@@ -270,7 +270,7 @@ a:hover, a:visited, a:link, a:active{
 @media(min-width:62rem) {
 .page-header p{
     color:rgb(255, 255, 255, 1);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-bottom:0rem;
     font-weight: 600;
     font-family: 'Stardos Stencil', cursive;
