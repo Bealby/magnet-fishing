@@ -297,7 +297,7 @@ a:hover, a:visited, a:link, a:active{
 
 /*Adjust edit and delte icons left for smaller devices*/
 @media(min-width:48rem) {
-.edit-delete-magins{
+.edit-delete-margins{
     text-align: right;
         padding-top:0rem;
 }
