@@ -3,7 +3,8 @@
 <div class="container pt-5">
 
     <div class="row">
-        <div class="col-8 offset-2 text-center form-header">
+            <a href="{{url_for('get_catches')}}"><i class="fas fa-chevron-left pl-3"></i></a>
+        <div class="col-8 offset-2 ml-0 text-center form-header">
             <p>Enter Catch Details!</p>
         </div>
     </div>
@@ -92,7 +93,7 @@
         </div>
 
         <div class="form-row col-md-6 offset-md-3 col-10 offset-1 mx-auto mt-4">
-            <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" class="form-control form-fields" id="catch_date" name="catch_date" placeholder="Date" />
+            <input type="date" onfocus="(this.type='date')" onblur="(this.type='text')" class="form-control form-fields" id="catch_date" name="catch_date" placeholder="Date" />
         </div>
 
         <div class="form-row col-md-4 offset-md-4 mx-auto mt-3">
