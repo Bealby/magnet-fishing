@@ -132,6 +132,9 @@ The Navbar and content of each Webpage will be displayed in
 an inner `container`, over an outer `container`, allowing content
 to flow against a fixed background image when scrolling.
 
+The headers for each page will have a 'Call for action' to draw
+users to enagage with the content.
+
 Much of the layout of the Website used the `Bootstrap Grid System`
 of `containers`, `rows` and `columns`; styled by css. This allowed
 the Website to be clearly structured and for the content to be
@@ -227,7 +230,7 @@ For smaller devices the `Accordion` columns will contract and the
 `Edit` and `Delete` buttons will shift to the right for clarity of
 viewing.
 
-- **Add_Catches:**
+- **Add Catches/ Edit Catches:**
 
 This page will give the user the opportunity to
 input their catches to the Catch Log. Each field of the form will be
@@ -244,31 +247,24 @@ and image of areas in Stockholm that are possible to select.
 A submit button centred at the end of the form, when hovered over and
 clicked, automatically updates the `Catch Log`.
 
-
-Chevron - for back
-
-- **Edit_Catches:**
-
-There is also an `Edit Catches` page
-which mirrors the `Add Catch` page. When this Edit feature
-button is clicked on the `Catch Log` page,
-fields will display original choices for ease of reference.
-
 For smaller device, the form fields are reduced to one column
 using the `Bootstrap` property feature. This helps
 users input data in a user friendly manner.
 
-
-Chevron - for back
+For mobile devices, on the left of each 'Call for action'
+header a left-chevron icon will be displayed using
+[Font Awesome](https://fontawesome.com/), for the
+user to quickly go back if they decide not to add or edit
+catches. 
 
 - **Contact:**
 
 A simple contact form that requires all fields to be added
 and that a correct email format is used. A send button, when
-clicked, will clear the form and alert users if the message
-has been sent or failed.
-
-SWAL Sweet Alert
+clicked, will clear the form and an alert will pop up with
+either 'Message Sent' or Message Failed', using `swal`. An
+alert feature provide by
+[Sweet Alert](https://sweetalert.js.org/).
 
 ### Features Left to Implement
 
@@ -301,7 +297,7 @@ Adding a FAQ section would encourage new magnet fisherman,
 and engender confidence and the pleasure it can bring.
 
 **Latest News and News Blogs**
-As the popularity of the sport increased there will be a need
+As the popularity of the sport increases there will be a need
 to harness debate and a thirst for “Latest News”. This could
 become a popular element of the site. 
 
@@ -317,7 +313,9 @@ Competitions on certain stretches of water. Winners, catches
 and prizes could be readily announced.
 
 **Develop the “Catch Log”**
-Sorting and appending using python ??????
+It would better user experience to have a feature to order
+Catches by either date, area or name. Including also a search
+feature to find certain informaiton. 
 
 **Create a Magnet Fishing Membership Club(s)**
 Membership clubs could be established by developing the website.
@@ -335,6 +333,7 @@ Fishing Club with Club Chairman, Secretary and Committee!
 
 
 
+IOS issues
 
 
 **Support Collapsible**
@@ -342,6 +341,9 @@ https://www.w3schools.com/howto/howto_js_collapsible.asp
 
 **placeholder date not working**
 https://stackoverflow.com/questions/20321202/not-showing-placeholder-for-input-type-date-field
+
+
+
 
 ## Technolgies Used
 
@@ -386,18 +388,20 @@ The following technolgies were used in this project:
 - [Responsive Design](http://ami.responsivedesign.is/) - Free software
     to generate Mockup of Website on different devices
 - [Validate Javascript](https://validatejavascript.com//) - Used to validate javascript
-- [Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial)
-   For API key and Javascript Map options
 
-   Flask
-   python
-   Jinja
-   EmailJS
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A micro web framework written in Python
+
+- [Python](https://www.python.org/) - A programming language that lets you work quickly
+   and integrate systems more effectively
+- [Emailjs](https://www.emailjs.com/) - For sending email directly From JavaScript
+
+- [GitHub]( https://github.com/) - Hosting for software development and version control
+
+
    GitHubGitpod
    Heroku
    Balsamiq
    PEP 8 Online Validator
    MongoDB
    Adobe Photoshop
-   Google Chrome DevTools
-
+   
