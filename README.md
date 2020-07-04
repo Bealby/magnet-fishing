@@ -368,14 +368,7 @@ on Mobile and Desktop to assess **Performacne**, **Accesibility**,
 
 ### Non-Automated Testing
 
-### index.html
-
-- Click `READ MORE` link and ensure it redirects you to `main.html`.
-- When hovering over `READ MORE` ensure lighter grey colour occurs.
-
-### main.html
-
-#### Navigation Bar Links
+#### Navigation Bar Links & Logo
 
 - Click `thumbnail` image, `Jack Fairfield` and `War Diaries` and ensure
   they redirect you to `index.html`.
@@ -500,55 +493,66 @@ https://stackoverflow.com/questions/20321202/not-showing-placeholder-for-input-t
 
 The following technolgies were used in this project:
 
-**Sections:**
-
-- **[Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)** - Allowed
-   preliminary designs to be drawn up of Website
-- **[GitHub](https://github.com/)** - Used to store repository and deploy Website
-- **[GitPod](https://gitpod.io/workspaces/)** - A platform used for hard coding
+**IDE:**
+- [GitPod](https://gitpod.io/workspaces/)** - A platform used for hard coding
    of Website
 
+**Hosting/ Deployment**
+- [Heroku](https://id.heroku.com/) - Heroku is a cloud platform as a service supporting several programming languages.
+- [GitHub](https://github.com/)** - Used to store repository and deploy Website
 
-
-
+**Languages:**
 - [HTML](https://en.wikipedia.org/wiki/HTML) - Markup language of Website
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used to style
    HTML elements
-- [BOOTSTRAP](https://getbootstrap.com/) - A famework for building responsive
-   Websites where the powerful Grid system was used along with styling
+- [Python](https://www.python.org/) - A programming language that lets you work quickly
+   and integrate systems more effectively
+- [JavaScript](https://www.javascript.com/) - Used in collabration with
+   Bootstrap to collaspe Navigation Bar for small devices and Google Maps
+
+**Databases**
+- [MongoDB](https://www.mongodb.com/) - MongoDB is a general purpose, document-based, distributed database built for modern application developers
+
+**Language Validators:**
+- [W3C](https://validator.w3.org/) - Used to validate HTML code
+- [WSC](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code
+- [Validate Javascript](https://validatejavascript.com//) - Used to validate javascript
+- [Pep8 online](http://pep8online.com/) - Validator for Python code
+- [Markdown Lint](https://github.com/Bealby/markdownlint) - Used for validation
+    checks on README.md content
+
+**Libraries:**
 - [Google Fonts](https://fonts.google.com/) - Programme used to import main
    fonts in Website: **Playfair Display** and **Calligraffitti**
 - [Font Awesome](https://fontawesome.com/) - Programme used to import icons
    for Footer in Website: **far-envelope** and **fas fa-phone**
-- [JavaScript](https://www.javascript.com/) - Used in collabration with
-   Bootstrap to collaspe Navigation Bar for small devices and Google Maps
-- [W3C](https://validator.w3.org/) - Used to validate HTML code
-- [WSC](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code
-- [jQuery](https://jquery.com/) - Used to implement Navigation Collaspe feature
-   JavaScript Plugin
-- [Popper](https://popper.js.org/) - Used to implement Navigation Collaspe
-   feature JavaScript Plugin
-- [Markdown Lint](https://github.com/Bealby/markdownlint) - Used for validation
-    checks on README.md content
+
+**Tools**
+- [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)** - Allowed
+   preliminary designs to be drawn up of Website
+- [Adobe Photoshop](https://www.adobe.com//) - Fixing size images
+- [Adobe Illuetrator](https://www.adobe.com//) - Fixing Logo - Magnet Fishing Stockholm
+- [Sweet Alert](https://sweetalert.js.org/) - Used for alerts in contact form
+- [Responsive Design](http://ami.responsivedesign.is/) - Free software
+    to generate Mockup of Website on different devices
 - [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
     Helped to improve the quality of Website
 - [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) - A useful
    developing tool in Chrome to edit pages and diagnose problems
-- [Responsive Design](http://ami.responsivedesign.is/) - Free software
-    to generate Mockup of Website on different devices
-- [Validate Javascript](https://validatejavascript.com//) - Used to validate javascript
 
+**Frameworks**
+- [BOOTSTRAP](https://getbootstrap.com/) - A famework for building responsive
+   Websites where the powerful Grid system was used along with styling
+- [jQuery](https://jquery.com/) - Used to implement Navigation Collaspe feature
+   JavaScript Plugin
+- [Popper](https://popper.js.org/) - Used to implement Navigation Collaspe
+   feature JavaScript Plugin
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A micro web framework written in Python
-
-- [Python](https://www.python.org/) - A programming language that lets you work quickly
-   and integrate systems more effectively
 - [Emailjs](https://www.emailjs.com/) - For sending email directly From JavaScript
-- [GitHub](https://github.com/) - Hosting for software development and version control
-- [GitPod](https://gitpod.io/workspaces/) - Gitpod is an online IDE which can be launched from any GitHub page.
-- [Heroku](https://id.heroku.com/) - Heroku is a cloud platform as a service supporting several programming languages.
-- [Balsmiq](https://balsamiq.com/) - Deisgn tool for fixing-up wireframes
-- [MongoDB](https://www.mongodb.com/) - MongoDB is a general purpose, document-based, distributed database built for modern application developers
-- [Pep8 online](http://pep8online.com/) - Validator for Python code
-- [Adobe Photoshop](https://www.adobe.com//) - Fixing size images
-- [Adobe Illuetrator](https://www.adobe.com//) - Fixing Logo - Magnet Fishing Stockholm
-SWAL
+
+
+
+
+
+
+
