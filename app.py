@@ -49,7 +49,8 @@ def insert_catches():
 
 @app.route('/edit_catch_log/<catch_log_id>')
 def edit_catch_log(catch_log_id):
-    the_catch_log = mongo.db.catch_log.find_one({"_id": ObjectId(catch_log_id)})
+    the_catch_log = mongo.db.catch_log.find_one({"_id":
+                                                ObjectId(catch_log_id)})
     all_area = mongo.db.area.find()
     all_magnet = mongo.db.magnet.find()
     return render_template('edit_catch_log.html',

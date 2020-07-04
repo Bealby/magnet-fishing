@@ -335,6 +335,10 @@ Magnet fishing has its dangers: deep water; excited children;
 slippery surfaces for example. Warnings of such dangers could be
 given in a “safety” section on the Navbar.
 
+## Testing
+
+---
+
 ### Automated Testing
 
 [W3C](https://validator.w3.org/) - All HTML files with their data were directly
@@ -344,12 +348,15 @@ given in a “safety” section on the Navbar.
 [WSC](https://jigsaw.w3.org/css-validator/) - CSS data was directly inputted in
     the CSS Validation Service. The results: `Congratulations! No Error Found.`
 
+[PEP8](http://pep8online.com/) - Python script - `app.py`- was run through PEP8 online
+    for PEP8 requirements. Results: `All Right` (Adheres to PEP requirements)
+
 [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
 A feature in Chrome Developing Tools - Lighthouse Audit - was carried out
 on Mobile and Desktop to assess **Performacne**, **Accesibility**,
 **Best Practices** and **CEO**.
 
-- **Mobile:** An overall average of 80% was received.
+- **Mobile:** An overall average of 86% was received.
 - **Desktop:** An overall average of 77% was recieved.
 
 `Performance` scored the lowest percentage. 53% and 63% on Desktop and Mobile
