@@ -13,6 +13,8 @@ app.config["MONGO_URI"] = os.getenv('MONGO_URI', 'mongodb://localhost')
 
 mongo = PyMongo(app)
 
+render_template("contact.html", EMAILJS_KEY=os.environ.get("user_ltp9VN3EuB6AFgRZdXukW"))
+
 @app.route('/')
 def home():
     return render_template("index.html")
@@ -20,6 +22,10 @@ def home():
 @app.route('/contact')
 def contact():
     return render_template("contact.html")
+
+@app.route('/contact')
+def contact():
+    return render_template("contact.html", EMAILJS_KEY=os.environ.get("EMAILJS_KEY"))
 
 @app.route('/catch_log')
 @app.route('/get_catches')
