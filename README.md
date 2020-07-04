@@ -354,28 +354,130 @@ given in a “safety” section on the Navbar.
 [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
 A feature in Chrome Developing Tools - Lighthouse Audit - was carried out
 on Mobile and Desktop to assess **Performacne**, **Accesibility**,
-**Best Practices** and **CEO**.
+**Best Practices**, **CEO** and **Progressive Web App**.
 
 - **Mobile:** An overall average of 86% was received.
-- **Desktop:** An overall average of 77% was recieved.
+- **Desktop:** An overall average of 80% was recieved.
 
-`Performance` scored the lowest percentage. 53% and 63% on Desktop and Mobile
-respectively. This low score is mainly due to the large number of images that
-the Website contains; as well as the google Map feature; causing longer
-loading time.
+`Performance` 
 
-Potential fixes could be to consider a lazy-loading offscreen feature,
-which allows critical resources to load first. It also could be an option
-to separate the sections into individual `html` pages, so that all images
-and Maps are not loading at the same time.
 
-[Validate Javascript](https://validatejavascript.com/) - Javascript files
-were uploaded in in the Validate Javascript. Overall there were no errors
-that needed to be changed and the javascript passed general standards.
+[Validate Javascript](https://validatejavascript.com/) - 
 
 [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
-Navigating through the Website rendered no critical fails/errors
-in the console that were necessary to fix.
+
+### Non-Automated Testing
+
+### index.html
+
+- Click `READ MORE` link and ensure it redirects you to `main.html`.
+- When hovering over `READ MORE` ensure lighter grey colour occurs.
+
+### main.html
+
+#### Navigation Bar Links
+
+- Click `thumbnail` image, `Jack Fairfield` and `War Diaries` and ensure
+  they redirect you to `index.html`.
+- Click through `Home`, `Bio`, and `Maps` links,
+  ensuring each, when hovered over turn light grey, and direct you to the
+  correct sections.
+- Click each navigation link and randomaly navigate to other links.
+- For each link navigated to (`Home`, `Bio`, and `Maps`), ensure main
+  header `thumbnail` image, `Jack Fairfield` and `War Diaries` continue
+  to redirect you to index.html.
+- Ensure navigation collapse Bootstrap feature kicks in on mobile devices
+  and the links continue to work correctly as process above.
+
+#### Carousel
+
+- Ensure carousel of photos are looping correctly and change every 6 seconds
+  on all devices. (It should be noted that the carousel stops looping or
+  changing through photos once mouse is hovered over carousel).
+- Ensure photos on carousel can be manually clicked through on all devices.
+
+#### Bio
+
+- For Desktop devices ensure the Bio section is divided into three columns
+  with text centred and images shown to the left and right respectively.
+- For Tablet devices ensure the Bio section is divided into two columns with
+  two images aligned to the left and text aligned to the right.
+- For Mobile devices ensure all content is located on one column, with first
+  image removed.
+
+#### Maps
+
+- For all devices ensure the Map has the correct `lat` and `long` coordinates for
+  initial load up of page.
+- For all devices ensure Map displays `Red Flag Icons` and `Cluster Marker Icons`
+  (When `Red Flag Icons` are clustered together.
+- For all devices ensure that when a `Red Flag Icon` is clicked, an info window
+  pops up and displays text and a photo centered.
+- For all devices ensure all info windows clicked, can be closed with
+  the `x` icon displayed in the window.
+- For all devices click through all `Red Flag Icons`, and ensure
+  that when one info window opens, it is closed when another `Red Flag Icon`
+  is clicked.
+- For all devices click all `Cluster Marker Icons` and ensure Map zooms in
+  and displays `Red Flag Icons` accordingly.
+- For all devices ensure zoom and scrolling features work on Map.
+
+#### Footer
+
+- Ensure that Copyright text in footer is centred for all devices.
+
+#### Browesers
+
+- Chrome: Website renders well on all screen sizes.
+- Firefox: Website renders well on all screen sizes.
+- Safari: Website renders well on all screen sizes.
+- Edge: Website renders well on all screen sizes.
+
+#### Mobile and Tablet Devices
+
+- The Website was tested on tablets and a variety of
+  mobiles, including iPhone and Samsung. The results were
+  satisfactory for all devices and continued to acheive the
+  UX and UI goals.
+
+#### User Testing
+
+- Family and friends were asked to use the finished Website to test
+  usability and comment on whether they felt it met their needs as discussed
+  in the Strategy section - [User Stories](#user-stories).
+
+#### User Experience
+
+- Users felt that the Website fulfilled the expectation of quantity of
+  photos, especially with the carousel implemented at beginning of the page.
+
+- Another requirement was for the Website to be easy to use and not too
+  complicated. Overall the Website acheived this goal, however when it
+  came to the functionality of the Map, the older genration found it
+  difficult to navigate around. Especially when trying to move around the
+  Map, zooming in-and-out, and in doing so losing their way and not knowing how
+  to go back to the start. It would therefore be beneficial to add more features
+  to the Map to help in the navigation.
+  - One feature could be to add an icon that is displayed in the top right of
+    the Map, that allows the user to go back after they have clicked a cluster.
+  - Also it may be useful to add more detailed instructions on the Maps section
+    to help users understand the Map functionality and features that can be
+    used e.g. zooming in and out, and moving around Map.
+
+- The Website fulfilled the Users request to add content from Jack Fairfield's
+  journal and also information on Jack Fairfield's personality and progression
+  in the Army. However it was commented that there was a greater yearning to
+  have more than what was provided. This of course can be fixed over time and
+  satisfy the users accordingly.
+
+- It is normally standard practice to have the `navbar-toggler-icon` displayed
+  as an intuitive `square box` with `horizontal lines`. For this Website I replaced
+  this icon with an image of a `Gold Badge`.
+  - Through User testing the results were positive. Users, through curiosity still
+    intuitively clicked the `Gold Badge` for the drop menu on mobile
+    devices.
+  - However as the Website expands, further tests should be assessed to monitor
+    results and make changes where necessary.
 
 
 

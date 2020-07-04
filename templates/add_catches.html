@@ -1,9 +1,8 @@
 {% extends 'base.html' %} {% block content %}
 
 <div class="container pt-5">
-
     <div class="row mx-auto">
-            <a href="{{url_for('get_catches')}}"><i class="fas fa-chevron-left d-block d-sm-none d-none d-sm-block d-md-none"></i></a>
+        <a href="{{url_for('get_catches')}}"><i class="fas fa-chevron-left d-block d-sm-none d-none d-sm-block d-md-none"></i></a>
         <div class="col-8 offset-2 text-center page-header">
             <p>Catch Form</p>
         </div>
@@ -56,7 +55,7 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                            <img src="static/images/areas.jpg" class="modal-image" alt="Area Map" />
+                                <img src="static/images/areas.jpg" class="modal-image" alt="Area Map" />
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -93,7 +92,7 @@
         </div>
 
         <div class="form-row col-md-6 offset-md-3 col-10 offset-1 mx-auto mt-4">
-            <input type="date" onfocus="(this.type='date')" onblur="(this.type='text')" class="form-control form-fields" id="catch_date" name="catch_date" placeholder="Date" />
+            <input type="date" onfocus="(this.type='date')" onblur="(this.type='text')" class="form-control form-fields" id="catch_date" name="catch_date" />
         </div>
 
         <div class="form-row col-md-4 offset-md-4 mx-auto mt-3">
