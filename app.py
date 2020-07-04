@@ -21,10 +21,6 @@ def home():
 
 @app.route('/contact')
 def contact():
-    return render_template("contact.html")
-
-@app.route('/contact')
-def contact():
     return render_template("contact.html", EMAILJS_KEY=os.environ.get("EMAILJS_KEY"))
 
 @app.route('/catch_log')
