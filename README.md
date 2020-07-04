@@ -234,8 +234,8 @@ input their catches to the Catch Log. Each field of the form will be
 highlighted with a red border, `rgb(254, 17, 71, 1)`, using
 css styling to inform users which field they are on.
 
-There are drop down select features for fields to help users choose the
-right 'Magnet' and 'Area' respectively.
+There are drop down select features for fields to help users choose
+the right 'Magnet' and 'Area' respectively.
 
 To help users define which area of Stockholm they Magnet Fished a
 `Modal` feature, provided by `Bootstrap`, when clicked will pop-up
@@ -265,8 +265,8 @@ Chevron - for back
 
 A simple contact form that requires all fields to be added
 and that a correct email format is used. A send button, when
-clicked, will clear the form and alert users if the message has been
-sent or failed.
+clicked, will clear the form and alert users if the message
+has been sent or failed.
 
 SWAL Sweet Alert
 
@@ -276,31 +276,64 @@ Below is a list of features I feel would be beneficial to
 add to the Website at a later date when more data/
 information can be provided:
 
-**Login and Security Feature:**
+**Security Feature**
+Security is required to be significantly strengthened for
+each user, so that others cannot delete or edit their logs.
+Displaying users’ emails displayed is also not ideal; a
+better option would be to include a chat forum.
 
-It would be wise to implement a Login feature to the Website,
-as well individual security for each user, so that others can
-not delete or edit their logs. Having users’ emails
-displayed is not ideal also. A  better option would be to include
-a chat forum.
+**Login Facility**
+It would be wise and more user friendly to include a login
+feature with associated passwords.
 
-**Upload of Images:**
-A useful feature to implement would be for users to upload images
-This would greatly enhance the impact and viewing pleasure.
+**Upload of Images**
+A useful feature to implement would be to allow users to
+upload their own images. This would greatly enhance the
+impact, encourage sharing, and add to the viewing pleasure.
 
-**New Sections:**
+**Add a Rules and Guidance section**
+A section could be added to keep participants up-to-date on
+rule changes, useful “hot tips”, safety issues and any
+locality warning notices.
 
-There are a number of very beneficial sections to add, which could
-include a 'News Blog' to update participants
-of changes in rules etc; a guide and useful tips section and a section
-for FAQs.
+**Frequently Asked Questions (FAQs)**
+Adding a FAQ section would encourage new magnet fisherman,
+and engender confidence and the pleasure it can bring.
 
-**Expansion of Website:**
-The Website could very easily be expanded to other outer Areas of
-Stockholm, as well as expanded throughout Sweden.
+**Latest News and News Blogs**
+As the popularity of the sport increased there will be a need
+to harness debate and a thirst for “Latest News”. This could
+become a popular element of the site. 
 
-**Catch Log:**
-Sorting and appending using python??????
+**Cloning of the Website to other Geographic Areas**
+The website has been developed for magnet fishermen in Stockholm.
+There is no reason why it could not be set up for other Swedish
+conurbations or even beyond.
+
+**Use the Website to hold competitions**
+To help grow the Magnet Fishermen community and social mixing,
+the website, with minor adjustments, could be used to run
+Competitions on certain stretches of water. Winners, catches
+and prizes could be readily announced.
+
+**Develop the “Catch Log”**
+Sorting and appending using python ??????
+
+**Create a Magnet Fishing Membership Club(s)**
+Membership clubs could be established by developing the website.
+This would entail establishing processes to have members join,
+payment systems, regular formal bulletins etc. Eventually the
+site could be the main supporting vehicle for a National Magnet
+Fishing Club with Club Chairman, Secretary and Committee!
+
+
+
+
+
+
+
+
+
 
 
 
