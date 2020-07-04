@@ -2,13 +2,13 @@
 
 ---
 
-The aim of this Website is to provide a platform for fellow Magnet Fisherman
+The aim of this Website is to provide a platform for fellow Magnet Fishers
 to socialise, share fishing experiences and catches, so that enthusiasts
 can create a community and further develop their interest in this emerging
 sport.
 
 The Website is specifically aimed at the Magnet Fishing community in
-Stockholm. It is a embryonic sport but growing extensively, and
+Stockholm. It is an embryonic sport but growing extensively, and
 it is hoped that this Website will help participates come together,
 and fill a well needed gap.
 
@@ -62,11 +62,12 @@ intuitive and easy to use. It needs to stand out and excite
 participation and provide interesting data for the Magnet Fishing
 community.
 
-Photos and videos will be displayed of an example of a Magnet
-along with examples of finds after a Magnet Fishing session.
+Photos and videos will be displayed of an example of a
+Fishing Magnet with rope, along with examples of finds
+after a Magnet Fishing session.
 
-Forms to add and edit catches will be essential for CRUD
-purposes and allow for a well structured Catch Log.
+Forms to 'add' and 'edit' catches will be essential for CRUD
+purposes and allow for a well structured 'Catch Log'.
 
 A contact page will be implemented for communication and
 questions.
@@ -120,8 +121,8 @@ the later font bringing the sailing theme to the forefront.
 
 ---
 
-The Main Web page consists of four separate sections; `Home`;
-`Catch Log` (`Edit Catch Log`); `Add Catches` and `Contact`.
+The Main Web page consists of four separate sections; `Home`,
+`Catch Log` (`Edit Catch Log`), `Add Catches` and `Contact`.
 
 A Logo will be displayed prominently at the top and centre of each
 Webpage and be clickable to direct you to back
@@ -133,7 +134,7 @@ an inner `container`, over an outer `container`, allowing content
 to flow against a fixed background image when scrolling.
 
 The headers for each page will have a 'Call for action' to draw
-users to enagage with the content.
+users to engage with the content.
 
 Much of the layout of the Website used the `Bootstrap Grid System`
 of `containers`, `rows` and `columns`; styled by css. This allowed
@@ -148,7 +149,7 @@ responsive.
 
 - **Desktop:**
 
-The navigation bar will be cantered and placed
+The navigation bar will be centred and placed
 under the 'Magnet Fishing Stockholm' logo. It will have a left
 and right padding so that it does not span the full width of
 the Webpage.
@@ -184,10 +185,10 @@ styling.
 
 The Home page will consist of rows of two columns,
 with an image and text side by side. The first row displaying
-an image of a Magnet used with text introducing the
+an image of a Magnet used, with text introducing the
 sport of Magnet Fishing.
 
-The second row displaying an image of a recent 'catch' with
+The second row displaying an image of a recent 'Catch' with
 text describing what the Website is about and how to use it.
 
 A small section at the end titled `Video`, will have an
@@ -217,7 +218,7 @@ each row to distinguish between them.
 making, into either collapsing the `Accordion` for more information;
 or for editing and deleting catch log data respectively.
 
-The text used in the `Home` page will be
+The text used in the `Catch Log` page will be
 `'Source Serif Pro', serif`, of the colour white,
 `rgb(255,255,255)`, over a blue background, `rgb(26, 16, 112)`,
 for clarity of reading.
@@ -227,7 +228,7 @@ The Edit and Delete icons will have a hover effect of grey,
 respectively for users to intuitively click.
 
 For smaller devices the `Accordion` columns will contract and the
-`Edit` and `Delete` buttons will shift to the right for clarity of
+`Edit` and `Delete` buttons will shift to the left for clarity of
 viewing.
 
 - **Add Catches/ Edit Catches:**
@@ -235,36 +236,37 @@ viewing.
 This page will give the user the opportunity to
 input their catches to the Catch Log. Each field of the form will be
 highlighted with a red border, `rgb(254, 17, 71, 1)`, using
-css styling to inform users which field they are on.
+css styling, to inform users which field they are on.
 
 There are drop down select features for fields to help users choose
 the right 'Magnet' and 'Area' respectively.
 
 To help users define which area of Stockholm they Magnet Fished a
 `Modal` feature, provided by `Bootstrap`, when clicked will pop-up
-and image of areas in Stockholm that are possible to select.
+and image of 'Areas' in Stockholm that are possible to select.
 
-A submit button centred at the end of the form, when hovered over and
-clicked, automatically updates the `Catch Log`.
+A submit button, centred at the end of the form, when hovered over and
+clicked, automatically updates the `Catch Log`, and directs you there
+accordingly.
 
 For smaller device, the form fields are reduced to one column
 using the `Bootstrap` property feature. This helps
-users input data in a user friendly manner.
+users input data in a user-friendly manner.
 
 For mobile devices, on the left of each 'Call for action'
-header a left-chevron icon will be displayed using
-[Font Awesome](https://fontawesome.com/), for the
-user to quickly go back if they decide not to add or edit
+header, a left-chevron icon will be displayed using
+[Font Awesome](https://fontawesome.com/). This allows the
+user to quickly go back if they decide not to 'Add' or 'Edit'
 catches. 
 
 - **Contact:**
 
-A simple contact form that requires all fields to be added
-and that a correct email format is used. A send button, when
+A simple contact form, that requires all fields to be added
+correctly, including email format, is used. A send button, when
 clicked, will clear the form and an alert will pop up with
-either 'Message Sent' or Message Failed', using `swal`. An
-alert feature provide by
-[Sweet Alert](https://sweetalert.js.org/).
+either a 'Message Sent' or Message Failed'. This feature was
+provided by sing `swal`. An
+alert feature provided by [Sweet Alert](https://sweetalert.js.org/).
 
 ### Features Left to Implement
 
@@ -315,7 +317,8 @@ and prizes could be readily announced.
 **Develop the “Catch Log”**
 It would better user experience to have a feature to order
 Catches by either date, area or name. Including also a search
-feature to find certain informaiton. Likes???
+feature to find certain information. 'Likes' and 'Comment' could
+also be available for better interaction.
 
 **Create a Magnet Fishing Membership Club(s)**
 Membership clubs could be established by developing the website.
@@ -324,10 +327,13 @@ payment systems, regular formal bulletins etc. Eventually the
 site could be the main supporting vehicle for a National Magnet
 Fishing Club with Club Chairman, Secretary and Committee!
 
+**Create a link to a real-time weather forecasting site**
+Creating such a link would be a service to the user.
 
-
-
-
+**Include a “Safety” section on the toolbar**
+Magnet fishing has its dangers: deep water; excited children; 
+slippery surfaces for example. Warnings of such dangers could be
+given in a “safety” section on the Navbar.
 
 
 
@@ -394,14 +400,12 @@ The following technolgies were used in this project:
 - [Python](https://www.python.org/) - A programming language that lets you work quickly
    and integrate systems more effectively
 - [Emailjs](https://www.emailjs.com/) - For sending email directly From JavaScript
-
-- [GitHub]( https://github.com/) - Hosting for software development and version control
-
-
-   GitHubGitpod
-   Heroku
-   Balsamiq
-   PEP 8 Online Validator
-   MongoDB
-   Adobe Photoshop
-   
+- [GitHub](https://github.com/) - Hosting for software development and version control
+- [GitPod](https://gitpod.io/workspaces/) - Gitpod is an online IDE which can be launched from any GitHub page.
+- [Heroku](https://id.heroku.com/) - Heroku is a cloud platform as a service supporting several programming languages.
+- [Balsmiq](https://balsamiq.com/) - Deisgn tool for fixing-up wireframes
+- [Pep8 online](https://www.mongodb.com/) - MongoDB is a general purpose, document-based, distributed database built for modern application developers
+- [MongoDB](http://pep8online.com/) - Validator for Python code
+- [Adobe Photoshop](https://www.adobe.com//) - Fixing size images
+- [Adobe Illuetrator](https://www.adobe.com//) - Fixing Logo - Magnet Fishing Stockholm
+SWAL
