@@ -330,11 +330,45 @@ Fishing Club with Club Chairman, Secretary and Committee!
 **Create a link to a real-time weather forecasting site**
 Creating such a link would be a service to the user.
 
-**Include a “Safety” section on the toolbar**
+**Include a “Safety” section on the Navbar**
 Magnet fishing has its dangers: deep water; excited children; 
 slippery surfaces for example. Warnings of such dangers could be
 given in a “safety” section on the Navbar.
 
+### Automated Testing
+
+[W3C](https://validator.w3.org/) - All HTML files with their data were directly
+    inputted in the Mark-Up Validation Service.
+    The results:`Document checking completed. No errors or warnings to show.`
+
+[WSC](https://jigsaw.w3.org/css-validator/) - CSS data was directly inputted in
+    the CSS Validation Service. The results: `Congratulations! No Error Found.`
+
+[Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
+A feature in Chrome Developing Tools - Lighthouse Audit - was carried out
+on Mobile and Desktop to assess **Performacne**, **Accesibility**,
+**Best Practices** and **CEO**.
+
+- **Mobile:** An overall average of 80% was received.
+- **Desktop:** An overall average of 77% was recieved.
+
+`Performance` scored the lowest percentage. 53% and 63% on Desktop and Mobile
+respectively. This low score is mainly due to the large number of images that
+the Website contains; as well as the google Map feature; causing longer
+loading time.
+
+Potential fixes could be to consider a lazy-loading offscreen feature,
+which allows critical resources to load first. It also could be an option
+to separate the sections into individual `html` pages, so that all images
+and Maps are not loading at the same time.
+
+[Validate Javascript](https://validatejavascript.com/) - Javascript files
+were uploaded in in the Validate Javascript. Overall there were no errors
+that needed to be changed and the javascript passed general standards.
+
+[Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
+Navigating through the Website rendered no critical fails/errors
+in the console that were necessary to fix.
 
 
 
@@ -404,8 +438,8 @@ The following technolgies were used in this project:
 - [GitPod](https://gitpod.io/workspaces/) - Gitpod is an online IDE which can be launched from any GitHub page.
 - [Heroku](https://id.heroku.com/) - Heroku is a cloud platform as a service supporting several programming languages.
 - [Balsmiq](https://balsamiq.com/) - Deisgn tool for fixing-up wireframes
-- [Pep8 online](https://www.mongodb.com/) - MongoDB is a general purpose, document-based, distributed database built for modern application developers
-- [MongoDB](http://pep8online.com/) - Validator for Python code
+- [MongoDB](https://www.mongodb.com/) - MongoDB is a general purpose, document-based, distributed database built for modern application developers
+- [Pep8 online](http://pep8online.com/) - Validator for Python code
 - [Adobe Photoshop](https://www.adobe.com//) - Fixing size images
 - [Adobe Illuetrator](https://www.adobe.com//) - Fixing Logo - Magnet Fishing Stockholm
 SWAL
