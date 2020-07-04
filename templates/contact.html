@@ -24,6 +24,8 @@
     </div>
 </div>
 
+{% block scripts %}
 <script>emailjs.init("{{ EMAILJS_KEY }}");</script>
+{% endblock %}
 
 {% endblock %}

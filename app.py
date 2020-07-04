@@ -9,7 +9,9 @@ from bson.objectid import ObjectId
 app = Flask(__name__)
 
 app.config["MONGO_DBNAME"] = 'magnet_fishing'
-app.config["MONGO_URI"] = os.getenv('MONGO_URI', 'mongodb://localhost')
+app.config["MONGO_URI"] = os.getenv('MONGO_URI')
+
+EMAILJS_KEY = os.environ.get("EMAILJS_KEY")
 
 mongo = PyMongo(app)
 
@@ -19,7 +21,7 @@ def home():
 
 @app.route('/contact')
 def contact():
-    return render_template("contact.html", EMAILJS_KEY=os.environ.get("EMAILJS_KEY"))
+    return render_template("contact.html", EMAILJS_KEY=EMAILJS_KEY)
 
 @app.route('/catch_log')
 @app.route('/get_catches')
