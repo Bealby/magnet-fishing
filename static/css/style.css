@@ -43,8 +43,14 @@ html, body{
 /* errors*/
 
 .error-404{
-    background-color:rgb(255, 255, 255, 1);
+    background-color:rgb(254, 17, 71, 1);
     min-height: 40vh;
+    width: 90%;
+    font-family: 'Source Serif Pro', serif;
+    font-size:1.8rem;
+    font-weight: 400;
+    padding: 3rem 3rem 3rem 3rem;
+    color:rgb(255,255,255,1);
 }
 
 

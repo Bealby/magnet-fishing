@@ -494,7 +494,7 @@ https://stackoverflow.com/questions/20321202/not-showing-placeholder-for-input-t
 The following technolgies were used in this project:
 
 **IDE:**
-- [GitPod](https://gitpod.io/workspaces/)** - A platform used for hard coding
+- [GitPod](https://gitpod.io/workspaces/) - A platform used for hard coding
    of Website
 
 **Hosting/ Deployment**
