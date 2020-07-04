@@ -273,7 +273,7 @@ add to the Website at a later date when more data/
 information can be provided:
 
 **Security Feature**
-Security is required to be significantly strengthened for
+Security is required to be strengthened for
 each user, so that others cannot delete or edit their logs.
 Displaying users’ emails displayed is also not ideal; a
 better option would be to include a chat forum.
@@ -315,7 +315,7 @@ and prizes could be readily announced.
 **Develop the “Catch Log”**
 It would better user experience to have a feature to order
 Catches by either date, area or name. Including also a search
-feature to find certain informaiton. 
+feature to find certain informaiton. Likes???
 
 **Create a Magnet Fishing Membership Club(s)**
 Membership clubs could be established by developing the website.
