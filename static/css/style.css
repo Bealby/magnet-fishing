@@ -55,14 +55,14 @@ html, body{
 }
 
 .link-font {
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	color: rgb(255, 255, 255, 1);
     font-weight: 600;
 }
 
 .page-header p{
     color:rgb(255, 255, 255, 1);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom:0rem;
     font-weight: 600;
     font-family: 'Stardos Stencil', cursive;
@@ -187,6 +187,7 @@ html, body{
 
 .fa-hand-point-down{
     color:rgb(26, 16, 112, 1);
+    font-size:3rem;
 }
 
 .form-fields{
@@ -282,7 +283,7 @@ a:hover, a:visited, a:link, a:active{
 @media(min-width:62rem) {
 .page-header p{
     color:rgb(255, 255, 255, 1);
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-bottom:0rem;
     font-weight: 600;
     font-family: 'Stardos Stencil', cursive;
