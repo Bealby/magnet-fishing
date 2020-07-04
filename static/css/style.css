@@ -185,6 +185,10 @@ html, body{
     color:rgb(255, 255, 255, 1);
 }
 
+.fa-hand-point-down{
+    color:rgb(26, 16, 112, 1);
+}
+
 .form-fields{
     font-size: 1.1rem;
     color:rgb(128, 128, 128, 1);

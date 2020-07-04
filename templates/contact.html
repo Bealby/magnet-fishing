@@ -3,7 +3,7 @@
 <div class="container pt-5">
     <div class="row">
         <div class="col-8 offset-2 text-center page-header">
-            <p>For questions or interest in connecting. Please get in touch!</p>
+            <p>Let's Connect</p>
         </div>
     </div>
 
@@ -24,8 +24,10 @@
     </div>
 </div>
 
-{% block scripts %}
-<script>emailjs.init("{{ EMAILJS_KEY }}");</script>
+
 {% endblock %}
 
+
+{% block scripts %}
+    <script>emailjs.init("{{ EMAILJS_KEY }}");</script>
 {% endblock %}
