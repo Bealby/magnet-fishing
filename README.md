@@ -370,54 +370,80 @@ on Mobile and Desktop to assess **Performacne**, **Accesibility**,
 
 #### Navigation Bar Links & Logo
 
-- Click `thumbnail` image, `Jack Fairfield` and `War Diaries` and ensure
-  they redirect you to `index.html`.
-- Click through `Home`, `Bio`, and `Maps` links,
+- Click through `Home`, `Catch Log`, `Maps`, and `Contact` links,
   ensuring each, when hovered over turn light grey, and direct you to the
-  correct sections.
-- Click each navigation link and randomaly navigate to other links.
-- For each link navigated to (`Home`, `Bio`, and `Maps`), ensure main
-  header `thumbnail` image, `Jack Fairfield` and `War Diaries` continue
-  to redirect you to index.html.
-- Ensure navigation collapse Bootstrap feature kicks in on mobile devices
+  correct sections
+- Click each navigation link and randomaly navigate to other links
+- On each navigstion link, ensure when the logo is clicked, that
+  redirects `Home`.
+- Ensure navigation collapse Bootstrap feature kicks in on smaller devices
   and the links continue to work correctly as process above.
 
-#### Carousel
+#### Home Page
 
-- Ensure carousel of photos are looping correctly and change every 6 seconds
-  on all devices. (It should be noted that the carousel stops looping or
-  changing through photos once mouse is hovered over carousel).
-- Ensure photos on carousel can be manually clicked through on all devices.
+- Ensure a centred header is displayed for all devices
+- For Desktop devices ensure the `Home` page is divided into two columns
+  with first row of an image and text box, and the second row of a text box and image
+- Ensure that the third row includes a single column that includes a video
+- Ensure video plays
+- For smaller devices ensure the `Home` page is divided into one column of the order
+  text box, image, text box, image. All centred on page.
+- For smaller device ensure video is aligned on one single column. Centred and that plays
 
-#### Bio
+#### Catch Log/ Edit Catches
 
-- For Desktop devices ensure the Bio section is divided into three columns
-  with text centred and images shown to the left and right respectively.
-- For Tablet devices ensure the Bio section is divided into two columns with
-  two images aligned to the left and text aligned to the right.
-- For Mobile devices ensure all content is located on one column, with first
-  image removed.
+- Ensure a centred header is displayed for all devices
+- Click on `Accordion`cards and ensure each collpses and uncollapses
+  accordingly. 
+- Click randomly through `Accordion` cards and ensure as one card collapses another
+  card uncollapses
+- For each `Accordion`card collapsed ensure that data is shown correctly.
+ - One column for `Name`, `Email` and `Location`, respectively. 
+   The second column for `Magnet` and `Catches` respectively.
+- For example `Accordion` cards ensure each can be deleted when clicking the 
+  `Delete`icon.
+- For each `Accordion` card click on the `Edit` icon and ensure directs it
+  you to `edit_catch_log.html`
+- Ensure `Edit` page has fields filled in from data shown in Catch Log page.
+- Ensure all fields have placeholder names
+- Ensure all fields can be inputted and that the select features for `Magnet`and
+`Area` collapse with correct options to choose from work
+- Ensure `Modal` map icon, when clicked, pops-up a map, which can then be closed
+- Ensure `Date` fields allow for date picking and display correct date format. 
+- Enusre form fields are layout correctly for desktop devices. The first row
+  should be two columns for 'Name' and 'Email, and the second row 3 columns for
+  'Magnet', Area and Map. 
+- Ensure remaing field are centered and in one single column.
+- Change some fields in `Edit`page and click on `Submit`. You should be directed
+ back to Catch Log. Ensure fields have been updated
+  - Click on Home link and re-eneter Catch Log to ensure edit changes have been made are
+- try same procidure above but with different card sin Catch Log..
+- For smaller devices all form fields should be centred in one single column.
+- For smaller devices run through step above.
 
-#### Maps
+#### Add Catches
+- Ensure `Add Catches` page have all fields placeholder names
+- Ensure all fields can be inputted and that the select features for `Magnet`and
+`Area` collapse with correct options to choose from work
+- Ensure `Modal` map icon, when clicked, pops-up a map, which can then be closed
+- Ensure `Date` fields allow for date picking and display correct date format. 
+- Enusre form fields are layout correctly for desktop devices. The first row
+  should be two columns for 'Name' and 'Email, and the second row 3 columns for
+  'Magnet', Area and Map. 
+- Ensure remaing field are centered and in one single column.
+- Add a number of catches in page  and click on `Submit`. You should be redirected
+ back to Catch Log. Ensure new added catches on displayed on Catch Log. 
+ - Click on Home and re-eneter Catch Log to ensure new enetirs are there.
+- try same procidure above but with different card sin Catch Log..
+- For smaller devices all form fields should be centred in one single column.
+- For smaller devices run through step above.
 
-- For all devices ensure the Map has the correct `lat` and `long` coordinates for
-  initial load up of page.
-- For all devices ensure Map displays `Red Flag Icons` and `Cluster Marker Icons`
-  (When `Red Flag Icons` are clustered together.
-- For all devices ensure that when a `Red Flag Icon` is clicked, an info window
-  pops up and displays text and a photo centered.
-- For all devices ensure all info windows clicked, can be closed with
-  the `x` icon displayed in the window.
-- For all devices click through all `Red Flag Icons`, and ensure
-  that when one info window opens, it is closed when another `Red Flag Icon`
-  is clicked.
-- For all devices click all `Cluster Marker Icons` and ensure Map zooms in
-  and displays `Red Flag Icons` accordingly.
-- For all devices ensure zoom and scrolling features work on Map.
+#### Contact
+
 
 #### Footer
 
-- Ensure that Copyright text in footer is centred for all devices.
+
 
 #### Browesers
 
