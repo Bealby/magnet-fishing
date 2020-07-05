@@ -16,7 +16,7 @@ and fill a well needed gap.
 
 ---
 
-![Mockup Generator](/documentation/readme/mockup-website.png/)
+![Mockup Generator](/documentation/readme/mockup_website.png/)
 
 A live version of Website can be found
 [here](https://magnet-fishing.herokuapp.com/)
@@ -154,6 +154,8 @@ to help inform users that the links are clickable.
 The main fonts used for this Website will be
 `'Source Serif Pro', serif` and `'Stardos Stencil', cursive` -
 the later font bringing the sailing theme to the forefront.
+
+[Go to top](#contents)
 
 ## Features
 
@@ -372,6 +374,8 @@ Creating such a link would be a service to the user.
 Magnet fishing has its dangers: deep water; excited children;
 slippery surfaces for example. Warnings of such dangers could be
 given in a “safety” section on the Navbar.
+
+[Go to top](#contents)
 
 ## Testing
 
@@ -603,6 +607,8 @@ This fix was provided and supported by
   and `div id="collapse{{ loop.index }}"`. Inspiration for this fix
   was supported by Keven at Code-Institute Support.
 
+[Go to top](#contents)
+
 ## Technologies Used
 
 ---
@@ -679,9 +685,13 @@ The following technologies were used in this project:
    written in Python
 - [Emailjs](https://www.emailjs.com/) - For sending email directly From JavaScript
 
+[Go to top](#contents)
+
 ## Deployment
 
 ---
+
+[Go to top](#contents)
 
 ## Credits
 
