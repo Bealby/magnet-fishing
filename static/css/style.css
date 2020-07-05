@@ -186,7 +186,7 @@ body {
 }
 
 
-/*-----BUTTONS/ HOVER-----*/
+/*-----EDIT/ DELETE <a> HOVER-----*/
 
 .default-button {
 	background-color: rgb(26, 16, 112, .8);
@@ -198,43 +198,37 @@ body {
 	border-color: rgb(190, 190, 190, 1) !important;
 }
 
-.edit-button {
-	background-color: rgb(255, 255, 255, 1);
-	border-color: rgb(255, 255, 255, 1);
-	color: rgb(26, 16, 112, .8);
+
+.edit-a {
+	background-color: rgb(255, 255, 255, 1) !important;
+	border-color: rgb(255, 255, 255, 1) !important;
+	color: rgb(26, 16, 112, 1) !important;
+    text-decoration: none !important;
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 1rem;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 0.5rem;
 }
 
-.edit-button:hover {
+.edit-a:hover {
 	background-color: rgb(190, 190, 190, 1) !important;
 	border-color: rgb(190, 190, 190, 1) !important;
 }
 
-.form-button-delete {
-	background-color: rgb(254, 17, 71, 1);
-	border: rgb(254, 17, 71, 1);
+.delete-a {
+	background-color: rgb(254, 17, 71, 1) !important;
+	border: rgb(254, 17, 71, 1) !important;
+    color: rgb(225, 225, 225, 1) !important;
+    text-decoration: none !important;
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 1rem;
+    padding: .5rem .6rem .5rem .6rem;
+    border-radius: 0.5rem;
 }
 
-.form-button-delete:hover {
+.delete-a:hover {
 	background-color: rgb(254, 17, 71, .7) !important;
 	border: rgb(254, 17, 71, .7) !important;
-}
-
-
-/*-----Remove hover for all <a>-----*/
-
-a:hover,
-a:visited,
-a:link,
-a:active {
-	text-decoration: none;
-}
-
-.delete-a {
-	color: rgb(255, 255, 255, 1);
-}
-
-.edit-a {
-	color: rgb(26, 16, 112, .8);
 }
 
 
@@ -256,6 +250,7 @@ a:active {
 
 .fa-magnet {
 	color: rgb(254, 17, 71, 1);
+    font-size: 1.8rem;
 }
 
 .fa-chevron-left {
