@@ -343,7 +343,8 @@ given in a “safety” section on the Navbar.
 
 [W3C](https://validator.w3.org/) - All HTML files with their data were directly
     inputted in the Mark-Up Validation Service.
-    The results: All HTML code adheres to validation requirements. Errors for Python only.
+    The results: All HTML code adheres to validation requirements. Errors for
+    Python only.
 
 [WSC](https://jigsaw.w3.org/css-validator/) - CSS data was directly inputted in
     the CSS Validation Service. The results: `Congratulations! No Error Found.`
@@ -351,21 +352,29 @@ given in a “safety” section on the Navbar.
 [PEP8](http://pep8online.com/) - Python script - `app.py`- was run through PEP8 online
     for PEP8 requirements. Results: `All Right` (Adheres to PEP requirements)
 
-[README]
+[README.md](https://github.com/Bealby/markdownlint) - Markdownlint was used to validate
+README.md file. 'Validation successful'
 
 [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
 A feature in Chrome Developing Tools - Lighthouse Audit - was carried out
-on Mobile and Desktop to assess **Performacne**, **Accesibility**,
+on Mobile and Desktop to assess **Performance**, **Accessibility**,
 **Best Practices**, **CEO** and **Progressive Web App**.
 
-- **Mobile:** An overall average of 86% was received.
-- **Desktop:** An overall average of 80% was recieved.
+- **Mobile:** An overall average of 85% was received.
+- **Desktop:** An overall average of 88% was received.
 
-- `Performance`
+Chrome Developing Tools also analysed the Progressive Web App,
+which validate the aspects of a Progressive Web App. The results
+were satisfactory.
 
-- [Validate Javascript](https://validatejavascript.com/)
+- [Validate Javascript](https://validatejavascript.com/) - Javascript
+  files were uploaded in in the Validate Javascript. Overall there
+  were no errors that needed to be changed and the javascript passed
+  general standards.
 
-- [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
+[Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
+Navigating through the Website rendered no critical fails/errors
+in the console that were necessary to fix.
 
 ### Non-Automated Testing
 
@@ -379,8 +388,8 @@ on Mobile and Desktop to assess **Performacne**, **Accesibility**,
 - Click through `Home`, `Catch Log`, `Maps`, and `Contact` links,
   ensuring each, when hovered over turn light grey, and direct you to the
   correct sections.
-- Click each navigation link and randomaly navigate to other links
-- On each navigstion link, ensure, when the logo is clicked, that it
+- Click each navigation link and randomly navigate to other links
+- On each navigation link, ensure, when the logo is clicked, that it
   redirects to `Home`.
 - Ensure the Bootstrap navigation collapse feature kicks in on smaller devices
   and the links continue to work correctly as process above.
@@ -400,58 +409,58 @@ on Mobile and Desktop to assess **Performacne**, **Accesibility**,
 #### Catch Log/ Edit Catches
 
 - Ensure a centred header is displayed for all devices
-- Click on `Accordion`cards and ensure each collpses and uncollapses
+- Click on `Accordion` cards and ensure each collapse and unclasps
   accordingly.
 - Click randomly through `Accordion` cards and ensure only one card collapses,
-  while another one uncollapses.
+  while another one unclasps.
 - For each `Accordion` card, when collapsed, ensure that the data is shown
   correctly on one row.
   - One column for `Name`, `Email` and `Location`, respectively.
   - The second column for `Magnet` and `Catches` respectively.
 - For example `Accordion` cards displayed on Catch Log, ensure each can be deleted
-  when the `Delete`icon is clicked.
+  when the `Delete` icon is clicked.
 - Ensure delete icon hovers dark red.
 - For each `Accordion` card, click on the `Edit` icon and ensure it directs you
   you to `edit_catch_log.html`.
 - Ensure Edit icon hovers grey.
 - Ensure `Edit` page has fields filled in from data shown in Catch Log page.
 - Ensure all fields have placeholder names.
-- Ensure all fields can be inputted and that the select features for `Magnet`and
+- Ensure all fields can be inputted and that the select features for `Magnet` and
  `Area` collapse with correct options to choose from.
 - Ensure `Modal` map icon, when clicked, pops-up a map, which can then be closed
 - Ensure Modal icon hovers grey.
 - Ensure `Date` fields allow for date picking and display correct date format.
-- Enusre form fields are layed out correctly for desktop devices. The first row
+- Ensure form fields are laid out correctly for desktop devices. The first row
   should be two columns for 'Name' and 'Email', and the second row three columns
   for 'Magnet', Area and Map.
-- Ensure remaining fields are centered and in one single column.
+- Ensure remaining fields are centred and in one single column.
 - Change some fields in `Edit` page and click on `Submit`. Ensure you are
   redirected back to Catch Log page and fields have been updated.
-- Ensure `Submit`icon turns grey on hover.
-- Click on `Home` link and re-eneter `Catch Log`page to ensure edit changes have
+- Ensure `Submit` icon turns grey on hover.
+- Click on `Home` link and re-enter `Catch Log` page to ensure edit changes have
   been made.
 - For smaller devices all form fields should be centred in one single column.
 - For smaller devices run through steps as above.
 
 #### Add Catches
 
-- Ensure `Add Catches` page has has empty fields with placeholder text.
-- Ensure all fields can be inputted and that the select features for `Magnet`and
+- Ensure `Add Catches` page has empty fields with placeholder text.
+- Ensure all fields can be inputted and that the select features for `Magnet` and
  `Area` collapse, with correct options to choose from.
 - Ensure `Modal` map icon, when clicked, pops-up a map, which can then be
   closed
 - Ensure Modal icon hovers grey.
 - Ensure `Date` fields allow for date picking and display correct date
   format.
-- Enusre form fields are layed out correctly for desktop devices. The first
+- Ensure form fields are laid out correctly for desktop devices. The first
   row
   should be two columns for 'Name' and 'Email', and the second row three
    columns for 'Magnet', Area and Map.
-- Ensure remaining fields are centered and in one single column.
+- Ensure remaining fields are centred and in one single column.
 - Complete form for Add Catches and click on `Submit`. Ensure you are
   redirected
   back to Catch Log page and fields have been updated.
-- Ensure `Submit`icon turns grey on hover.
+- Ensure `Submit` icon turns grey on hover.
 - For smaller devices all form fields should be centred in one single
   column.
 - For smaller devices run through steps as above.
@@ -460,11 +469,11 @@ on Mobile and Desktop to assess **Performacne**, **Accesibility**,
 
 - Ensure a centred header is displayed for all devices
 - Ensure form and fields are centred for all devices
-- Ensure all fields are `required` by typing in a incorrect `name`
+- Ensure all fields are `required` by typing in an incorrect `name`
   but correct `Email` and `Comment`. Click Send. Pop up should
   display 'Please fill in this field`
 - Type in an incorrect `Email` but correct `Name` and `Comment`.
-  Click Send. Pop up should dispay 'Please include @ sign'.
+  Click Send. Pop up should display 'Please include @ sign'.
 - Type in incorrect `Comment` but correct `Name` and `Email`. Click
    Send. Pop up should display 'Please fill in this field`
 - Input all fields with correct `Name`, `Email` format and `Message`.
@@ -476,13 +485,13 @@ on Mobile and Desktop to assess **Performacne**, **Accesibility**,
   Pop up window should display "Message Fail "Please check
   connection and try again".
 - Ensure send icon hovers grey
-- For smaller devices run thorugh steps above.
+- For smaller devices run through steps above.
 
 #### Footer
 
 Ensure that Copyright text in footer is centred for all devices.
 
-#### Desktop Browesers
+#### Desktop Browsers
 
 - Chrome: Website renders well on all screen sizes.
 - Safari: Website renders well on all screen sizes.
@@ -493,7 +502,7 @@ Ensure that Copyright text in footer is centred for all devices.
 
 - The Website was tested on tablets and a variety of
   mobiles, including iPhone and Samsung. The results were
-  satisfactory for all devices and continued to acheive the
+  satisfactory for all devices and continued to achieve the
   UX and UI goals.
 
 #### User Testing
@@ -514,10 +523,10 @@ Ensure that Copyright text in footer is centred for all devices.
 
 #### User Experience
 
-- Overall the Website fulfiled users expectations. They found the
-  Website informtive and enticing and the information provided in
+- Overall the Website fulfilled users expectations. They found the
+  Website informative and enticing and the information provided in
   the Catch Log to be satisfactory. It allowed users to have knowledge
-  of where other particpants have Magnet Fished and tabulated finds
+  of where other participants have Magnet Fished and tabulated finds
   in a concise and easy to use manner.
 
 - It was noted that even though email addresses were provided a more
@@ -528,39 +537,39 @@ Ensure that Copyright text in footer is centred for all devices.
   not provide the useful tips and guidance at this stage.
   This has however has been addressed in 'Features Left Implement'.
 
-- Users wanted to be able to input Cathes on their mobile while Magnet
- Fishing. To help in the usability and convienience of this, a left
- cheron was added to mobile devices to be able to go back quickly to
+- Users wanted to be able to input Catches on their mobile while Magnet
+ Fishing. To help in the usability and convenience of this, a left
+ chevron was added to mobile devices to be able to go back quickly to
  Catch Log on the Edit and Add Catch pages. For mobile only.
 
 #### Fixes
 
-- When carrying out User Testing it was made apparant that the background
+- When carrying out User Testing it was made apparent that the background
   image which was set up, was working for most phones except for iphone -
-specifially Safarai. The Background-image became more blurry the more
+specifically Safarai. The Background-image became more blurry the more
 content was on the page. This was a particular IOS issue and was fixed
 by firstly declaring the body and html to be 100% wide and 100% tall,
 `html, body{width: 100%; height: 100%;}`. The scrolling was then done
 by the container and not the body itself. This in turn meant wrapping
-the container with the following parimenters,
+the container with the following parameters,
 `#wrapper{width: 100%; height:100%; overflow: scroll;}`.
 
 This fix was provided and supported by
 [Stackoverflow](https://stackoverflow.com/questions/41436892/background-attachment-fixed-doesnt-work-on-ios)
 
 - The `Accordion` collapse feature in the Catch Log page was, upon
-  clicking the card, collapsing all cards at once.  Since eash Card
+  clicking the card, collapsing all cards at once.  Since each Card
   had the same data-target and the same div id all of them were
   collapsing together. This was fixed by using the loop index from the
   `jinja` for loop. `data-target="#collapse{{ loop.index }}"`
-  and `div id="collapse{{ loop.index }}"`. Inspriaration for this fix
+  and `div id="collapse{{ loop.index }}"`. Inspiration for this fix
   was supported by Keven at Code-Institute Support.
 
-## Technolgies Used
+## Technologies Used
 
 ---
 
-The following technolgies were used in this project:
+The following technologies were used in this project:
 
 **IDE:**
 
@@ -580,8 +589,8 @@ The following technolgies were used in this project:
    HTML elements
 - [Python](https://www.python.org/) - A programming language that lets you work
    quickly and integrate systems more effectively
-- [JavaScript](https://www.javascript.com/) - Used in collabration with
-   Bootstrap to collaspe Navigation Bar for small devices and Google Maps
+- [JavaScript](https://www.javascript.com/) - Used in collaboration with
+   Bootstrap to collapse Navigation Bar for small devices and Google Maps
 
 **Databases:**
 
@@ -610,7 +619,7 @@ The following technolgies were used in this project:
 - [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)** - Allowed
    preliminary designs to be drawn up of Website
 - [Adobe Photoshop](https://www.adobe.com//) - Fixing size images
-- [Adobe Illuetrator](https://www.adobe.com//) - Fixing Logo - Magnet Fishing
+- [Adobe Illustrator](https://www.adobe.com//) - Fixing Logo - Magnet Fishing
   Stockholm
 - [Sweet Alert](https://sweetalert.js.org/) - Used for alerts in contact form
 - [Responsive Design](http://ami.responsivedesign.is/) - Free software
@@ -622,11 +631,11 @@ The following technolgies were used in this project:
 
 **Frameworks:**
 
-- [BOOTSTRAP](https://getbootstrap.com/) - A famework for building responsive
+- [BOOTSTRAP](https://getbootstrap.com/) - A framework for building responsive
    Websites where the powerful Grid system was used along with styling
-- [jQuery](https://jquery.com/) - Used to implement Navigation Collaspe feature
+- [jQuery](https://jquery.com/) - Used to implement Navigation Collapse feature
    JavaScript Plugin
-- [Popper](https://popper.js.org/) - Used to implement Navigation Collaspe
+- [Popper](https://popper.js.org/) - Used to implement Navigation Collapse
    feature JavaScript Plugin
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A micro web framework
    written in Python
@@ -654,4 +663,3 @@ The following technolgies were used in this project:
    always provide advice and support when needed.
 - **Aaron Sinnott:** My Mentor for professional advice and good practice.
 - **Friends and Family:** For user feedback.
-
