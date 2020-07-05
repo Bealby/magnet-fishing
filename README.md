@@ -16,6 +16,44 @@ and fill a well needed gap.
 
 ---
 
+![Mockup Generator](/documentation/readme/mockup-website.png/)
+
+A live version of Website can be found
+[here](https://magnet-fishing.herokuapp.com/)
+
+## Contents
+
+1.[UX](#ux)
+
+- [Strategy](#strategy)
+- [User Stories](#user-stories)
+- [Scope](#scope)
+- [Structure](#structure)
+- [Skeleton](#skeleton)
+- [Surface](#surface)
+
+2.[Features](#features)
+
+- [Features of the Website](#features-of-the-website)
+- [Features Left to Implement](#features-left-to-implement)
+
+3.[Technologies Used](#technologies-used)
+
+4.[Testing](#testing)
+
+- [Automated Testing](#automated-testing)
+- [Non-Automated Testing](#non-automated-testing)
+- [Fixes](#fixes)
+
+5.[Deployment](#deployment)
+
+- [Publish GitHub Repository](#publish-github-repository)
+- [Clone GitHub Repository](#clone-github-repository)
+
+6.[Credits](#credits)
+
+---
+
 ## UX
 
 ---
