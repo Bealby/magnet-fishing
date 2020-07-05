@@ -257,7 +257,7 @@ For mobile devices, on the left of each 'Call for action'
 header, a left-chevron icon will be displayed using
 [Font Awesome](https://fontawesome.com/). This allows the
 user to quickly go back if they decide not to 'Add' or 'Edit'
-catches. 
+catches.
 
 - **Contact:**
 
@@ -301,7 +301,7 @@ and engender confidence and the pleasure it can bring.
 **Latest News and News Blogs**
 As the popularity of the sport increases there will be a need
 to harness debate and a thirst for “Latest News”. This could
-become a popular element of the site. 
+become a popular element of the site.
 
 **Cloning of the Website to other Geographic Areas**
 The website has been developed for magnet fishermen in Stockholm.
@@ -331,7 +331,7 @@ Fishing Club with Club Chairman, Secretary and Committee!
 Creating such a link would be a service to the user.
 
 **Include a “Safety” section on the Navbar**
-Magnet fishing has its dangers: deep water; excited children; 
+Magnet fishing has its dangers: deep water; excited children;
 slippery surfaces for example. Warnings of such dangers could be
 given in a “safety” section on the Navbar.
 
@@ -351,6 +351,8 @@ given in a “safety” section on the Navbar.
 [PEP8](http://pep8online.com/) - Python script - `app.py`- was run through PEP8 online
     for PEP8 requirements. Results: `All Right` (Adheres to PEP requirements)
 
+[README]
+
 [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
 A feature in Chrome Developing Tools - Lighthouse Audit - was carried out
 on Mobile and Desktop to assess **Performacne**, **Accesibility**,
@@ -359,110 +361,122 @@ on Mobile and Desktop to assess **Performacne**, **Accesibility**,
 - **Mobile:** An overall average of 86% was received.
 - **Desktop:** An overall average of 80% was recieved.
 
-`Performance` 
+- `Performance`
 
+- [Validate Javascript](https://validatejavascript.com/)
 
-[Validate Javascript](https://validatejavascript.com/) - 
-
-[Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
+- [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
 
 ### Non-Automated Testing
 
 #### Background Image
-- Ensure Background image is fixed and scrolls correctly for all devices 
+
+- Ensure Background image is fixed and scrolls correctly in background
+  for all devices
 
 #### Navigation Bar Links & Logo
 
 - Click through `Home`, `Catch Log`, `Maps`, and `Contact` links,
   ensuring each, when hovered over turn light grey, and direct you to the
-  correct sections
+  correct sections.
 - Click each navigation link and randomaly navigate to other links
-- On each navigstion link, ensure when the logo is clicked, that
-  redirects `Home`.
-- Ensure navigation collapse Bootstrap feature kicks in on smaller devices
+- On each navigstion link, ensure, when the logo is clicked, that it
+  redirects to `Home`.
+- Ensure the Bootstrap navigation collapse feature kicks in on smaller devices
   and the links continue to work correctly as process above.
 
 #### Home Page
 
-- Ensure a centred header is displayed for all devices
-- For Desktop devices ensure the `Home` page is divided into two columns
-  with first row of an image and text box, and the second row of a text box and image
-- Ensure that the third row includes a single column that includes a video
-- Ensure video plays
+- Ensure a centred header is displayed for all devices.
+- For Desktop devices ensure the `Home` page is divided into two columns,
+  with the first including an image and text box, and the second row including
+  a text box and image.
+- Ensure that the third row includes a single column that includes a video.
+- Ensure video plays.
+- For smaller devices ensure video is aligned on one single column. Centred and plays.
 - For smaller devices ensure the `Home` page is divided into one column of the order
   text box, image, text box, image. All centred on page.
-- For smaller device ensure video is aligned on one single column. Centred and that plays
 
 #### Catch Log/ Edit Catches
 
 - Ensure a centred header is displayed for all devices
 - Click on `Accordion`cards and ensure each collpses and uncollapses
-  accordingly. 
-- Click randomly through `Accordion` cards and ensure as one card collapses another
-  card uncollapses
-- For each `Accordion`card collapsed ensure that data is shown correctly.
- - One column for `Name`, `Email` and `Location`, respectively. 
-   The second column for `Magnet` and `Catches` respectively.
-- For example `Accordion` cards ensure each can be deleted when clicking the 
-  `Delete`icon.
-  - ensure delete hovers dark red
-- For each `Accordion` card click on the `Edit` icon and ensure directs it
-  you to `edit_catch_log.html`
-  - ensure Edit hovers grey
+  accordingly.
+- Click randomly through `Accordion` cards and ensure only one card collapses,
+  while another one uncollapses.
+- For each `Accordion` card, when collapsed, ensure that the data is shown
+  correctly on one row.
+  - One column for `Name`, `Email` and `Location`, respectively.
+  - The second column for `Magnet` and `Catches` respectively.
+- For example `Accordion` cards displayed on Catch Log, ensure each can be deleted
+  when the `Delete`icon is clicked.
+- Ensure delete icon hovers dark red.
+- For each `Accordion` card, click on the `Edit` icon and ensure it directs you
+  you to `edit_catch_log.html`.
+- Ensure Edit icon hovers grey.
 - Ensure `Edit` page has fields filled in from data shown in Catch Log page.
-- Ensure all fields have placeholder names
+- Ensure all fields have placeholder names.
 - Ensure all fields can be inputted and that the select features for `Magnet`and
-`Area` collapse with correct options to choose from work
+ `Area` collapse with correct options to choose from.
 - Ensure `Modal` map icon, when clicked, pops-up a map, which can then be closed
-- ensure Modal hovers grey 
-- Ensure `Date` fields allow for date picking and display correct date format. 
-- Enusre form fields are layout correctly for desktop devices. The first row
-  should be two columns for 'Name' and 'Email, and the second row 3 columns for
-  'Magnet', Area and Map. 
-- Ensure remaing field are centered and in one single column.
-- Change some fields in `Edit`page and click on `Submit`. You should be directed
- back to Catch Log. Ensure fields have been updated
-  - Click on Home link and re-eneter Catch Log to ensure edit changes have been made are
-- try same procidure above but with different card sin Catch Log..
+- Ensure Modal icon hovers grey.
+- Ensure `Date` fields allow for date picking and display correct date format.
+- Enusre form fields are layed out correctly for desktop devices. The first row
+  should be two columns for 'Name' and 'Email', and the second row three columns
+  for 'Magnet', Area and Map.
+- Ensure remaining fields are centered and in one single column.
+- Change some fields in `Edit` page and click on `Submit`. Ensure you are
+  redirected back to Catch Log page and fields have been updated.
+- Ensure `Submit`icon turns grey on hover.
+- Click on `Home` link and re-eneter `Catch Log`page to ensure edit changes have
+  been made.
 - For smaller devices all form fields should be centred in one single column.
-- For smaller devices run through step above.
+- For smaller devices run through steps as above.
 
 #### Add Catches
-- Ensure a centred header is displayed for all devices
-- Ensure `Add Catches` page have all fields placeholder names
+
+- Ensure `Add Catches` page has has empty fields with placeholder text.
 - Ensure all fields can be inputted and that the select features for `Magnet`and
-`Area` collapse with correct options to choose from work
-- Ensure `Modal` map icon, when clicked, pops-up a map, which can then be closed
-- ensure Modal hovers grey 
-- Ensure `Date` fields allow for date picking and display correct date format. 
-- Enusre form fields are layout correctly for desktop devices. The first row
-  should be two columns for 'Name' and 'Email, and the second row 3 columns for
-  'Magnet', Area and Map. 
-- Ensure remaing field are centered and in one single column.
-- Add a number of catches in page  and click on `Submit`. You should be redirected
- back to Catch Log. Ensure new added catches on displayed on Catch Log. 
- - Click on Home and re-eneter Catch Log to ensure new enetirs are there.
-- try same procidure above but with different card sin Catch Log..
-- For smaller devices all form fields should be centred in one single column.
-- For smaller devices run through step above.
+ `Area` collapse, with correct options to choose from.
+- Ensure `Modal` map icon, when clicked, pops-up a map, which can then be
+  closed
+- Ensure Modal icon hovers grey.
+- Ensure `Date` fields allow for date picking and display correct date
+  format.
+- Enusre form fields are layed out correctly for desktop devices. The first
+  row
+  should be two columns for 'Name' and 'Email', and the second row three
+   columns for 'Magnet', Area and Map.
+- Ensure remaining fields are centered and in one single column.
+- Complete form for Add Catches and click on `Submit`. Ensure you are
+  redirected
+  back to Catch Log page and fields have been updated.
+- Ensure `Submit`icon turns grey on hover.
+- For smaller devices all form fields should be centred in one single
+  column.
+- For smaller devices run through steps as above.
 
 #### Contact
+
 - Ensure a centred header is displayed for all devices
-- Ensure form and fields iare centred for all devices
-- Ensure all fields are required by typing in a name
-but correct email and comment. Click Send. Pop up 'Please
-fill in this field`
-- Typing in an email but correct name and comment. Click Send.
-Pop up 'Please include @ sign'
-- Typing in an comment but correct name and email. Click Send.
-Pop up 'Please
-fill in this field`
-- input all fields with correct naem, email format and Message. Click send.
-Pop Up Window "Message Sent - We will be in touch soon!
-- Turn off internet connection. fill in all correct fields. press send.
-"Message Fail "Please check connection and try again"
-  - ensure send icon hovers grey 
-  - for smaller devices please run thorugh steps above. 
+- Ensure form and fields are centred for all devices
+- Ensure all fields are `required` by typing in a incorrect `name`
+  but correct `Email` and `Comment`. Click Send. Pop up should
+  display 'Please fill in this field`
+- Type in an incorrect `Email` but correct `Name` and `Comment`.
+  Click Send. Pop up should dispay 'Please include @ sign'.
+- Type in incorrect `Comment` but correct `Name` and `Email`. Click
+   Send. Pop up should display 'Please fill in this field`
+- Input all fields with correct `Name`, `Email` format and `Message`.
+  Click send.
+  Pop Up Window  should be displayed. "Message Sent - We will be in
+  touch soon!`
+- Turn off internet connection. Input all fields correctly. Click
+  send.
+  Pop up window should display "Message Fail "Please check
+  connection and try again".
+- Ensure send icon hovers grey
+- For smaller devices run thorugh steps above.
 
 #### Footer
 
@@ -485,8 +499,8 @@ Ensure that Copyright text in footer is centred for all devices.
 #### User Testing
 
 - Family and friends were asked to use the finished Website to test
-  usability and comment on whether they felt it met their needs as discussed
-  in the Strategy section - [User Stories](#user-stories).
+  usability and comment on whether they felt it met their needs as
+  discussed in the Strategy section - [User Stories](#user-stories).
 
 - iphone 8 - Chrome: Good
 - iphone xs - Chrome: Good
@@ -500,36 +514,47 @@ Ensure that Copyright text in footer is centred for all devices.
 
 #### User Experience
 
-- Overall the Website fulfiled user expectations. They found theWebsite informtive and enticing
-  and the information provided in the Catch Log to be satisfactory. It allowed users to have knowledge
-  of where other particpants have Maget Fished and tabulated finds in a concise and easy to use manner.
+- Overall the Website fulfiled users expectations. They found the
+  Website informtive and enticing and the information provided in
+  the Catch Log to be satisfactory. It allowed users to have knowledge
+  of where other particpants have Magnet Fished and tabulated finds
+  in a concise and easy to use manner.
 
-- It was noted that even though email addresses were provided a more security based feature would be better
-suited for the user and have more of a chat function to communicate with others and not just by email. 
+- It was noted that even though email addresses were provided a more
+  security based feature would be better suited for the user and that
+  chat function to communicate with others would be a nice feature.
 
-- Tips and more detailed information was perhaps limited and did not provide the useful tips and guidance but
-    this has be addressed 'Features Left to Add and can be expanded later in the future.
+- Tips and more detailed information were perhaps limited and did
+  not provide the useful tips and guidance at this stage.
+  This has however has been addressed in 'Features Left Implement'.
 
-- Users wanted to be able to inout Cathes on their mobile while Magnet Fishing. To help in the usability and
- convienience of being out in the field a left cheron was added to mobile devices to be able to go back quickly to Catch Log.
- 
+- Users wanted to be able to input Cathes on their mobile while Magnet
+ Fishing. To help in the usability and convienience of this, a left
+ cheron was added to mobile devices to be able to go back quickly to
+ Catch Log on the Edit and Add Catch pages. For mobile only.
 
 #### Fixes
 
-- When carrying out User Testing it was made apparant that the background image which was set up, was working for
-most phones except for iphone - specifially Safarai. The BAckground-imagew became more blurry as the more content was addeded to page. 
-This was particular IOS issue and was fixed by firstly declaring the body and html to be 100% wide and 100% tall,
-`html, body{width: 100%; height: 100%;}`. The scrolling is then done by the container and not the body, which in
-turn means wrapping the container with the following parimenters, `#wrapper{width: 100%; height: 100%; overflow: scroll;}`.
+- When carrying out User Testing it was made apparant that the background
+  image which was set up, was working for most phones except for iphone -
+specifially Safarai. The Background-image became more blurry the more
+content was on the page. This was a particular IOS issue and was fixed
+by firstly declaring the body and html to be 100% wide and 100% tall,
+`html, body{width: 100%; height: 100%;}`. The scrolling was then done
+by the container and not the body itself. This in turn meant wrapping
+the container with the following parimenters,
+`#wrapper{width: 100%; height:100%; overflow: scroll;}`.
 
 This fix was provided and supported by
 [Stackoverflow](https://stackoverflow.com/questions/41436892/background-attachment-fixed-doesnt-work-on-ios)
 
-- The `Accordion` collapse feature in Catch Log page was, upon clicking the card, collapsing all cards at once. 
-Since eash Card had the same data-target and the same div id all of them were collapsing all together.
-This was fixed by using the loop index from the jinja for loop. `data-target="#collapse{{ loop.index }}"` 
-and `div id="collapse{{ loop.index }}"`. Inspriaration for this fix was supported by Keven at Code-Institute Support. 
-
+- The `Accordion` collapse feature in the Catch Log page was, upon
+  clicking the card, collapsing all cards at once.  Since eash Card
+  had the same data-target and the same div id all of them were
+  collapsing together. This was fixed by using the loop index from the
+  `jinja` for loop. `data-target="#collapse{{ loop.index }}"`
+  and `div id="collapse{{ loop.index }}"`. Inspriaration for this fix
+  was supported by Keven at Code-Institute Support.
 
 ## Technolgies Used
 
@@ -538,44 +563,55 @@ and `div id="collapse{{ loop.index }}"`. Inspriaration for this fix was supporte
 The following technolgies were used in this project:
 
 **IDE:**
+
 - [GitPod](https://gitpod.io/workspaces/) - A platform used for hard coding
    of Website
 
-**Hosting/ Deployment**
-- [Heroku](https://id.heroku.com/) - Heroku is a cloud platform as a service supporting several programming languages.
+**Hosting/Deployment:**
+
+- [Heroku](https://id.heroku.com/) - Heroku is a cloud platform as a service
+  supporting several programming languages.
 - [GitHub](https://github.com/)** - Used to store repository and deploy Website
 
 **Languages:**
+
 - [HTML](https://en.wikipedia.org/wiki/HTML) - Markup language of Website
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used to style
    HTML elements
-- [Python](https://www.python.org/) - A programming language that lets you work quickly
-   and integrate systems more effectively
+- [Python](https://www.python.org/) - A programming language that lets you work
+   quickly and integrate systems more effectively
 - [JavaScript](https://www.javascript.com/) - Used in collabration with
    Bootstrap to collaspe Navigation Bar for small devices and Google Maps
 
-**Databases**
-- [MongoDB](https://www.mongodb.com/) - MongoDB is a general purpose, document-based, distributed database built for modern application developers
+**Databases:**
+
+- [MongoDB](https://www.mongodb.com/) - MongoDB is a general purpose,
+  document-based, distributed database built for modern application developers
 
 **Language Validators:**
+
 - [W3C](https://validator.w3.org/) - Used to validate HTML code
 - [WSC](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code
-- [Validate Javascript](https://validatejavascript.com//) - Used to validate javascript
+- [Validate Javascript](https://validatejavascript.com//) - Used to validate
+   javascript
 - [Pep8 online](http://pep8online.com/) - Validator for Python code
 - [Markdown Lint](https://github.com/Bealby/markdownlint) - Used for validation
     checks on README.md content
 
 **Libraries:**
+
 - [Google Fonts](https://fonts.google.com/) - Programme used to import main
    fonts in Website: **Playfair Display** and **Calligraffitti**
 - [Font Awesome](https://fontawesome.com/) - Programme used to import icons
    for Footer in Website: **far-envelope** and **fas fa-phone**
 
-**Tools**
+**Tools:**
+
 - [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)** - Allowed
    preliminary designs to be drawn up of Website
 - [Adobe Photoshop](https://www.adobe.com//) - Fixing size images
-- [Adobe Illuetrator](https://www.adobe.com//) - Fixing Logo - Magnet Fishing Stockholm
+- [Adobe Illuetrator](https://www.adobe.com//) - Fixing Logo - Magnet Fishing
+  Stockholm
 - [Sweet Alert](https://sweetalert.js.org/) - Used for alerts in contact form
 - [Responsive Design](http://ami.responsivedesign.is/) - Free software
     to generate Mockup of Website on different devices
@@ -584,19 +620,38 @@ The following technolgies were used in this project:
 - [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) - A useful
    developing tool in Chrome to edit pages and diagnose problems
 
-**Frameworks**
+**Frameworks:**
+
 - [BOOTSTRAP](https://getbootstrap.com/) - A famework for building responsive
    Websites where the powerful Grid system was used along with styling
 - [jQuery](https://jquery.com/) - Used to implement Navigation Collaspe feature
    JavaScript Plugin
 - [Popper](https://popper.js.org/) - Used to implement Navigation Collaspe
    feature JavaScript Plugin
-- [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A micro web framework written in Python
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A micro web framework
+   written in Python
 - [Emailjs](https://www.emailjs.com/) - For sending email directly From JavaScript
 
+## Deployment
 
+---
 
+## Credits
 
+---
 
+### Content
 
+- All content for this Website was provided by Murray Bealby.
+
+### Media
+
+- All photos and video were provided by Murray Bealby
+
+### Acknowledgements
+
+- **Slack Forum/ Code Institute Tutorial:** The benevolent force that
+   always provide advice and support when needed.
+- **Aaron Sinnott:** My Mentor for professional advice and good practice.
+- **Friends and Family:** For user feedback.
 
