@@ -126,7 +126,7 @@ body {
 
 /*-----FORMS-----*/
 
-.form-header p {
+.form-header{
 	color: rgb(255, 255, 255, 1);
 	font-size: 1.2rem;
 	margin-bottom: 0rem;
@@ -399,7 +399,7 @@ body {
 /*Reduced size of font for better fit in iphone 5 and samsung 7. Text otherwise overlaped background*/
 
 @media(min-width:31.875rem) {
-	.form-header p {
+	.form-header{
 		color: rgb(255, 255, 255, 1);
 		font-size: 1.4rem;
 		margin-bottom: 0rem;
