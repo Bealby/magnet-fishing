@@ -120,7 +120,8 @@ body {
 
 .edit-delete-margins {
 	text-align: left;
-	padding-top: 1rem;
+	padding-top: 0.6rem;
+    padding-bottom:1rem;
 }
 
 
@@ -251,6 +252,7 @@ body {
 .fa-magnet {
 	color: rgb(254, 17, 71, 1);
     font-size: 1.8rem;
+    padding-left:0.7rem;
 }
 
 .fa-chevron-left {
@@ -261,7 +263,6 @@ body {
 	color: rgb(26, 16, 112, 1);
 	font-size: 3rem;
 }
-
 
 /*-----FOOTER-----*/
 
@@ -351,12 +352,13 @@ body {
 }
 
 
-/*Adjust edit and delete icons left for smaller devices. To fit better on screen and less wide*/
+/*Adjust edit and delete icons padding-left, top & bottom for smaller devices. To fit better on screen*/
 
 @media(min-width:48rem) {
 	.edit-delete-margins {
 		text-align: right;
 		padding-top: 0rem;
+        padding-bottom:0rem;
 	}
 }
 
