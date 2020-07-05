@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display:100,200,300,400,500,600,700,800|Source+Serif+Pro:100,200,300,400,500,600,700,800|Italianno:100,200,300,400,500,600,700,800');
 
-
 /*-----BODY-----*/
 
 body {
@@ -14,6 +13,23 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
+
+/*-----CONTAINERS-----*/
+
+.container {
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+}
+
+
+/*-----Overides main container margins for cleaner poisitoning for all devices-----*/
+
+.home-container {
+	padding-right: 2rem !important;
+	padding-left: 2rem !important;
+}
+
 
 /*-----BACKGROUND IMAGE-----*/
 
@@ -30,6 +46,7 @@ body {
 	height: 100%;
 	overflow: scroll;
 }
+
 
 /*-----NAVIGATION BAR-----*/
 
@@ -101,6 +118,11 @@ body {
 	padding-left: 0rem;
 }
 
+.edit-delete-margins {
+	text-align: left;
+	padding-top: 1rem;
+}
+
 
 /*-----FORMS-----*/
 
@@ -164,37 +186,7 @@ body {
 }
 
 
-
-
-
-
-
-
-
-.container {
-	padding-right: 0.5rem;
-	padding-left: 0.5rem;
-}
-
-
-/*overide main container margins*/
-
-.home-container {
-	padding-right: 2rem !important;
-	padding-left: 2rem !important;
-}
-
-.btn-block,
-.card-header {
-	background-color: rgb(26, 16, 112, 1);
-	border: rgb(26, 16, 112, 1);
-}
-
-.card {
-	background-color: rgb(255, 255, 255, .8);
-	border: rgb(26, 16, 112, .8);
-}
-
+/*-----BUTTONS/ HOVER-----*/
 
 .default-button {
 	background-color: rgb(26, 16, 112, .8);
@@ -228,9 +220,13 @@ body {
 }
 
 
-.edit-delete-margins {
-	text-align: left;
-	padding-top: 1rem;
+/*-----Remove hover for all <a>-----*/
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+	text-decoration: none;
 }
 
 .delete-a {
@@ -241,12 +237,20 @@ body {
 	color: rgb(26, 16, 112, .8);
 }
 
-a:hover,
-a:visited,
-a:link,
-a:active {
-	text-decoration: none;
+
+/*-----ACCORDION COLLAPSE - CATCH LOG-----*/
+
+.btn-block,
+.card-header {
+	background-color: rgb(26, 16, 112, 1);
+	border: rgb(26, 16, 112, 1);
 }
+
+.card {
+	background-color: rgb(255, 255, 255, .8);
+	border: rgb(26, 16, 112, .8);
+}
+
 
 /*-----FONT AWESOME ICONS-----*/
 
@@ -297,7 +301,8 @@ a:active {
 
 /*-----MEDIA QUERIES-----*/
 
-/*Increase sixe of logo on medium devices for better viewing. Otherwise too small.*/
+
+/*Increase size of logo on smalller devices for better viewing. Otherwise too small.*/
 
 @media(min-width:62rem) {
 	.logo {
@@ -317,7 +322,7 @@ a:active {
 }
 
 
-/*Reduced size of page-header on medium devices for better viewing. Otherwise too big.*/
+/*Reduced size of page-header on medium devices for better viewing. Otherwise a little too big.*/
 
 @media(min-width:62rem) {
 	.page-header p {
@@ -331,7 +336,7 @@ a:active {
 }
 
 
-/*Reduced padding to provide more room for form fields in forms on smaller devices add_catches.html.*/
+/*Reduced padding to provide more room for form fields on smaller devices (add_catches.html).*/
 
 @media(min-width:31.875rem) {
 	.container {
@@ -351,7 +356,7 @@ a:active {
 }
 
 
-/*Adjust edit and delte icons left for smaller devices*/
+/*Adjust edit and delete icons left for smaller devices. To fit better on screen and less wide*/
 
 @media(min-width:48rem) {
 	.edit-delete-margins {
@@ -361,7 +366,7 @@ a:active {
 }
 
 
-/*Shift image center on medium and smaller devices for better layout also bottom padding*/
+/*Shift image center on smaller devices for better layout. Also increased bottom padding for better postioning*/
 
 @media(min-width:62rem) {
 	.home-image-left {
@@ -371,7 +376,7 @@ a:active {
 }
 
 
-/*Shift image center on medium and smaller devices for better layout. Also top padding */
+/*Shift image center on medium and smaller devices for better layout. Also increased top padding for better postioning */
 
 @media(min-width:62rem) {
 	.home-image-right {
@@ -396,7 +401,7 @@ a:active {
 }
 
 
-/*iphone 5 and samsung 7*/
+/*Reduced size of font for better fit in iphone 5 and samsung 7. Text otherwise overlaped background*/
 
 @media(min-width:31.875rem) {
 	.form-header p {

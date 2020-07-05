@@ -1,5 +1,7 @@
 {% extends 'base.html' %} {% block content %}
 
+<header>
+
 <div class="container pt-5">
     <div class="row">
         <div class="col-8 offset-2 text-center page-header">
@@ -7,6 +9,11 @@
         </div>
     </div>
 
+</header>
+
+<section>
+
+<!--Contact Form-->
     <div class="center-form pt-4 col-sm-12 col-md-10 offset-md-1">
         <form onsubmit="return sendMail(this);" class="form-fields" id="myForm">
             <input type="text" name="name" class="form-control mt-3 form-fields" id="fullname" placeholder="Name" required />
@@ -23,6 +30,11 @@
         </form>
     </div>
 </div>
+
+</section>
+
+
+<!--Script for contact.html only-->
 
 {% endblock %} {% block scripts %}
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>

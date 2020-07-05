@@ -1,5 +1,8 @@
 {% extends 'base.html' %} {% block content %}
 
+<header>
+
+<!--Catch Log-->
 <div class="container pt-5">
     <div class="row mx-auto">
         <a href="{{url_for('get_catches')}}"><i class="fas fa-chevron-left d-block d-sm-none d-none d-sm-block d-md-none"></i></a>
@@ -7,7 +10,11 @@
             <p>Catch Form</p>
         </div>
     </div>
+</header>
 
+<section>
+
+<!--Add Catch Form-->
     <form action="{{ url_for('insert_catches') }}" method="POST">
         <!--First Row-->
         <div class="row pl-2 pt-4">
@@ -39,7 +46,7 @@
                 </select>
             </div>
             <div class="form-row col-md-1 mt-3">
-                <!-- Button trigger modal -->
+                <!-- Button Trigger Modal -->
                 <button type="button" class="btn btn-primary default-button mx-auto" data-toggle="modal" data-target="#exampleModalCenter">
                     Map
                 </button>
@@ -100,5 +107,7 @@
         </div>
     </form>
 </div>
+
+</section>
 
 {% endblock %}

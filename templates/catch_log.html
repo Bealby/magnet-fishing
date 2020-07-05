@@ -1,5 +1,7 @@
 {% extends 'base.html' %} {% block content %}
 
+<header>
+
 <div class="container pt-5">
     <div class="row">
         <div class="col-8 offset-2 text-center page-header">
@@ -7,6 +9,12 @@
         </div>
     </div>
 </div>
+
+</header>
+
+<section>
+
+<!--Accordion Collapse-->
 
 <div class="accordion pt-5" id="accordionExample">
     {% for catch_log in catch_log %}
@@ -67,5 +75,7 @@
 
     {% endfor %}
 </div>
+
+</section>
 
 {% endblock %}
