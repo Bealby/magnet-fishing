@@ -343,7 +343,7 @@ given in a “safety” section on the Navbar.
 
 [W3C](https://validator.w3.org/) - All HTML files with their data were directly
     inputted in the Mark-Up Validation Service.
-    The results:`Document checking completed. No errors or warnings to show.`
+    The results: All HTML code adheres to validation requirements. Errors for Python only.
 
 [WSC](https://jigsaw.w3.org/css-validator/) - CSS data was directly inputted in
     the CSS Validation Service. The results: `Congratulations! No Error Found.`

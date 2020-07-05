@@ -21,23 +21,28 @@ mongo = PyMongo(app)
 
 # Function to load 'Home' page as default
 
+
 @app.route('/')
 def home():
     return render_template("index.html")
 
 # Function to load 'Contact' page
 
+
 @app.route('/contact')
 def contact():
     return render_template("contact.html", EMAILJS_KEY=EMAILJS_KEY)
 
-# Function to load 'Catch' data from MongoDB, to render in Catch Log respectively
+# Function to load 'Catch' data from MongoDB, to render in Catch
+# Log respectively
+
 
 @app.route('/catch_log')
 @app.route('/get_catches')
 def get_catches():
     return render_template("catch_log.html",
                            catch_log=mongo.db.catch_log.find())
+
 
 # Function to 'Add_Catches' in database
 
@@ -49,6 +54,7 @@ def add_catches():
 
 # Function to 'Insert Catches' in database
 
+
 @app.route('/insert_catches', methods=['POST'])
 def insert_catches():
     catch_log = mongo.db.catch_log
@@ -56,6 +62,7 @@ def insert_catches():
     return redirect(url_for('get_catches'))
 
 # Function to 'Add_Catches' in database
+
 
 @app.route('/edit_catch_log/<catch_log_id>')
 def edit_catch_log(catch_log_id):
@@ -68,6 +75,7 @@ def edit_catch_log(catch_log_id):
                            area=all_area, magnet=all_magnet)
 
 # Function to 'Update Catches' in database
+
 
 @app.route('/update_catch_log/<catch_log_id>', methods=["POST"])
 def update_catch_log(catch_log_id):
@@ -90,12 +98,14 @@ def update_catch_log(catch_log_id):
 
 # Function to 'Delete Catches' in database
 
+
 @app.route('/delete_catch_log/<catch_log_id>')
 def delete_catch_log(catch_log_id):
     mongo.db.catch_log.remove({'_id': ObjectId(catch_log_id)})
     return redirect(url_for('get_catches'))
 
 # Functions to handle 404 & 500 errors
+
 
 @app.errorhandler(404)
 def page_not_found(error):
@@ -106,7 +116,8 @@ def page_not_found(error):
 def something_wrong(error):
     return render_template('500.html'), 500
 
-# IP and PORT 
+# IP and PORT
+
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
