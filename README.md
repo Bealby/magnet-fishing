@@ -468,11 +468,11 @@ Pop Up Window "Message Sent - We will be in touch soon!
 
 Ensure that Copyright text in footer is centred for all devices.
 
-#### Browesers
+#### Desktop Browesers
 
 - Chrome: Website renders well on all screen sizes.
-- Firefox: Website renders well on all screen sizes.
 - Safari: Website renders well on all screen sizes.
+- Firefox: Website renders well on all screen sizes.
 - Edge: Website renders well on all screen sizes.
 
 #### Mobile and Tablet Devices
@@ -488,52 +488,47 @@ Ensure that Copyright text in footer is centred for all devices.
   usability and comment on whether they felt it met their needs as discussed
   in the Strategy section - [User Stories](#user-stories).
 
+- iphone 8 - Chrome: Good
+- iphone xs - Chrome: Good
+- iphone xs - Safari: Good
+- iphone 8 - Chrome: Good
+- iphone 8 - Safari: Good
+- iphone 8 - Chrome: Good
+- iphone 11 - Safari: Good
+- iphone 11 - Safari: Good
+- Samsung 7 - Chrome: Good
+
 #### User Experience
 
-- Users felt that the Website fulfilled the expectation of quantity of
-  photos, especially with the carousel implemented at beginning of the page.
+- Overall the Website fulfiled user expectations. They found theWebsite informtive and enticing
+  and the information provided in the Catch Log to be satisfactory. It allowed users to have knowledge
+  of where other particpants have Maget Fished and tabulated finds in a concise and easy to use manner.
 
-- Another requirement was for the Website to be easy to use and not too
-  complicated. Overall the Website acheived this goal, however when it
-  came to the functionality of the Map, the older genration found it
-  difficult to navigate around. Especially when trying to move around the
-  Map, zooming in-and-out, and in doing so losing their way and not knowing how
-  to go back to the start. It would therefore be beneficial to add more features
-  to the Map to help in the navigation.
-  - One feature could be to add an icon that is displayed in the top right of
-    the Map, that allows the user to go back after they have clicked a cluster.
-  - Also it may be useful to add more detailed instructions on the Maps section
-    to help users understand the Map functionality and features that can be
-    used e.g. zooming in and out, and moving around Map.
+- It was noted that even though email addresses were provided a more security based feature would be better
+suited for the user and have more of a chat function to communicate with others and not just by email. 
 
-- The Website fulfilled the Users request to add content from Jack Fairfield's
-  journal and also information on Jack Fairfield's personality and progression
-  in the Army. However it was commented that there was a greater yearning to
-  have more than what was provided. This of course can be fixed over time and
-  satisfy the users accordingly.
+- Tips and more detailed information was perhaps limited and did not provide the useful tips and guidance but
+    this has be addressed 'Features Left to Add and can be expanded later in the future.
 
-- It is normally standard practice to have the `navbar-toggler-icon` displayed
-  as an intuitive `square box` with `horizontal lines`. For this Website I replaced
-  this icon with an image of a `Gold Badge`.
-  - Through User testing the results were positive. Users, through curiosity still
-    intuitively clicked the `Gold Badge` for the drop menu on mobile
-    devices.
-  - However as the Website expands, further tests should be assessed to monitor
-    results and make changes where necessary.
+- Users wanted to be able to inout Cathes on their mobile while Magnet Fishing. To help in the usability and
+ convienience of being out in the field a left cheron was added to mobile devices to be able to go back quickly to Catch Log.
+ 
 
+#### Fixes
 
+- When carrying out User Testing it was made apparant that the background image which was set up, was working for
+most phones except for iphone - specifially Safarai. The BAckground-imagew became more blurry as the more content was addeded to page. 
+This was particular IOS issue and was fixed by firstly declaring the body and html to be 100% wide and 100% tall,
+`html, body{width: 100%; height: 100%;}`. The scrolling is then done by the container and not the body, which in
+turn means wrapping the container with the following parimenters, `#wrapper{width: 100%; height: 100%; overflow: scroll;}`.
 
+This fix was provided and supported by
+[Stackoverflow](https://stackoverflow.com/questions/41436892/background-attachment-fixed-doesnt-work-on-ios)
 
-IOS issues
-
-
-**Support Collapsible**
-https://www.w3schools.com/howto/howto_js_collapsible.asp
-
-**placeholder date not working**
-https://stackoverflow.com/questions/20321202/not-showing-placeholder-for-input-type-date-field
-
-
+- The `Accordion` collapse feature in Catch Log page was, upon clicking the card, collapsing all cards at once. 
+Since eash Card had the same data-target and the same div id all of them were collapsing all together.
+This was fixed by using the loop index from the jinja for loop. `data-target="#collapse{{ loop.index }}"` 
+and `div id="collapse{{ loop.index }}"`. Inspriaration for this fix was supported by Keven at Code-Institute Support. 
 
 
 ## Technolgies Used
