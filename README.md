@@ -368,6 +368,9 @@ on Mobile and Desktop to assess **Performacne**, **Accesibility**,
 
 ### Non-Automated Testing
 
+#### Background Image
+- Ensure Background image is fixed and scrolls correctly for all devices 
+
 #### Navigation Bar Links & Logo
 
 - Click through `Home`, `Catch Log`, `Maps`, and `Contact` links,
@@ -402,13 +405,16 @@ on Mobile and Desktop to assess **Performacne**, **Accesibility**,
    The second column for `Magnet` and `Catches` respectively.
 - For example `Accordion` cards ensure each can be deleted when clicking the 
   `Delete`icon.
+  - ensure delete hovers dark red
 - For each `Accordion` card click on the `Edit` icon and ensure directs it
   you to `edit_catch_log.html`
+  - ensure Edit hovers grey
 - Ensure `Edit` page has fields filled in from data shown in Catch Log page.
 - Ensure all fields have placeholder names
 - Ensure all fields can be inputted and that the select features for `Magnet`and
 `Area` collapse with correct options to choose from work
 - Ensure `Modal` map icon, when clicked, pops-up a map, which can then be closed
+- ensure Modal hovers grey 
 - Ensure `Date` fields allow for date picking and display correct date format. 
 - Enusre form fields are layout correctly for desktop devices. The first row
   should be two columns for 'Name' and 'Email, and the second row 3 columns for
@@ -422,10 +428,12 @@ on Mobile and Desktop to assess **Performacne**, **Accesibility**,
 - For smaller devices run through step above.
 
 #### Add Catches
+- Ensure a centred header is displayed for all devices
 - Ensure `Add Catches` page have all fields placeholder names
 - Ensure all fields can be inputted and that the select features for `Magnet`and
 `Area` collapse with correct options to choose from work
 - Ensure `Modal` map icon, when clicked, pops-up a map, which can then be closed
+- ensure Modal hovers grey 
 - Ensure `Date` fields allow for date picking and display correct date format. 
 - Enusre form fields are layout correctly for desktop devices. The first row
   should be two columns for 'Name' and 'Email, and the second row 3 columns for
@@ -439,11 +447,26 @@ on Mobile and Desktop to assess **Performacne**, **Accesibility**,
 - For smaller devices run through step above.
 
 #### Contact
-
+- Ensure a centred header is displayed for all devices
+- Ensure form and fields iare centred for all devices
+- Ensure all fields are required by typing in a name
+but correct email and comment. Click Send. Pop up 'Please
+fill in this field`
+- Typing in an email but correct name and comment. Click Send.
+Pop up 'Please include @ sign'
+- Typing in an comment but correct name and email. Click Send.
+Pop up 'Please
+fill in this field`
+- input all fields with correct naem, email format and Message. Click send.
+Pop Up Window "Message Sent - We will be in touch soon!
+- Turn off internet connection. fill in all correct fields. press send.
+"Message Fail "Please check connection and try again"
+  - ensure send icon hovers grey 
+  - for smaller devices please run thorugh steps above. 
 
 #### Footer
 
-
+Ensure that Copyright text in footer is centred for all devices.
 
 #### Browesers
 
