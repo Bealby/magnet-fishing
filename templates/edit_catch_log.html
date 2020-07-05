@@ -1,7 +1,6 @@
 {% extends 'base.html' %} {% block content %}
 
-
-<header>
+<section>
 
 <!--Catch Log-->
 <div class="container pt-5">
@@ -13,10 +12,6 @@
         </div>
     </div>
 
-</header>
-
-
-<section>
 
 <!--Add Catch Form-->
     <form action="{{ url_for('update_catch_log', catch_log_id=catch_log._id) }}" method="POST">

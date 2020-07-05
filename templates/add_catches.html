@@ -1,6 +1,6 @@
 {% extends 'base.html' %} {% block content %}
 
-<header>
+<section>
 
 <!--Catch Log-->
 <div class="container pt-5">
@@ -10,9 +10,7 @@
             <p>Catch Form</p>
         </div>
     </div>
-</header>
 
-<section>
 
 <!--Add Catch Form-->
     <form action="{{ url_for('insert_catches') }}" method="POST">
