@@ -1,3 +1,5 @@
+# Imports
+
 import os
 from flask import Flask, render_template, redirect, request, url_for
 from flask_pymongo import PyMongo
@@ -8,6 +10,8 @@ if os.path.exists("env.py"):
 
 app = Flask(__name__)
 
+# 'MONGO_URI' and 'EMAILJS_KEY' stored in Enviroment Variables
+
 app.config["MONGO_DBNAME"] = 'magnet_fishing'
 app.config["MONGO_URI"] = os.getenv('MONGO_URI')
 
@@ -15,16 +19,19 @@ EMAILJS_KEY = os.environ.get("EMAILJS_KEY")
 
 mongo = PyMongo(app)
 
+# Function to load 'Home' page as default
 
 @app.route('/')
 def home():
     return render_template("index.html")
 
+# Function to load 'Contact' page as default
 
 @app.route('/contact')
 def contact():
     return render_template("contact.html", EMAILJS_KEY=EMAILJS_KEY)
 
+# Function to load 'Catch' data from MongoDB, to render in Catch Log respectively
 
 @app.route('/catch_log')
 @app.route('/get_catches')
@@ -32,6 +39,7 @@ def get_catches():
     return render_template("catch_log.html",
                            catch_log=mongo.db.catch_log.find())
 
+# Function to 'Add_Catches' in database
 
 @app.route('/add_catches')
 def add_catches():
@@ -40,12 +48,14 @@ def add_catches():
                            magnet=mongo.db.magnet.find())
 
 
+
 @app.route('/insert_catches', methods=['POST'])
 def insert_catches():
     catch_log = mongo.db.catch_log
     catch_log.insert_one(request.form.to_dict())
     return redirect(url_for('get_catches'))
 
+# Function to
 
 @app.route('/edit_catch_log/<catch_log_id>')
 def edit_catch_log(catch_log_id):
@@ -57,6 +67,7 @@ def edit_catch_log(catch_log_id):
                            catch_log=the_catch_log,
                            area=all_area, magnet=all_magnet)
 
+# Function to
 
 @app.route('/update_catch_log/<catch_log_id>', methods=["POST"])
 def update_catch_log(catch_log_id):
@@ -77,15 +88,14 @@ def update_catch_log(catch_log_id):
     })
     return redirect(url_for('get_catches'))
 
+# Function to
 
 @app.route('/delete_catch_log/<catch_log_id>')
 def delete_catch_log(catch_log_id):
     mongo.db.catch_log.remove({'_id': ObjectId(catch_log_id)})
     return redirect(url_for('get_catches'))
 
-
-# Handling of 404 & 500 erros
-
+# Functions to handle 404 & 500 errors
 
 @app.errorhandler(404)
 def page_not_found(error):
@@ -96,6 +106,7 @@ def page_not_found(error):
 def something_wrong(error):
     return render_template('500.html'), 500
 
+# IP and PORT 
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
