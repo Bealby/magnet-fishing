@@ -25,7 +25,7 @@ mongo = PyMongo(app)
 def home():
     return render_template("index.html")
 
-# Function to load 'Contact' page as default
+# Function to load 'Contact' page
 
 @app.route('/contact')
 def contact():
@@ -47,7 +47,7 @@ def add_catches():
                            area=mongo.db.area.find(),
                            magnet=mongo.db.magnet.find())
 
-
+# Function to 'Insert Catches' in database
 
 @app.route('/insert_catches', methods=['POST'])
 def insert_catches():
@@ -55,7 +55,7 @@ def insert_catches():
     catch_log.insert_one(request.form.to_dict())
     return redirect(url_for('get_catches'))
 
-# Function to
+# Function to 'Add_Catches' in database
 
 @app.route('/edit_catch_log/<catch_log_id>')
 def edit_catch_log(catch_log_id):
@@ -67,7 +67,7 @@ def edit_catch_log(catch_log_id):
                            catch_log=the_catch_log,
                            area=all_area, magnet=all_magnet)
 
-# Function to
+# Function to 'Update Catches' in database
 
 @app.route('/update_catch_log/<catch_log_id>', methods=["POST"])
 def update_catch_log(catch_log_id):
@@ -88,7 +88,7 @@ def update_catch_log(catch_log_id):
     })
     return redirect(url_for('get_catches'))
 
-# Function to
+# Function to 'Delete Catches' in database
 
 @app.route('/delete_catch_log/<catch_log_id>')
 def delete_catch_log(catch_log_id):
