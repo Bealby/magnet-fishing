@@ -413,7 +413,7 @@ in the console that were necessary to fix.
 
 #### Background Image
 
-- Ensure Background image is fixed and scrolls correctly in background
+- Ensure `background-image` is fixed and scrolls correctly in background
   for all devices
 
 #### Navigation Bar Links & Logo
@@ -421,7 +421,7 @@ in the console that were necessary to fix.
 - Click through `Home`, `Catch Log`, `Maps`, and `Contact` links,
   ensuring each, when hovered over turn light grey, and direct you to the
   correct sections.
-- Click each navigation link and randomly navigate to other links
+- Click each navigation link and randomly navigate to other links.
 - On each navigation link, ensure, when the logo is clicked, that it
   redirects to `Home`.
 - Ensure the Bootstrap navigation collapse feature kicks in on smaller devices
@@ -436,7 +436,7 @@ in the console that were necessary to fix.
 - Ensure that the third row includes a single column that includes a video.
 - Ensure video plays.
 - For smaller devices ensure video is aligned on one single column. Centred and plays.
-- For smaller devices ensure the `Home` page is divided into one column of the order
+- For smaller devices ensure the `Home` page is divided into one column of the order;
   text box, image, text box, image. All centred on page.
 
 #### Catch Log/ Edit Catches
@@ -450,12 +450,12 @@ in the console that were necessary to fix.
   correctly on one row.
   - One column for `Name`, `Email` and `Location`, respectively.
   - The second column for `Magnet` and `Catches` respectively.
-- For example `Accordion` cards displayed on Catch Log, ensure each can be deleted
+- For `Accordion` cards displayed on Catch Log, ensure each can be deleted
   when the `Delete` icon is clicked.
 - Ensure delete icon hovers dark red.
 - For each `Accordion` card, click on the `Edit` icon and ensure it directs you
   you to `edit_catch_log.html`.
-- Ensure Edit icon hovers grey.
+- Ensure `Edit` icon hovers grey.
 - Ensure `Edit` page has fields filled in from data shown in Catch Log page.
 - Ensure all fields have placeholder names.
 - Ensure all fields can be inputted and that the select features for `Magnet` and
@@ -464,15 +464,15 @@ in the console that were necessary to fix.
 - Ensure Modal icon hovers grey.
 - Ensure `Date` fields allow for date picking and display correct date format.
 - Ensure form fields are laid out correctly for desktop devices. The first row
-  should be two columns for 'Name' and 'Email', and the second row three columns
-  for 'Magnet', Area and Map.
+  should be two columns for 'Name' and 'Email', and the second row of three columns
+  for 'Magnet', 'Area' and 'Map'.
 - Ensure remaining fields are centred and in one single column.
 - Change some fields in `Edit` page and click on `Submit`. Ensure you are
-  redirected back to Catch Log page and fields have been updated.
+  redirected back to the Catch Log page and fields have been updated.
 - Ensure `Submit` icon turns grey on hover.
 - Click on `Home` link and re-enter `Catch Log` page to ensure edit changes have
   been made.
-- For smaller devices all form fields should be centred in one single column.
+- For smaller devices form fields should be centred in one single column.
 - For smaller devices run through steps as above.
 
 #### Add Catches
@@ -482,17 +482,15 @@ in the console that were necessary to fix.
  `Area` collapse, with correct options to choose from.
 - Ensure `Modal` map icon, when clicked, pops-up a map, which can then be
   closed
-- Ensure Modal icon hovers grey.
+- Ensure `Modal` icon hovers grey.
 - Ensure `Date` fields allow for date picking and display correct date
   format.
 - Ensure form fields are laid out correctly for desktop devices. The first
-  row
-  should be two columns for 'Name' and 'Email', and the second row three
+  row should be two columns for 'Name' and 'Email', and the second row of three
    columns for 'Magnet', Area and Map.
 - Ensure remaining fields are centred and in one single column.
 - Complete form for Add Catches and click on `Submit`. Ensure you are
-  redirected
-  back to Catch Log page and fields have been updated.
+  redirected back to Catch Log page and fields have been updated.
 - Ensure `Submit` icon turns grey on hover.
 - For smaller devices all form fields should be centred in one single
   column.
@@ -500,29 +498,27 @@ in the console that were necessary to fix.
 
 #### Contact
 
-- Ensure a centred header is displayed for all devices
-- Ensure form and fields are centred for all devices
+- Ensure a centred header is displayed for all devices.
+- Ensure form fields are centred for all devices.
 - Ensure all fields are `required` by typing in an incorrect `name`
-  but correct `Email` and `Comment`. Click Send. Pop up should
+  but correct `Email` and `Comment`. Click Send. Pop-up should
   display 'Please fill in this field`
 - Type in an incorrect `Email` but correct `Name` and `Comment`.
-  Click Send. Pop up should display 'Please include @ sign'.
+  Click Send. Pop-up should display 'Please include @ sign'.
 - Type in incorrect `Comment` but correct `Name` and `Email`. Click
-   Send. Pop up should display 'Please fill in this field`
+   Send. Pop-up should display 'Please fill in this field`
 - Input all fields with correct `Name`, `Email` format and `Message`.
-  Click send.
-  Pop Up Window  should be displayed. "Message Sent - We will be in
+  Click send. Pop-up should displayed, "Message Sent - We will be in
   touch soon!`
 - Turn off internet connection. Input all fields correctly. Click
-  send.
-  Pop up window should display "Message Fail "Please check
+  send. Pop-up should display, "Message Fail - Please check
   connection and try again".
-- Ensure send icon hovers grey
+- Ensure `Send` icon hovers grey.
 - For smaller devices run through steps above.
 
 #### Footer
 
-Ensure that Copyright text in footer is centred for all devices.
+Ensure that Copyright text in footer is centred at at bottom of page for all devices.
 
 #### Desktop Browsers
 
@@ -557,14 +553,14 @@ Ensure that Copyright text in footer is centred for all devices.
 #### User Experience
 
 - Overall the Website fulfilled users expectations. They found the
-  Website informative and enticing and the information provided in
+  Website informative and enticing, and the information provided in
   the Catch Log to be satisfactory. It allowed users to have knowledge
   of where other participants have Magnet Fished and tabulated finds
   in a concise and easy to use manner.
 
 - It was noted that even though email addresses were provided a more
   security based feature would be better suited for the user and that
-  chat function to communicate with others would be a nice feature.
+  a chat function, to communicate with others, would be a nice feature.
 
 - Tips and more detailed information were perhaps limited and did
   not provide the useful tips and guidance at this stage.
@@ -572,29 +568,29 @@ Ensure that Copyright text in footer is centred for all devices.
 
 - Users wanted to be able to input Catches on their mobile while Magnet
  Fishing. To help in the usability and convenience of this, a left
- chevron was added to mobile devices to be able to go back quickly to
- Catch Log on the Edit and Add Catch pages. For mobile only.
+ chevron icon was added to mobile devices to be able to go back quickly to
+ 'Catch Log' on the 'Edit' and 'Add' catch pages. For mobile only.
 
 #### Fixes
 
 - When carrying out User Testing it was made apparent that the background
-  image which was set up, was working for most phones except for iphone -
-specifically Safarai. The Background-image became more blurry the more
-content was on the page. This was a particular IOS issue and was fixed
-by firstly declaring the body and html to be 100% wide and 100% tall,
-`html, body{width: 100%; height: 100%;}`. The scrolling was then done
-by the container and not the body itself. This in turn meant wrapping
-the container with the following parameters,
-`#wrapper{width: 100%; height:100%; overflow: scroll;}`.
+  image which was set up, was working for most phones except for iphone - 
+  specifically Safarai. The background-image became blurry the more
+  content that was on the page. This was a particular IOS issue and was fixed
+  by firstly declaring the `body` and `html` to be 100% wide and 100% tall,
+ `html, body{width: 100%; height: 100%;}`. The scrolling was then done
+  by the `container` and not the `body` itself. This in turn meant wrapping
+  the `container` with the following parameters,
+  `#wrapper{width: 100%; height:100%; overflow: scroll;}`.
 
-This fix was provided and supported by
-[Stackoverflow](https://stackoverflow.com/questions/41436892/background-attachment-fixed-doesnt-work-on-ios)
+  This fix was provided and supported by
+  [Stackoverflow](https://stackoverflow.com/questions/41436892/background-attachment-fixed-doesnt-work-on-ios)
 
 - The `Accordion` collapse feature in the Catch Log page was, upon
   clicking the card, collapsing all cards at once.  Since each Card
-  had the same data-target and the same div id all of them were
-  collapsing together. This was fixed by using the loop index from the
-  `jinja` for loop. `data-target="#collapse{{ loop.index }}"`
+  had the same `data-target` and the same `div` id all of them were
+  collapsing together. This was fixed by using the `loop index` from the
+  `jinja for loop`: `data-target="#collapse{{ loop.index }}"`
   and `div id="collapse{{ loop.index }}"`. Inspiration for this fix
   was supported by Keven at Code-Institute Support.
 
@@ -606,18 +602,18 @@ This fix was provided and supported by
 
 The following technologies were used in this project:
 
-**IDE:**
+### IDE:
 
 - [GitPod](https://gitpod.io/workspaces/) - A platform used for hard coding
    of Website
 
-**Hosting/ Deployment:**
+### Hosting/ Deployment:
 
 - [Heroku](https://id.heroku.com/) - Heroku is a cloud platform as a service
   supporting several programming languages.
 - [GitHub](https://github.com/)** - Used to store repository and deploy Website
 
-**Languages:**
+### Languages:
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) - Markup language of Website
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used to style
@@ -627,12 +623,12 @@ The following technologies were used in this project:
 - [JavaScript](https://www.javascript.com/) - Used in collaboration with
    Bootstrap to collapse Navigation Bar for small devices and Google Maps
 
-**Databases:**
+### Databases:
 
 - [MongoDB](https://www.mongodb.com/) - MongoDB is a general purpose,
   document-based, distributed database built for modern application developers
 
-**Language Validators:**
+### Language Validators:
 
 - [W3C](https://validator.w3.org/) - Used to validate HTML code
 - [WSC](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code
@@ -642,14 +638,14 @@ The following technologies were used in this project:
 - [Markdown Lint](https://github.com/Bealby/markdownlint) - Used for validation
     checks on README.md content
 
-**Libraries:**
+### Libraries:
 
 - [Google Fonts](https://fonts.google.com/) - Programme used to import main
    fonts in Website: **Playfair Display** and **Calligraffitti**
 - [Font Awesome](https://fontawesome.com/) - Programme used to import icons
    for Footer in Website: **far-envelope** and **fas fa-phone**
 
-**Tools:**
+### Tools:
 
 - [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)** - Allowed
    preliminary designs to be drawn up of Website
@@ -664,7 +660,7 @@ The following technologies were used in this project:
 - [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) - A useful
    developing tool in Chrome to edit pages and diagnose problems
 
-**Frameworks:**
+### Frameworks:
 
 - [BOOTSTRAP](https://getbootstrap.com/) - A framework for building responsive
    Websites where the powerful Grid system was used along with styling
