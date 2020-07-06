@@ -39,6 +39,14 @@ A live version of Website can be found
 
 3.[Technologies Used](#technologies-used)
 
+- [IDE](#ide)
+- [Hosting/ Deployment](#hosting/-deployment)
+- [Languages](#languages)
+- [Databases](#databases)
+- [Libraries](#libraries)
+- [Tools](#tools)
+- [Frameworks](#frameworks)
+
 4.[Testing](#testing)
 
 - [Automated Testing](#automated-testing)
@@ -183,13 +191,9 @@ responsive.
 
 ### Features of the Website
 
-#### Main Page
-
 **Navigation Bar:**
 
-- **Desktop:**
-
-The navigation bar will be centred and placed
+- **Desktop:** The navigation bar will be centred and placed
 under the 'Magnet Fishing Stockholm' logo. It will have a left
 and right padding so that it does not span the full width of
 the Webpage.
@@ -207,11 +211,9 @@ The Links, when hovered over will turn a shade of grey,
 `rgb(190, 190, 190, 1)`. A suitable offset colour that does
 not distract or overwhelm.
 
-- **Smaller Devices:**
-
-For tablets and mobiles the text is reduced in size
-using `Media Queries`, along with the 'Magnet
-Fishing Stockholm' logo. This allows for easier
+- **Smaller Devices:** For tablets and mobiles the text
+is reduced in size using `Media Queries`, along with the
+'Magnet Fishing Stockholm' logo. This allows for easier
 viewing and better fitting for smaller devices.
 
 For mobile devices the `Bootstrap` function was used
@@ -221,9 +223,7 @@ styling.
 
 **Sections:**
 
-- **Home:**
-
-The Home page will consist of rows of two columns,
+- **Home:** The Home page will consist of rows of two columns,
 with an image and text side by side. The first row displaying
 an image of a Magnet used, with text introducing the
 sport of Magnet Fishing.
@@ -239,19 +239,15 @@ The text used in the `Home` page will be,
 `rgb(255,255,255)`, over a blue background, `rgb(26, 16, 112)`,
 for clarity of reading.
 
-- **Smaller Devices:**
+- **Smaller Devices:** For smaller devices the rows will be
+ one column only for the images and text, with a neat flip
+ function from `Bootstrap`, flex-column-reverse flex-lg-row`,
+ used to ensure that the text starts first before image.
 
-For smaller devices the rows will be one column only for the
-images and text, with a neat flip function from `Bootstrap`,
-`flex-column-reverse flex-lg-row`, used to ensure
-that the text starts first before image.
-
-- **Catch Log:**
-
-The `Catch Log` page will display all participants
+- **Catch Log:** The `Catch Log` page will display all participants
 catches in an `Accordion` collapse feature provided by
-Bootstrap. Each row of the `Accordion` will display the location
-and date of participants catches. With a top and bottom spacing between
+Bootstrap. Each row of the `Accordion` will display the
+location and date of participants catches. With a top and bottom spacing between
 each row to distinguish between them.
 
 `Font Awesome` icons are used to provide intuitive decision
@@ -271,12 +267,11 @@ For smaller devices the `Accordion` columns will contract and the
 `Edit` and `Delete` buttons will shift to the left for clarity of
 viewing.
 
-- **Add Catches/ Edit Catches:**
-
-This page will give the user the opportunity to
-input their catches to the Catch Log. Each field of the form will be
-highlighted with a red border, `rgb(254, 17, 71, 1)`, using
-css styling, to inform users which field they are on.
+- **Add Catches/ Edit Catches:** This page will give the user
+the opportunity to input their catches to the Catch Log. Each
+field of the form will be highlighted with a red border,
+`rgb(254, 17, 71, 1)`, using css styling, to inform users which
+field they are on.
 
 There are drop down select features for fields to help users choose
 the right 'Magnet' and 'Area' respectively.
@@ -299,11 +294,9 @@ header, a left-chevron icon will be displayed using
 user to quickly go back if they decide not to 'Add' or 'Edit'
 catches.
 
-- **Contact:**
-
-A simple contact form, that requires all fields to be added
-correctly, including email format, is used. A send button, when
-clicked, will clear the form and an alert will pop up with
+- **Contact:** A simple contact form, that requires all fields to
+be added correctly, including email format, is used. A send button,
+when clicked, will clear the form and an alert will pop up with
 either a 'Message Sent' or Message Failed'. This feature was
 provided by sing `swal`. An
 alert feature provided by [Sweet Alert](https://sweetalert.js.org/).
@@ -314,66 +307,64 @@ Below is a list of features I feel would be beneficial to
 add to the Website at a later date when more data/
 information can be provided:
 
-**Security Feature**
-Security is required to be strengthened for
-each user, so that others cannot delete or edit their logs.
-Displaying users’ emails displayed is also not ideal; a
-better option would be to include a chat forum.
+**Security Feature** Security is required to be
+strengthened for each user, so that others cannot
+delete or edit their logs. Displaying users’ emails
+displayed is also not ideal; a better option would be to
+include a chat forum.
 
-**Login Facility**
-It would be wise and more user friendly to include a login
-feature with associated passwords.
+**Login Facility** It would be wise and more user friendly
+to include a login feature with associated passwords.
 
-**Upload of Images**
-A useful feature to implement would be to allow users to
-upload their own images. This would greatly enhance the
-impact, encourage sharing, and add to the viewing pleasure.
+**Upload of Images** A useful feature to implement would
+be to allow users to upload their own images. This would
+greatly enhance the impact, encourage sharing, and add
+to the viewing pleasure.
 
-**Add a Rules and Guidance section**
-A section could be added to keep participants up-to-date on
+**Add a Rules and Guidance section** A section could be added
+to keep participants up-to-date on
 rule changes, useful “hot tips”, safety issues and any
 locality warning notices.
 
-**Frequently Asked Questions (FAQs)**
-Adding a FAQ section would encourage new magnet fisherman,
-and engender confidence and the pleasure it can bring.
+**Frequently Asked Questions (FAQs)** Adding a FAQ section
+would encourage new magnet fisherman, and engender
+confidence and the pleasure it can bring.
 
-**Latest News and News Blogs**
-As the popularity of the sport increases there will be a need
-to harness debate and a thirst for “Latest News”. This could
-become a popular element of the site.
+**Latest News and News Blogs** As the popularity of
+the sport increases there will be a need
+to harness debate and a thirst for “Latest News”.
+This could become a popular element of the site.
 
-**Cloning of the Website to other Geographic Areas**
-The website has been developed for magnet fishermen in Stockholm.
+**Cloning of the Website to other Geographic Areas** The
+website has been developed for magnet fishermen in Stockholm.
 There is no reason why it could not be set up for other Swedish
 conurbations or even beyond.
 
-**Use the Website to hold competitions**
-To help grow the Magnet Fishermen community and social mixing,
-the website, with minor adjustments, could be used to run
+**Use the Website to hold competitions** To help grow
+the Magnet Fishermen community and social mixing, the
+website, with minor adjustments, could be used to run
 Competitions on certain stretches of water. Winners, catches
 and prizes could be readily announced.
 
-**Develop the “Catch Log”**
-It would better user experience to have a feature to order
-Catches by either date, area or name. Including also a search
-feature to find certain information. 'Likes' and 'Comment' could
-also be available for better interaction.
+**Develop the “Catch Log”** It would better user experience
+to have a feature to order Catches by either date, area or
+name. Including also a search feature to find certain information.
+'Likes' and 'Comment' could also be available for better interaction.
 
-**Create a Magnet Fishing Membership Club(s)**
-Membership clubs could be established by developing the website.
-This would entail establishing processes to have members join,
-payment systems, regular formal bulletins etc. Eventually the
+**Create a Magnet Fishing Membership Club(s)** Membership clubs
+could be established by developing the website. This would entail
+establishing processes to have members join, payment systems,
+regular formal bulletins etc. Eventually the
 site could be the main supporting vehicle for a National Magnet
 Fishing Club with Club Chairman, Secretary and Committee!
 
-**Create a link to a real-time weather forecasting site**
-Creating such a link would be a service to the user.
+**Create a link to a real-time weather forecasting site** Creating
+such a link would be a service to the user.
 
-**Include a “Safety” section on the Navbar**
-Magnet fishing has its dangers: deep water; excited children;
-slippery surfaces for example. Warnings of such dangers could be
-given in a “safety” section on the Navbar.
+**Include a “Safety” section on the Navbar** Magnet fishing has
+its dangers: deep water; excited children; slippery surfaces for
+example. Warnings of such dangers could be given in a “safety”
+section on the Navbar.
 
 [Go to top](#contents)
 
@@ -620,7 +611,7 @@ The following technologies were used in this project:
 - [GitPod](https://gitpod.io/workspaces/) - A platform used for hard coding
    of Website
 
-**Hosting/Deployment:**
+**Hosting/ Deployment:**
 
 - [Heroku](https://id.heroku.com/) - Heroku is a cloud platform as a service
   supporting several programming languages.
