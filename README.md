@@ -40,7 +40,7 @@ A live version of Website can be found
 3.[Technologies Used](#technologies-used)
 
 - [IDE](#ide)
-- [Hosting/ Deployment](#hosting/-deployment)
+- [Hosting](#hosting)
 - [Languages](#languages)
 - [Databases](#databases)
 - [Libraries](#libraries)
@@ -194,112 +194,112 @@ responsive.
 **Navigation Bar:**
 
 - **Desktop:** The navigation bar will be centred and placed
-under the 'Magnet Fishing Stockholm' logo. It will have a left
-and right padding so that it does not span the full width of
-the Webpage.
+  under the 'Magnet Fishing Stockholm' logo. It will have a left
+  and right padding so that it does not span the full width of
+  the Webpage.
 
-The Navbar links will be centred and spaced for clarity, with
-the stencil font, `'Stardos Stencil', cursive`, being used to
-provide the 'Sailing' feel to the Website.
+  The Navbar links will be centred and spaced for clarity, with
+  the stencil font, `'Stardos Stencil', cursive`, being used to
+  provide the 'Sailing' feel to the Website.
 
-The font colour used for the links will be white,
-`rgb(255,255,255)`, which offset well against the red
-background of, `rgb(254, 17, 71, .8)`, that has a slight
-opacity.
+  The font colour used for the links will be white,
+  `rgb(255,255,255)`, which offset well against the red
+  background of, `rgb(254, 17, 71, .8)`, that has a slight
+  opacity.
 
-The Links, when hovered over will turn a shade of grey,
-`rgb(190, 190, 190, 1)`. A suitable offset colour that does
-not distract or overwhelm.
+  The Links, when hovered over will turn a shade of grey,
+  `rgb(190, 190, 190, 1)`. A suitable offset colour that does
+  not distract or overwhelm.
 
 - **Smaller Devices:** For tablets and mobiles the text
-is reduced in size using `Media Queries`, along with the
-'Magnet Fishing Stockholm' logo. This allows for easier
-viewing and better fitting for smaller devices.
+  is reduced in size using `Media Queries`, along with the
+  'Magnet Fishing Stockholm' logo. This allows for easier
+  viewing and better fitting for smaller devices.
 
-For mobile devices the `Bootstrap` function was used
-to collapse the navbar, displaying a `Hamburger` icon
-of the colour white, `rgb(255,255,255)`, using css
-styling.
+  For mobile devices the `Bootstrap` function was used
+  to collapse the navbar, displaying a `Hamburger` icon
+  of the colour white, `rgb(255,255,255)`, using css
+  styling.
 
 **Sections:**
 
 - **Home:** The Home page will consist of rows of two columns,
-with an image and text side by side. The first row displaying
-an image of a Magnet used, with text introducing the
-sport of Magnet Fishing.
+  with an image and text side by side. The first row displaying
+  an image of a Magnet used, with text introducing the
+  sport of Magnet Fishing.
 
-The second row displaying an image of a recent 'Catch' with
-text describing what the Website is about and how to use it.
+  The second row displaying an image of a recent 'Catch' with
+  text describing what the Website is about and how to use it.
 
-A small section at the end titled `Video`, will have an
-embedded image from `You Tube` of an example find in Stockholm.
+  A small section at the end titled `Video`, will have an
+  embedded image from `You Tube` of an example find in Stockholm.
 
-The text used in the `Home` page will be,
-`'Source Serif Pro', serif`. The colour will be white,
-`rgb(255,255,255)`, over a blue background, `rgb(26, 16, 112)`,
-for clarity of reading.
+  The text used in the `Home` page will be,
+  `'Source Serif Pro', serif`. The colour will be white,
+  `rgb(255,255,255)`, over a blue background, `rgb(26, 16, 112)`,
+  for clarity of reading.
 
 - **Smaller Devices:** For smaller devices the rows will be
- one column only for the images and text, with a neat flip
- function from `Bootstrap`, flex-column-reverse flex-lg-row`,
- used to ensure that the text starts first before image.
+  one column only for the images and text, with a neat flip
+  function from `Bootstrap`, flex-column-reverse flex-lg-row`,
+  used to ensure that the text starts first before image.
 
 - **Catch Log:** The `Catch Log` page will display all participants
-catches in an `Accordion` collapse feature provided by
-Bootstrap. Each row of the `Accordion` will display the
-location and date of participants catches. With a top and bottom spacing between
-each row to distinguish between them.
+  catches in an `Accordion` collapse feature provided by
+  Bootstrap. Each row of the `Accordion` will display the
+  location and date of participants catches. With a top and bottom spacing between
+  each row to distinguish between them.
 
-`Font Awesome` icons are used to provide intuitive decision
-making, into either collapsing the `Accordion` for more information;
-or for editing and deleting catch log data respectively.
+  `Font Awesome` icons are used to provide intuitive decision
+  making, into either collapsing the `Accordion` for more information;
+  or for editing and deleting catch log data respectively.
 
-The text used in the `Catch Log` page will be
-`'Source Serif Pro', serif`, of the colour white,
-`rgb(255,255,255)`, over a blue background, `rgb(26, 16, 112)`,
-for clarity of reading.
+  The text used in the `Catch Log` page will be
+  `'Source Serif Pro', serif`, of the colour white,
+  `rgb(255,255,255)`, over a blue background, `rgb(26, 16, 112)`,
+  for clarity of reading.
 
-The Edit and Delete icons will have a hover effect of grey,
-`rgb(190, 190, 190, 1)`, and darker red, `rgb(254, 17, 71, .7)`
-respectively for users to intuitively click.
+  The Edit and Delete icons will have a hover effect of grey,
+  `rgb(190, 190, 190, 1)`, and darker red, `rgb(254, 17, 71, .7)`
+  respectively for users to intuitively click.
 
-For smaller devices the `Accordion` columns will contract and the
-`Edit` and `Delete` buttons will shift to the left for clarity of
-viewing.
+  For smaller devices the `Accordion` columns will contract and the
+  `Edit` and `Delete` buttons will shift to the left for clarity of
+  viewing.
 
 - **Add Catches/ Edit Catches:** This page will give the user
-the opportunity to input their catches to the Catch Log. Each
-field of the form will be highlighted with a red border,
-`rgb(254, 17, 71, 1)`, using css styling, to inform users which
-field they are on.
+  the opportunity to input their catches to the Catch Log. Each
+  field of the form will be highlighted with a red border,
+  `rgb(254, 17, 71, 1)`, using css styling, to inform users which
+  field they are on.
 
-There are drop down select features for fields to help users choose
-the right 'Magnet' and 'Area' respectively.
+  There are drop down select features for fields to help users choose
+  the right 'Magnet' and 'Area' respectively.
+ 
+  To help users define which area of Stockholm they Magnet Fished a
+  `Modal` feature, provided by `Bootstrap`, when clicked will pop-up
+  and image of 'Areas' in Stockholm that are possible to select.
 
-To help users define which area of Stockholm they Magnet Fished a
-`Modal` feature, provided by `Bootstrap`, when clicked will pop-up
-and image of 'Areas' in Stockholm that are possible to select.
+  A submit button, centred at the end of the form, when hovered over and
+  clicked, automatically updates the `Catch Log`, and directs you there
+  accordingly.
 
-A submit button, centred at the end of the form, when hovered over and
-clicked, automatically updates the `Catch Log`, and directs you there
-accordingly.
+  For smaller device, the form fields are reduced to one column
+  using the `Bootstrap` property feature. This helps
+  users input data in a user-friendly manner.
 
-For smaller device, the form fields are reduced to one column
-using the `Bootstrap` property feature. This helps
-users input data in a user-friendly manner.
-
-For mobile devices, on the left of each 'Call for action'
-header, a left-chevron icon will be displayed using
-[Font Awesome](https://fontawesome.com/). This allows the
-user to quickly go back if they decide not to 'Add' or 'Edit'
-catches.
+  For mobile devices, on the left of each 'Call for action'
+  header, a left-chevron icon will be displayed using
+  [Font Awesome](https://fontawesome.com/). This allows the
+  user to quickly go back if they decide not to 'Add' or 'Edit'
+  catches.
 
 - **Contact:** A simple contact form, that requires all fields to
-be added correctly, including email format, is used. A send button,
-when clicked, will clear the form and an alert will pop up with
-either a 'Message Sent' or Message Failed'. This feature was
-provided by sing `swal`. An
-alert feature provided by [Sweet Alert](https://sweetalert.js.org/).
+  be added correctly, including email format, is used. A send button,
+  when clicked, will clear the form and an alert will pop up with
+  either a 'Message Sent' or Message Failed'. This feature was
+  provided by sing `swal`. An
+  alert feature provided by [Sweet Alert](https://sweetalert.js.org/).
 
 ### Features Left to Implement
 
@@ -400,10 +400,10 @@ Chrome Developing Tools also analysed the Progressive Web App,
 which validate the aspects of a Progressive Web App. The results
 were satisfactory.
 
-- [Validate Javascript](https://validatejavascript.com/) - Javascript
-  files were uploaded in in the Validate Javascript. Overall there
-  were no errors that needed to be changed and the javascript passed
-  general standards.
+[Validate Javascript](https://validatejavascript.com/) - Javascript
+files were uploaded in in the Validate Javascript. Overall there
+were no errors that needed to be changed and the javascript passed
+general standards.
 
 [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
 Navigating through the Website rendered no critical fails/errors
@@ -518,7 +518,7 @@ in the console that were necessary to fix.
 
 #### Footer
 
-Ensure that Copyright text in footer is centred at at bottom of page for all devices.
+- Ensure that Copyright text in footer is centred at at bottom of page for all devices.
 
 #### Desktop Browsers
 
@@ -607,7 +607,7 @@ The following technologies were used in this project:
 - [GitPod](https://gitpod.io/workspaces/) - A platform used for hard coding
    of Website
 
-### Hosting/ Deployment:
+### Hosting:
 
 - [Heroku](https://id.heroku.com/) - Heroku is a cloud platform as a service
   supporting several programming languages.
