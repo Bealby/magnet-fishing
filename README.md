@@ -150,7 +150,7 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 
 The Website will have a 'fishing' style theme to it, with the
 main colours centred around red, `rgb(254, 17, 71)`, and blue,
-`rgb(26, 16, 112)`.
+`rgb(26, 16, 112)`. reason? sailing?
 
 The text will be white,`rgb(255,255,255)`, and placed against a
 background colour of blue, `rgb(26, 16, 112)`, for clarity of read.
@@ -308,9 +308,9 @@ add to the Website at a later date when more data/
 information can be provided:
 
 **Security Feature** Security is required to be
-strengthened for each user, so that others cannot
-delete or edit their logs. Displaying users’ emails
-displayed is also not ideal; a better option would be to
+strengthened for each user, so only the user can delete or edit
+their own logs. Displaying users’ emails displayed is also not
+ideal; a better option would be to
 include a chat forum.
 
 **Login Facility** It would be wise and more user friendly
@@ -324,7 +324,7 @@ to the viewing pleasure.
 **Add a Rules and Guidance section** A section could be added
 to keep participants up-to-date on
 rule changes, useful “hot tips”, safety issues and any
-locality warning notices.
+locality/ geographical warning notices.
 
 **Frequently Asked Questions (FAQs)** Adding a FAQ section
 would encourage new magnet fisherman, and engender
@@ -346,10 +346,10 @@ website, with minor adjustments, could be used to run
 Competitions on certain stretches of water. Winners, catches
 and prizes could be readily announced.
 
-**Develop the “Catch Log”** It would better user experience
+**Develop the “Catch Log”** It would be a better user experience
 to have a feature to order Catches by either date, area or
-name. Including also a search feature to find certain information.
-'Likes' and 'Comment' could also be available for better interaction.
+name. Including also a search feature to find certain information could
+be useful. 'Likes' and 'Comment' could also be available for better interaction.
 
 **Create a Magnet Fishing Membership Club(s)** Membership clubs
 could be established by developing the website. This would entail
@@ -359,7 +359,7 @@ site could be the main supporting vehicle for a National Magnet
 Fishing Club with Club Chairman, Secretary and Committee!
 
 **Create a link to a real-time weather forecasting site** Creating
-such a link would be a service to the user.
+such a link would provide a service to the user.
 
 **Include a “Safety” section on the Navbar** Magnet fishing has
 its dangers: deep water; excited children; slippery surfaces for
@@ -552,15 +552,19 @@ in the console that were necessary to fix.
 
 #### User Experience
 
+- Many users found the website novel and their first introduction to magnet
+  fishing. Interest and enthuisasm was generaterd.  
+
 - Overall the Website fulfilled users expectations. They found the
   Website informative and enticing, and the information provided in
   the Catch Log to be satisfactory. It allowed users to have knowledge
-  of where other participants have Magnet Fished and tabulated finds
+  of where other participants have Magnet Fished and tabulated catches
   in a concise and easy to use manner.
 
-- It was noted that even though email addresses were provided a more
+- Users would be able to cmmunication email? It was noted that even though email addresses were provided a more
   security based feature would be better suited for the user and that
-  a chat function, to communicate with others, would be a nice feature.
+  a chat function, to communicate with others, would be a worthwhile
+  feature.
 
 - Tips and more detailed information were perhaps limited and did
   not provide the useful tips and guidance at this stage.
