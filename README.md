@@ -708,7 +708,7 @@ For deployment of Website please follow the below guidelines.
 - Click the following link [GitHub](https://github.com/) and
   and set up an account in GitHub.
 
-- Click the following  GitHub repository [Magnet Fishing](https://github.com/Bealby/Milestone-Project-3)
+- Click the following GitHub repository [Magnet Fishing](https://github.com/Bealby/Milestone-Project-3)
 
 - On the main page of the repository click the green button **Code**.
 
@@ -724,9 +724,35 @@ For deployment of Website please follow the below guidelines.
 - In the terminal install the Flask `requirements.txt` file using the 
   command `pip3 freeze --local > requirements.txt`
 
+- For local deployment in GitPod, plesase create the file `env.py` which will containe
+  confidential `USER KEYS` that can be provided upon request.
+
+- The app can then be run by tying the command `python3 app.py`in the terminal
+
 **Step-3 - Connecting GitHub to Heroku for deployment**
 
 - In the terminal log into Heroku using the command `heroku login`
+
+- Enter your `Email`and `Password` when prompted
+
+- Heroku Apps created can be viewed using the command `heroku apps`
+
+- Set up `Heroku` as `Master` branch using the command `heroku git:remote -a app-name`.
+  The `app-name` being the name of the `Heroku App` created in Step-1. 
+
+- In the terminal type the command `echo web: python app.py > Procfile`
+
+- Then the command `heroku ps:scale web=1`
+
+- Finally to update:
+
+    - `git init`
+    - `git add .`
+    - `git commit -m ""`
+    - `git push -u heroku master` (Push to heroku)
+    - `git push origin master` (Push locally to GitHub)
+
+
 
 
 
