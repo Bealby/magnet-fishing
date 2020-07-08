@@ -682,6 +682,57 @@ The following technologies were used in this project:
 
 ---
 
+For deployment of Website please follow the below guidelines. 
+
+**Step-1 - Heroku**
+
+- Click the following link [Heroku Login](https://id.heroku.com/login) and
+  and set-up an account in Heroku
+
+- Click on the icon to `Create New App`
+
+- Input an unique `App Name` and `Choose a Region` and click `Create App`
+
+- Click the link `Settings`and scrtoll to the button `Reveal Convig Vars``
+
+- In the `Convig Vars` add the following inputs for `Key` and `Value`
+
+    - KEY = `IP`, VALUE = `0.0.0.0`
+    - KEY = `PORT`, VALUE = `5000`
+    - KEY = `EMAILJS_KEY`, VALUE = `EMAIJS USER ID`
+    - KEY = `MONGO_URI`, VALUE = `MONGO USER ID`
+
+
+**Step-2 - GitHub**
+
+- Click the following link [GitHub](https://github.com/) and
+  and set up an account in GitHub.
+
+- Click the following  GitHub repository [Magnet Fishing](https://github.com/Bealby/Milestone-Project-3)
+
+- On the main page of the repository click the green button **Code**.
+
+- A drop down menu for `Clone with HTTPS` should appear. Copy `URL` link.  
+  URL as shown below.
+
+- Open temrinal in IDE; i.e. [Gitpod](https://gitpod.io/)
+
+- Change the current directory to the local directory
+
+- Type `git clone` plus `URL` in terminal (Copied above). Then `Enter`
+
+- In the terminal install the Flask `requirements.txt` file using the 
+  command `pip3 freeze --local > requirements.txt`
+
+**Step-3 - Connecting GitHub to Heroku for deployment**
+
+- In the terminal log into Heroku using the command `heroku login`
+
+
+
+
+
+
 [Go to top](#contents)
 
 ## Credits
