@@ -752,12 +752,8 @@ For deployment of Website please follow the below guidelines.
     - `git push -u heroku master` (Push to heroku)
     - `git push origin master` (Push locally to GitHub)
 
-
-
-
-
-
-
+- Login into Heroku in your browser window. Click your hero app and then click
+`Open App` to launch Website. i.e. `https://app-name.herokuapp.com/`
 
 [Go to top](#contents)
 
