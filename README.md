@@ -349,7 +349,8 @@ and prizes could be readily announced.
 **Develop the “Catch Log”** It would be a better user experience
 to have a feature to order Catches by either date, area or
 name. Including also a search feature to find certain information could
-be useful. 'Likes' and 'Comment' could also be available for better interaction.
+be useful. 'Likes' and 'Comment' could also be available for better
+interaction.
 
 **Create a Magnet Fishing Membership Club(s)** Membership clubs
 could be established by developing the website. This would entail
@@ -561,10 +562,11 @@ in the console that were necessary to fix.
   of where other participants have Magnet Fished and tabulated catches
   in a concise and easy to use manner.
 
-- Users would be able to cmmunication email? It was noted that even though email addresses were provided a more
-  security based feature would be better suited for the user and that
-  a chat function, to communicate with others, would be a worthwhile
-  feature.
+- Users were able to obtain email addresses from other particpants
+  and communicate accordingly, yet it was noted that even though email
+  addresses were provided a more security based feature would be better
+  suited for the user and that a chat function, to communicate with others,
+  would be a worthwhile feature.
 
 - Tips and more detailed information were perhaps limited and did
   not provide the useful tips and guidance at this stage.
@@ -693,7 +695,7 @@ For deployment of Website please follow the below guidelines.
 
 - Input an unique `App Name` and `Choose a Region` and click `Create App`
 
-- Click the link `Settings`and scrtoll to the button `Reveal Convig Vars``
+- Click the link `Settings`and scroll to the button `Reveal Convig Vars``
 
 - In the `Convig Vars` add the following inputs for `Key` and `Value`
 
@@ -715,7 +717,7 @@ For deployment of Website please follow the below guidelines.
 - A drop down menu for `Clone with HTTPS` should appear. Copy `URL` link.  
   URL as shown below.
 
-- Open temrinal in IDE; i.e. [Gitpod](https://gitpod.io/)
+- Open terminal in IDE; i.e. [Gitpod](https://gitpod.io/)
 
 - Change the current directory to the local directory
 
@@ -724,16 +726,16 @@ For deployment of Website please follow the below guidelines.
 - In the terminal install the Flask `requirements.txt` file using the 
   command `pip3 freeze --local > requirements.txt`
 
-- For local deployment in GitPod, plesase create the file `env.py` which will containe
+- For local deployment in GitPod, create the file `env.py` which will contain
   confidential `USER KEYS` that can be provided upon request.
 
-- The app can then be run by tying the command `python3 app.py`in the terminal
+- The app can then be run by tying the command `python3 app.py` in the terminal
 
 **Step-3 - Connecting GitHub to Heroku for deployment**
 
 - In the terminal log into Heroku using the command `heroku login`
 
-- Enter your `Email`and `Password` when prompted
+- Enter your `Email` and `Password` when prompted
 
 - Heroku Apps created can be viewed using the command `heroku apps`
 
@@ -767,7 +769,7 @@ For deployment of Website please follow the below guidelines.
 
 ### Media
 
-- All photos and video were provided by Murray Bealby
+- All photos and video were provided by Murray Bealby.
 
 ### Acknowledgements
 
