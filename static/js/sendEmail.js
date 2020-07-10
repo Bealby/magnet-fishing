@@ -9,13 +9,15 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-            document.getElementById("myForm").reset();  // Clears contact form after message sent
-            swal("Message Sent", "We will be in touch soon!", "success"); // Message Alert for 'Message Sent'
+            // Clears contact form after message sent
+            document.getElementById("myForm").reset();
+             // Message Alert for 'Message Sent'
+            swal("Message Sent", "We will be in touch soon!", "success");
             console.log("SUCCESS", response);
-        
         },
         function(error) {
-            swal("Message Fail", "Please check connection and try again", "error"); // Message Alert for 'Message Fail'
+            // Message Alert for 'Message Fail'
+            swal("Message Fail", "Please check connection and try again", "error");
             console.log("FAILED", error);
         }
     );

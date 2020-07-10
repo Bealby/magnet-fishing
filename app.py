@@ -24,14 +24,15 @@ mongo = PyMongo(app)
 
 @app.route('/')
 def about():
-    return render_template("index.html")
+    return render_template("intro-communication/index.html")
 
 # Function to load 'Contact' page
 
 
 @app.route('/contact')
 def contact():
-    return render_template("contact.html", EMAILJS_KEY=EMAILJS_KEY)
+    return render_template("intro-communication/contact.html",
+                           EMAILJS_KEY=EMAILJS_KEY)
 
 # Function to load 'Catch' data from MongoDB, to render in Catch
 # Log respectively
@@ -40,7 +41,7 @@ def contact():
 @app.route('/catch_log')
 @app.route('/get_catches')
 def get_catches():
-    return render_template("catch_log.html",
+    return render_template("catches/catch_log.html",
                            catch_log=mongo.db.catch_log.find())
 
 
@@ -48,7 +49,7 @@ def get_catches():
 
 @app.route('/add_catches')
 def add_catches():
-    return render_template('/add_catches.html',
+    return render_template('catches/add_catches.html',
                            area=mongo.db.area.find(),
                            magnet=mongo.db.magnet.find())
 
@@ -70,7 +71,7 @@ def edit_catch_log(catch_log_id):
                                                 ObjectId(catch_log_id)})
     all_area = mongo.db.area.find()
     all_magnet = mongo.db.magnet.find()
-    return render_template('edit_catch_log.html',
+    return render_template('catches/edit_catch_log.html',
                            catch_log=the_catch_log,
                            area=all_area, magnet=all_magnet)
 
@@ -109,12 +110,12 @@ def delete_catch_log(catch_log_id):
 
 @app.errorhandler(404)
 def page_not_found(error):
-    return render_template('404.html'), 404
+    return render_template('error-messages/404.html'), 404
 
 
 @app.errorhandler(500)
 def something_wrong(error):
-    return render_template('500.html'), 500
+    return render_template('error-messages/500.html'), 500
 
 # IP and PORT
 
