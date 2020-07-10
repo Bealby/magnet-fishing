@@ -37,7 +37,13 @@ A live version of Website can be found
 - [Features of the Website](#features-of-the-website)
 - [Features left to Implement](#features-left-to-implement)
 
-3.[Technologies Used](#technologies-used)
+3.[Testing](#testing)
+
+- [Automated Testing](#automated-testing)
+- [Non-Automated Testing](#non-automated-testing)
+- [Fixes](#fixes)
+
+4.[Technologies Used](#technologies-used)
 
 - [IDE](#ide)
 - [Hosting](#hosting)
@@ -46,12 +52,6 @@ A live version of Website can be found
 - [Libraries](#libraries)
 - [Tools](#tools)
 - [Frameworks](#frameworks)
-
-4.[Testing](#testing)
-
-- [Automated Testing](#automated-testing)
-- [Non-Automated Testing](#non-automated-testing)
-- [Fixes](#fixes)
 
 5.[Deployment](#deployment)
 
