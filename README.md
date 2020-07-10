@@ -242,7 +242,7 @@ responsive.
 
 - **Smaller Devices:** For smaller devices the rows will be
   one column only for the images and text, with a neat flip
-  function from `Bootstrap`, flex-column-reverse flex-lg-row`,
+  function from `Bootstrap`, `flex-column-reverse flex-lg-row`,
   used to ensure that the text starts first before image.
 
 - **Catch Log:** The `Catch Log` page will display all participants
@@ -551,16 +551,15 @@ critcial but worth addressing at a later date:
 - Family and friends were asked to use the finished Website to test
   usability and comment on whether they felt it met their needs as
   discussed in the Strategy section - [User Stories](#user-stories).
-
-- iphone 8 - Chrome: Good
-- iphone xs - Chrome: Good
-- iphone xs - Safari: Good
-- iphone 8 - Chrome: Good
-- iphone 8 - Safari: Good
-- iphone 8 - Chrome: Good
-- iphone 11 - Safari: Good
-- iphone 11 - Safari: Good
-- Samsung 7 - Chrome: Good
+  - iphone 8 - Chrome: Good
+  - iphone xs - Chrome: Good
+  - iphone xs - Safari: Good
+  - iphone 8 - Chrome: Good
+  - iphone 8 - Safari: Good
+  - iphone 8 - Chrome: Good
+  - iphone 11 - Safari: Good
+  - iphone 11 - Safari: Good
+  - Samsung 7 - Chrome: Good
 
 #### User Experience
 
@@ -753,9 +752,9 @@ For deployment of Website please follow the below steps:
 - Set up `Heroku` as `Master` branch using the command `heroku git:remote -a app-name`.
   The `app-name` being the name of the `Heroku App` created in Step-1.
 
-- Then in the terminal type the command `echo web: python app.py > Procfile`
+- Then in the terminal type the command `echo web: python app.py > Procfile`.
 
-- Then the command `heroku ps:scale web=1`
+- Then the command `heroku ps:scale web=1`.
 
 - Finally to update:
   - `git init`
@@ -764,8 +763,11 @@ For deployment of Website please follow the below steps:
   - `git push -u heroku master` (Push to heroku)
   - `git push origin master` (Push locally to GitHub)
 
+- When you are ready for `Production` deployment change the
+  `debug=True` to `debug=False` in the `env.py`.
+
 - Login into Heroku in your browser window. Click your hero app and then click
- `Open App` to launch Website. i.e. `https://app-name-here.herokuapp.com/`
+ `Open App` to launch Website. i.e. `https://app-name-here.herokuapp.com/`.
 
 [Go to top](#contents)
 
