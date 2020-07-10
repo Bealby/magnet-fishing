@@ -150,7 +150,7 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 
 The Website will have a 'fishing' style theme to it, with the
 main colours centred around red, `rgb(254, 17, 71)`, and blue,
-`rgb(26, 16, 112)`. reason? sailing?
+`rgb(26, 16, 112)`. These colour draw out the 'sailing' feel.
 
 The text will be white,`rgb(255,255,255)`, and placed against a
 background colour of blue, `rgb(26, 16, 112)`, for clarity of read.
@@ -463,7 +463,7 @@ critcial but worth addressing at a later date:
 - For `Accordion` cards displayed on Catch Log, ensure each can be deleted
   when the `Delete` icon is clicked.
 - Ensure delete icon hovers dark red.
-- For each `Accordion` card, click on the `Edit` icon and ensure it directs you
+- For each `Accordion` card, click on the `Edit` icon and ensure it directs
   you to `edit_catch_log.html`.
 - Ensure `Edit` icon hovers grey.
 - Ensure `Edit` page has fields filled in from data shown in Catch Log page.
@@ -579,7 +579,7 @@ critcial but worth addressing at a later date:
 
 - Tips and more detailed information were perhaps limited and did
   not provide the useful tips and guidance at this stage.
-  This has however has been addressed in 'Features Left Implement'.
+  This however has been addressed in 'Features Left Implement'.
 
 - Users wanted to be able to input Catches on their mobile while Magnet
  Fishing. To help in the usability and convenience of this, a left
