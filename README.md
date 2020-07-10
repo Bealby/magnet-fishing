@@ -664,7 +664,7 @@ The following technologies were used in this project:
 
 ### Tools
 
-- [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)** - Allowed
+- [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/) - Allowed
    preliminary designs to be drawn up of Website
 - [Adobe Photoshop](https://www.adobe.com//) - Fixing size images
 - [Adobe Illustrator](https://www.adobe.com//) - Fixing Logo - Magnet Fishing
