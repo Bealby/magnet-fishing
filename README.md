@@ -276,7 +276,7 @@ responsive.
 
   There are drop down select features for fields to help users choose
   the right 'Magnet' and 'Area' respectively.
- 
+
   To help users define which area of Stockholm they had Magnet Fished, a
   `Modal` feature, provided by `Bootstrap`, when clicked will pop-up
   an image of 'Areas' in Stockholm which are possible to select.
@@ -387,8 +387,8 @@ section on the Navbar.
 [PEP8](http://pep8online.com/) - Python script - `app.py`- was run through PEP8 online
     for PEP8 requirements. Results: `All Right` (Adheres to PEP requirements)
 
-[Markdownlint](https://github.com/Bealby/markdownlint) - Markdownlint was used to validate
-README.md file. 'Validation successful'
+[Markdownlint](https://github.com/Bealby/markdownlint) - Markdownlint was
+used to validate README.md file. 'Validation successful'
 
 [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
 A feature in Chrome Developing Tools - Lighthouse Audit - was carried out
@@ -416,7 +416,8 @@ critcial but worth addressing at a later date:
    will not be addressed at this stage as such extensions can be
    disabled buy the user.
 
-- `/favicon.ico:1 Failed to load resource: the server responded with a status of 404 (NOT FOUND)`
+- `/favicon.ico:1 Failed to load resource:`
+  `the server responded with a status of 404 (NOT FOUND)`
   Favicons are small 16x16 icon files that are displayed next to the
   URL of a Website. It would be benefical to add these at a later date.
 
@@ -564,7 +565,7 @@ critcial but worth addressing at a later date:
 #### User Experience
 
 - Many users found the website novel, and their first introduction to magnet
-  fishing. Interest and enthuisasm was generaterd.  
+  fishing. Interest and enthuisasm was generaterd.
 
 - Overall the Website fulfilled users expectations. They found the
   Website informative and enticing, and the information provided in
@@ -590,7 +591,7 @@ critcial but worth addressing at a later date:
 #### Fixes
 
 - When carrying out User Testing it was made apparent, that the background
-  image which was setup was working for most phones except for iphone - 
+  image which was setup was working for most phones except for iphone -
   specifically Safarai. The background-image became blurry the more
   content that was on the page. This was a particular IOS issue and was fixed
   by firstly declaring the `body` and `html` to be 100% wide and 100% tall,
@@ -618,18 +619,18 @@ critcial but worth addressing at a later date:
 
 The following technologies were used in this project:
 
-### IDE:
+### IDE
 
 - [GitPod](https://gitpod.io/workspaces/) - A platform used for hard coding
    of Website
 
-### Hosting:
+### Hosting
 
 - [Heroku](https://id.heroku.com/) - Heroku is a cloud platform as a service
   supporting several programming languages.
 - [GitHub](https://github.com/)** - Used to store repository and deploy Website
 
-### Languages:
+### Languages
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) - Markup language of Website
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used to style
@@ -640,12 +641,12 @@ The following technologies were used in this project:
    Bootstrap to collapse Navigation Bar for small devices and Google Maps.
    Also used for EmailJS.
 
-### Databases:
+### Databases
 
 - [MongoDB](https://www.mongodb.com/) - MongoDB is a general purpose,
   document-based, distributed database built for modern application developers
 
-### Language Validators:
+### Language Validators
 
 - [W3C](https://validator.w3.org/) - Used to validate HTML code
 - [WSC](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code
@@ -655,14 +656,14 @@ The following technologies were used in this project:
 - [Markdown Lint](https://github.com/Bealby/markdownlint) - Used for validation
     checks on README.md content
 
-### Libraries:
+### Libraries
 
 - [Google Fonts](https://fonts.google.com/) - Programme used to import main
    fonts in Website: **Playfair Display** and **Calligraffitti**
 - [Font Awesome](https://fontawesome.com/) - Programme used to import icons
    for Footer in Website: **far-envelope** and **fas fa-phone**
 
-### Tools:
+### Tools
 
 - [Balsamiq Wireframes](https://balsamiq.com/wireframes/desktop/)** - Allowed
    preliminary designs to be drawn up of Website
@@ -677,7 +678,7 @@ The following technologies were used in this project:
 - [Chrome Developer Tools](https://www.google.com/chrome/dev/Google) - A useful
    developing tool in Chrome to edit pages and diagnose problems
 
-### Frameworks:
+### Frameworks
 
 - [BOOTSTRAP](https://getbootstrap.com/) - A framework for building responsive
    Websites where the powerful Grid system was used along with styling
@@ -695,9 +696,9 @@ The following technologies were used in this project:
 
 ---
 
-For deployment of Website please follow the below steps: 
+For deployment of Website please follow the below steps:
 
-**Step-1 - Heroku**
+### Step-1 - Heroku
 
 - Click the following link [Heroku Login](https://id.heroku.com/login) and
   and set-up an account in Heroku
@@ -709,16 +710,14 @@ For deployment of Website please follow the below steps:
 - Click the link `Settings`and scroll to the button `Reveal Convig Vars`
 
 - In the `Convig Vars` add the following inputs for `Key` and `Value`
-
-    - KEY = `IP`, VALUE = `0.0.0.0`
-    - KEY = `PORT`, VALUE = `5000`
-    - KEY = `EMAILJS_KEY`, VALUE = `EMAIJS USER ID`
-    - KEY = `MONGO_URI`, VALUE = `MONGO USER ID`
+  - KEY = `IP`, VALUE = `0.0.0.0`
+  - KEY = `PORT`, VALUE = `5000`
+  - KEY = `EMAILJS_KEY`, VALUE = `EMAIJS USER ID`
+  - KEY = `MONGO_URI`, VALUE = `MONGO USER ID`
 
 - `EMAIJS USER ID` and `MONGO USER ID` can be provided upon request.
 
-
-**Step-2 - GitHub**
+### Step-2 - GitHub
 
 - Click the following link [GitHub](https://github.com/) and
   and set up an account in GitHub.
@@ -735,7 +734,7 @@ For deployment of Website please follow the below steps:
 
 - Type `git clone` plus `URL` in terminal (Copied above). Then `Enter`
 
-- In the terminal install the Flask `requirements.txt` file using the 
+- In the terminal install the Flask `requirements.txt` file using the
   command `pip3 freeze --local > requirements.txt`
 
 - For local deployment in GitPod, create the file `env.py` which will contain
@@ -743,7 +742,7 @@ For deployment of Website please follow the below steps:
 
 - The app can then be run by typing the command `python3 app.py` in the terminal
 
-**Step-3 - Connecting GitHub to Heroku for deployment**
+### Step-3 - Connecting GitHub to Heroku for deployment
 
 - In the terminal log login into Heroku using the command `heroku login`
 
@@ -752,19 +751,18 @@ For deployment of Website please follow the below steps:
 - (`Heroku Apps` created can be viewed using the command `heroku apps`)
 
 - Set up `Heroku` as `Master` branch using the command `heroku git:remote -a app-name`.
-  The `app-name` being the name of the `Heroku App` created in Step-1. 
+  The `app-name` being the name of the `Heroku App` created in Step-1.
 
 - Then in the terminal type the command `echo web: python app.py > Procfile`
 
 - Then the command `heroku ps:scale web=1`
 
 - Finally to update:
-
-    - `git init`
-    - `git add .`
-    - `git commit -m ""`
-    - `git push -u heroku master` (Push to heroku)
-    - `git push origin master` (Push locally to GitHub)
+  - `git init`
+  - `git add .`
+  - `git commit -m ""`
+  - `git push -u heroku master` (Push to heroku)
+  - `git push origin master` (Push locally to GitHub)
 
 - Login into Heroku in your browser window. Click your hero app and then click
  `Open App` to launch Website. i.e. `https://app-name-here.herokuapp.com/`
