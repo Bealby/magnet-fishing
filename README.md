@@ -279,7 +279,7 @@ responsive.
  
   To help users define which area of Stockholm they had Magnet Fished, a
   `Modal` feature, provided by `Bootstrap`, when clicked will pop-up
-  an image of 'Areas' in Stockholm that are possible to select.
+  an image of 'Areas' in Stockholm which are possible to select.
 
   A submit button, centred at the end of the form, when hovered over and
   clicked, automatically updates the `Catch Log`, and directs you there
@@ -377,17 +377,17 @@ section on the Navbar.
 ### Automated Testing
 
 [W3C](https://validator.w3.org/) - All HTML files with their data were directly
-    inputted in the Mark-Up Validation Service.
+    input into the Mark-Up Validation Service.
     The results: All HTML code adheres to validation requirements. Errors for
     Python only.
 
-[WSC](https://jigsaw.w3.org/css-validator/) - CSS data was directly inputted in
+[WSC](https://jigsaw.w3.org/css-validator/) - CSS data was directly input into
     the CSS Validation Service. The results: `Congratulations! No Error Found.`
 
 [PEP8](http://pep8online.com/) - Python script - `app.py`- was run through PEP8 online
     for PEP8 requirements. Results: `All Right` (Adheres to PEP requirements)
 
-[README.md](https://github.com/Bealby/markdownlint) - Markdownlint was used to validate
+[Markdownlint](https://github.com/Bealby/markdownlint) - Markdownlint was used to validate
 README.md file. 'Validation successful'
 
 [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse/) -
@@ -563,7 +563,7 @@ critcial but worth addressing at a later date:
 
 #### User Experience
 
-- Many users found the website novel and their first introduction to magnet
+- Many users found the website novel, and their first introduction to magnet
   fishing. Interest and enthuisasm was generaterd.  
 
 - Overall the Website fulfilled users expectations. They found the
@@ -573,24 +573,24 @@ critcial but worth addressing at a later date:
   in a concise and easy to use manner.
 
 - Users were able to obtain email addresses from other particpants
-  and communicate accordingly, yet it was noted that even though email
+  and communicate accordingly. It was noted that even though email
   addresses were provided a more security based feature would be better
   suited for the user and that a chat function, to communicate with others,
   would be a worthwhile feature.
 
 - Tips and more detailed information were perhaps limited and did
   not provide the useful tips and guidance at this stage.
-  This however has been addressed in 'Features Left Implement'.
+  This however has been addressed in 'Features left to Implement'.
 
 - Users wanted to be able to input Catches on their mobile while Magnet
- Fishing. To help in the usability and convenience of this, a left
- chevron icon was added to mobile devices to be able to go back quickly to
+  Fishing. To help in the usability and convenience of this, a left
+  chevron icon was added to mobile devices to be able to go back quickly to
  'Catch Log' on the 'Edit' and 'Add' catch pages. For mobile only.
 
 #### Fixes
 
-- When carrying out User Testing it was made apparent that the background
-  image which was set up, was working for most phones except for iphone - 
+- When carrying out User Testing it was made apparent, that the background
+  image which was setup was working for most phones except for iphone - 
   specifically Safarai. The background-image became blurry the more
   content that was on the page. This was a particular IOS issue and was fixed
   by firstly declaring the `body` and `html` to be 100% wide and 100% tall,
@@ -635,9 +635,10 @@ The following technologies were used in this project:
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Used to style
    HTML elements
 - [Python](https://www.python.org/) - A programming language that lets you work
-   quickly and integrate systems more effectively
+   quickly and integrate systems more effectively.
 - [JavaScript](https://www.javascript.com/) - Used in collaboration with
-   Bootstrap to collapse Navigation Bar for small devices and Google Maps
+   Bootstrap to collapse Navigation Bar for small devices and Google Maps.
+   Also used for EmailJS.
 
 ### Databases:
 
@@ -694,7 +695,7 @@ The following technologies were used in this project:
 
 ---
 
-For deployment of Website please follow the below guidelines. 
+For deployment of Website please follow the below steps: 
 
 **Step-1 - Heroku**
 
