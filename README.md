@@ -309,8 +309,8 @@ information can be provided:
 
 **Security Feature** Security is required to be
 strengthened for each user, so only the user can delete or edit
-their own logs. Displaying users’ emails displayed is also not
-ideal; a better option would be to
+their own logs. Displaying users’ emails is not
+ideal. A better option would be to
 include a chat forum.
 
 **Login Facility** It would be wise and more user friendly
@@ -394,8 +394,8 @@ A feature in Chrome Developing Tools - Lighthouse Audit - was carried out
 on Mobile and Desktop to assess **Performance**, **Accessibility**,
 **Best Practices**, **CEO** and **Progressive Web App**.
 
-- **Mobile:** An overall average of 85% was received.
-- **Desktop:** An overall average of 88% was received.
+- **Mobile:** An overall average of 92.75% was received.
+- **Desktop:** An overall average of 90.25% was received.
 
 Chrome Developing Tools also analysed the Progressive Web App,
 which validate the aspects of a Progressive Web App. The results
@@ -407,8 +407,17 @@ were no errors that needed to be changed and the javascript passed
 general standards.
 
 [Chrome DevTools - Console](https://developers.google.com/web/tools/chrome-devtools/)
-Navigating through the Website rendered no critical fails/errors
-in the console that were necessary to fix.
+Navigating through the Website rendered two different types of errors, that are not
+critcial but worth addressing at a later date:
+
+- `www-embed-player.js:453 GET https://googleads.g.doubleclick.net/pagead/id, net::ERR_BLOCKED_BY_CLIENT`
+   These errors relate to Adblock or browser safety extensions. Which
+   will not be addressed at this stage as such extensions can be
+   disabled buy the user.
+
+- `/favicon.ico:1 Failed to load resource: the server responded with a status of 404 (NOT FOUND)`
+  Favicons are small 16x16 icon files that are displayed next to the
+  URL of a Website. It would be benefical to add these at a later date.
 
 ### Non-Automated Testing
 
@@ -695,7 +704,7 @@ For deployment of Website please follow the below guidelines.
 
 - Input an unique `App Name` and `Choose a Region` and click `Create App`
 
-- Click the link `Settings`and scroll to the button `Reveal Convig Vars``
+- Click the link `Settings`and scroll to the button `Reveal Convig Vars`
 
 - In the `Convig Vars` add the following inputs for `Key` and `Value`
 
@@ -703,6 +712,8 @@ For deployment of Website please follow the below guidelines.
     - KEY = `PORT`, VALUE = `5000`
     - KEY = `EMAILJS_KEY`, VALUE = `EMAIJS USER ID`
     - KEY = `MONGO_URI`, VALUE = `MONGO USER ID`
+
+- `EMAIJS USER ID` and `MONGO USER ID` can be provided upon request.
 
 
 **Step-2 - GitHub**
@@ -714,8 +725,7 @@ For deployment of Website please follow the below guidelines.
 
 - On the main page of the repository click the green button **Code**.
 
-- A drop down menu for `Clone with HTTPS` should appear. Copy `URL` link.  
-  URL as shown below.
+- A drop down menu for `Clone with HTTPS` should appear. Copy `URL` link.
 
 - Open terminal in IDE; i.e. [Gitpod](https://gitpod.io/)
 
@@ -729,20 +739,20 @@ For deployment of Website please follow the below guidelines.
 - For local deployment in GitPod, create the file `env.py` which will contain
   confidential `USER KEYS` that can be provided upon request.
 
-- The app can then be run by tying the command `python3 app.py` in the terminal
+- The app can then be run by typing the command `python3 app.py` in the terminal
 
 **Step-3 - Connecting GitHub to Heroku for deployment**
 
-- In the terminal log into Heroku using the command `heroku login`
+- In the terminal log login into Heroku using the command `heroku login`
 
 - Enter your `Email` and `Password` when prompted
 
-- Heroku Apps created can be viewed using the command `heroku apps`
+- (`Heroku Apps` created can be viewed using the command `heroku apps`)
 
 - Set up `Heroku` as `Master` branch using the command `heroku git:remote -a app-name`.
   The `app-name` being the name of the `Heroku App` created in Step-1. 
 
-- In the terminal type the command `echo web: python app.py > Procfile`
+- Then in the terminal type the command `echo web: python app.py > Procfile`
 
 - Then the command `heroku ps:scale web=1`
 
@@ -755,7 +765,7 @@ For deployment of Website please follow the below guidelines.
     - `git push origin master` (Push locally to GitHub)
 
 - Login into Heroku in your browser window. Click your hero app and then click
-`Open App` to launch Website. i.e. `https://app-name.herokuapp.com/`
+ `Open App` to launch Website. i.e. `https://app-name-here.herokuapp.com/`
 
 [Go to top](#contents)
 
