@@ -19,11 +19,11 @@ EMAILJS_KEY = os.environ.get("EMAILJS_KEY")
 
 mongo = PyMongo(app)
 
-# Function to load 'About' page as default
+# Function to load 'Home' page as default
 
 
 @app.route('/')
-def about():
+def home():
     return render_template("intro-communication/index.html")
 
 # Function to load 'Contact' page

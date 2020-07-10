@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col text-center pt-5 d-none d-sm-block">
-                        <a href="{{url_for('about')}}"><img src="{{url_for('static', filename='images/logo.jpg')}}" class="logo" alt="Magnet Fishing Stockholm - Logo" /></a>
+                        <a href="{{url_for('home')}}"><img src="{{url_for('static', filename='images/logo.jpg')}}" class="logo" alt="Magnet Fishing Stockholm - Logo" /></a>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col text-center pt-5 d-block d-sm-none">
-                        <a href="{{url_for('about')}}"><img src="{{url_for('static', filename='images/logo.jpg')}}" class="logo-small-device" alt="Magnet Fishing Stockholm - Logo" /></a>
+                        <a href="{{url_for('home')}}"><img src="{{url_for('static', filename='images/logo.jpg')}}" class="logo-small-device" alt="Magnet Fishing Stockholm - Logo" /></a>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav mx-auto">
-                            <a class="nav-item nav-link link-font pr-5" href="{{url_for('about')}}">About<span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link link-font pr-5" href="{{url_for('home')}}">Home<span class="sr-only">(current)</span></a>
                             <a class="nav-item nav-link link-font pr-5" href="{{url_for('get_catches')}}">Catch Log</a>
                             <a class="nav-item nav-link link-font pr-5" href="{{url_for('add_catches')}}">Add Catches</a>
                             <a class="nav-item nav-link link-font" href="{{url_for('contact')}}">Contact</a>

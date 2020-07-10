@@ -35,7 +35,7 @@ A live version of Website can be found
 2.[Features](#features)
 
 - [Features of the Website](#features-of-the-website)
-- [Features Left to Implement](#features-left-to-implement)
+- [Features left to Implement](#features-left-to-implement)
 
 3.[Technologies Used](#technologies-used)
 
@@ -76,7 +76,7 @@ their Magnet Fishing catches.
 
 The Website needs to be efficient on mobile devices, as well
 as functional and easy to use. This will allow participants to share
-finds while Magnet Fishing in Stockholm. The data needs to
+finds while out Magnet Fishing in Stockholm. The data needs to
 be displayed concisely and clearly, with the ability to engage
 in CRUD operations out in the field.
 
@@ -125,21 +125,22 @@ layered on top of a photo image that's spread across the entire width
 and height of the page.
 
 The navigation bar will include the links `Home`, `Catch Log`,
-`Add Catches`, and `Contact`, with a separate `Edit` page.
+`Add Catches`, and `Contact`, with an embedded `Edit` page in the
+`Catch Log` page.
 
 The `Home` page will give an introduction about Magnet fishing
 and the functionalities available to use on the Website.
 
-The `Catch Log` page will list participants magnet catches.
-Each participants log can be deleted/edited as they wish.
+The `Catch Log` page will list participant's magnet catches.
+Each participant's log can be deleted/ edited as they wish.
 
 The `Add Catches` and `Edit Catches` pages will have a clear, easy
 to use form displayed that can tabulate all data and display for
 others to view. A Map will be provided to help define the area of
-Stockholm participants have been Magnet Fishing in.
+Stockholm where participants have been Magnet Fishing.
 
 The `Contact` page will be used for any users who wish to get in
-contact and ask questions about the Website or interact respectively.
+contact or ask questions about the Website.
 
 ### Skeleton
 
@@ -150,7 +151,7 @@ Please find my Wireframes for Desktop, Tablet and Mobile
 
 The Website will have a 'fishing' style theme to it, with the
 main colours centred around red, `rgb(254, 17, 71)`, and blue,
-`rgb(26, 16, 112)`. These colour draw out the 'sailing' feel.
+`rgb(26, 16, 112)`. These colours draw out the 'sailing' feel.
 
 The text will be white,`rgb(255,255,255)`, and placed against a
 background colour of blue, `rgb(26, 16, 112)`, for clarity of read.
@@ -170,7 +171,7 @@ the later font bringing the sailing theme to the forefront.
 ---
 
 The Main Web page consists of four separate sections; `Home`,
-`Catch Log` (`Edit Catch Log`), `Add Catches` and `Contact`.
+`Catch Log` (embedded `Edit Catch Log`), `Add Catches` and `Contact`.
 
 A Logo will be displayed prominently at the top and centre of each
 Webpage and be clickable to direct you to back
@@ -276,15 +277,15 @@ responsive.
   There are drop down select features for fields to help users choose
   the right 'Magnet' and 'Area' respectively.
  
-  To help users define which area of Stockholm they Magnet Fished a
+  To help users define which area of Stockholm they had Magnet Fished, a
   `Modal` feature, provided by `Bootstrap`, when clicked will pop-up
-  and image of 'Areas' in Stockholm that are possible to select.
+  an image of 'Areas' in Stockholm that are possible to select.
 
   A submit button, centred at the end of the form, when hovered over and
   clicked, automatically updates the `Catch Log`, and directs you there
   accordingly.
 
-  For smaller device, the form fields are reduced to one column
+  For smaller devices, the form fields are reduced to one column
   using the `Bootstrap` property feature. This helps
   users input data in a user-friendly manner.
 
@@ -301,7 +302,7 @@ responsive.
   provided by sing `swal`. An
   alert feature provided by [Sweet Alert](https://sweetalert.js.org/).
 
-### Features Left to Implement
+### Features left to Implement
 
 Below is a list of features I feel would be beneficial to
 add to the Website at a later date when more data/
