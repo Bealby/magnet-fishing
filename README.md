@@ -764,7 +764,7 @@ For deployment of Website please follow the below steps:
   - `git push origin master` (Push locally to GitHub)
 
 - When you are ready for `Production` deployment change the
-  `debug=True` to `debug=False` in the `env.py`.
+  `debug=True` to `debug=False` in the `app.py`.
 
 - Login into Heroku in your browser window. Click your hero app and then click
  `Open App` to launch Website. i.e. `https://app-name-here.herokuapp.com/`.
